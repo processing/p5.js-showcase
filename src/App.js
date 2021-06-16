@@ -167,7 +167,7 @@ function Gallerytwenty() {
         <div className="flex">
           <div className="column">
             <h1>{t('Welcome')}</h1>
-            <p><em>{t('Created By')} Connie Liu</em></p>
+            <p><em>{t('Created By')} Katie Chan</em></p>
             <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
             <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink>
 
