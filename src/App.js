@@ -77,16 +77,16 @@ function About() {
   );
 }
 
-function Galleryarchive(){
-  var Markdown = require('react-markdown');
-    <div className = "body">
-    <div id="archiveintro">
-      <h1> Arhive </h1>
-      <h3>Markdown source={t('Archiveabout')}</h3>
-    </div>
-    </div>
-  );
-}
+// function Galleryarchive(){
+//   var Markdown = require('react-markdown');
+//     <div className = "body">
+//     <div id="archiveintro">
+//       <h1> Arhive </h1>
+//       <h3>Markdown source={t('Archiveabout')}</h3>
+//     </div>
+//     </div>
+//   );
+// }
 
 function Gallerynineteen() {
   var Markdown = require('react-markdown');
