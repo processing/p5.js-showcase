@@ -77,18 +77,7 @@ function About() {
   );
 }
 
-// function Galleryarchive(){
-//   var Markdown = require('react-markdown');
-//     <div className = "body">
-//     <div id="archiveintro">
-//       <h1> Arhive </h1>
-//       <h3>Markdown source={t('Archiveabout')}</h3>
-//     </div>
-//     </div>
-//   );
-// }
-
-function Gallerynineteen() {
+function Archive() {
   var Markdown = require('react-markdown');
   const { t, i18n } = useTranslation();
   ScrollToTop();
@@ -96,10 +85,10 @@ function Gallerynineteen() {
     <div className="body">
       <div className="gallery">
         <div id="intro2019">
-        <h1>p5.js 2019 Showcase!</h1>
-        <h3><Markdown source={t('2019about')} /></h3>
+        <h1>Archive</h1>
+        <h3><Markdown source={t('Archiveabout')} /></h3>
         <div class="row">
-          {t('showcase2019', { returnObjects: true }).map(({ id, title, author, description, image }) => (
+          {t('archive', { returnObjects: true }).map(({ id, title, author, description, image }) => (
             <Link
               key={id}
               to={{
@@ -120,6 +109,42 @@ function Gallerynineteen() {
     </div>
   );
 }
+
+
+
+
+// function Gallerynineteen() {
+//   var Markdown = require('react-markdown');
+//   const { t, i18n } = useTranslation();
+//   ScrollToTop();
+//   return (
+//     <div className="body">
+//       <div className="gallery">
+//         <div id="intro2019">
+//         <h1>p5.js 2019 Showcase!</h1>
+//         <h3><Markdown source={t('2019about')} /></h3>
+//         <div class="row">
+//           {t('showcase2019', { returnObjects: true }).map(({ id, title, author, description, image }) => (
+//             <Link
+//               key={id}
+//               to={{
+//                 pathname: `/2019/${id}/`,
+//               }}
+//             >
+//               <TestCard key={`card-${id}`}
+//                 id={id}
+//                 title={title}
+//                 author={author}
+//                 description={description}
+//                 image={image} />
+//             </Link>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//     </div>
+//   );
+// }
 
 function Gallerytwenty() {
   var Markdown = require('react-markdown');
