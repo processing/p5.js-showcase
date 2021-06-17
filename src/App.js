@@ -47,7 +47,7 @@ export default function App() {
       <Switch>
         <Analytics id="UA-175461618-2" debug>
           <Route exact path="/" children={<Gallerytwenty />} />
-          <Route exact path="/2019" children={<Gallerynineteen />} />
+          <Route exact path="/2019" children={<Archive />} />
           <Route exact path="/2019/:id" children={<DetailedPage />} />
           <Route exact path="/2020-:filter/" children={<GalleryTwenty />} />
           <Route exact path="/2020-:filter/:id" children={<Detailed2020Page />} />

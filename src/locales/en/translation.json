@@ -54,6 +54,16 @@
     {"name": "Tool"},
     {"name": "Camera"}
  ],
+
+  "archive":[
+    {
+      "id":"2019-showcase",
+      "title": "2019 Showcase",
+      "image":"airi-flies.png",
+      "description": "Curated by Ashley Kang"
+    }
+  ],
+
  "showcase2019":[
     {
     "id": "airi-flies",
