@@ -51,6 +51,7 @@
     {"name": "Educational"},
     {"name": "Teaching"},
     {"name": "Simulation"},
+    {"name": "Simulation"},
     {"name": "Tool"},
     {"name": "Camera"}
  ],
@@ -61,7 +62,14 @@
       "title": "p5.js 2019 Showcase",
       "image":"airi-flies.png",
       "description": "Curated by Ashley Kang"
+    },
+    {
+      "id":"2020-showcase",
+      "title": "p5.js 2020 Showcase",
+      "image":"qtv.png",
+      "description": "Curated by Connie Liu"
     }
+
   ],
 
  "showcase2019":[
