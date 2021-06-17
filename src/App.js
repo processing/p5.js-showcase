@@ -33,7 +33,7 @@ export default function App() {
         <div className="left">
           <Link to="/" className="item">Foreword</Link>
           <Link to="/2020-All" className="item">Gallery</Link>
-          <Link to="/2019" className="item">Archive</Link>
+          <Link to="/archive" className="item">Archive</Link>
           <Link to="/about" className="item">About</Link>
           <a href="https://p5js.org">p5.js</a>
         </div>
@@ -47,7 +47,7 @@ export default function App() {
       <Switch>
         <Analytics id="UA-175461618-2" debug>
           <Route exact path="/" children={<Gallerytwenty />} />
-          <Route exact path="/2019" children={<Archive />} />
+          <Route exact path="/archive" children={<Archive />} />
           <Route exact path="/2019/:id" children={<DetailedPage />} />
           <Route exact path="/2020-:filter/" children={<GalleryTwenty />} />
           <Route exact path="/2020-:filter/:id" children={<Detailed2020Page />} />
@@ -92,7 +92,7 @@ function Archive() {
             <Link
               key={id}
               to={{
-                pathname: `/2019/${id}/`,
+                pathname: `/archive/${id}/`,
               }}
             >
               <TestCard key={`card-${id}`}
