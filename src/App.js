@@ -33,7 +33,7 @@ export default function App() {
         <div className="left">
           <Link to="/" className="item">Foreword</Link>
           <Link to="/2020-All" className="item">Gallery</Link>
-          <Link to="/Archive" className="item">Archive</Link>
+          <Link to="/2019" className="item">Archive</Link>
           <Link to="/about" className="item">About</Link>
           <a href="https://p5js.org">p5.js</a>
         </div>
@@ -92,7 +92,7 @@ function Archive() {
             <Link
               key={id}
               to={{
-                pathname: `/Archive/${id}/`,
+                pathname: `/2019/${id}/`,
               }}
             >
               <TestCard key={`card-${id}`}
