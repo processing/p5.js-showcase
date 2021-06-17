@@ -33,7 +33,7 @@ export default function App() {
         <div className="left">
           <Link to="/" className="item">Foreword</Link>
           <Link to="/2020-All" className="item">Gallery</Link>
-          <Link to="/2019" className="item">2019</Link>
+          <Link to="/2019" className="item">Archive</Link>
           <Link to="/about" className="item">About</Link>
           <a href="https://p5js.org">p5.js</a>
         </div>
@@ -73,6 +73,17 @@ function About() {
       <h3><Markdown source={t('Answer3')} /></h3>
       <h1><img src={process.env.PUBLIC_URL + '/images/asterisk-01-01.png'} alt="p5.js asterisk" />{t('Acknowledgements')}</h1>
       <h3><Markdown source={t('Acknowledgements_Description')} /></h3>
+    </div>
+  );
+}
+
+function Galleryarchive(){
+  var Markdown = require('react-markdown');
+    <div className = "body">
+    <div id="archiveintro">
+      <h1> Arhive </h1>
+      <h3>Markdown source={t('Archiveabout')}</h3>
+    </div>
     </div>
   );
 }
