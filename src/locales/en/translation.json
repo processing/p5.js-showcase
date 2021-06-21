@@ -27,9 +27,10 @@
  "Question3":"What's your favorite p5.js feature?",
  "Question4":"Did you face any challenges working on this project? If so, how did you overcome them?",
  "Question5":"What's a cool thing we should check out?",
+ "Archiveabout": "Explore previous year's showcases and their projects",
  "2019about": "Curated by [Ashley Kang](https://ashleykang.dev/) in the summer of 2019, below is the first ever curated collection of the p5.js Showcase! Learn more about each one by clicking on the preview. \n \n[View the original implementation here!](https://p5js.org/showcase/)",
  "About":"About the p5.js Showcase",
- "Welcome":"Welcome to the p5.js 2020 showcase!",
+ "Welcome":"Welcome to the p5.js 2021 Showcase: The Love Ethic!",
  "2020_intro1":"During Summer 2020 we asked the p5.js community around the world to submit their pieces for a new and expanded edition of the Showcase. Below you'll find all kinds of works ranging from sound-based visualizations to educational games to mathematical simulations.",
  "2020_intro1.5":"Personally as the curator for this year's Showcase, I can only describe the experience in one word: _inspired_. The amount of passion and creative curiosity that beams from everyone's work has me in awe - and I truly believes encapsulates the spirit of the p5.js community.",
  "2020_intro2":"Learn more about the p5.js community below!",
@@ -50,9 +51,26 @@
     {"name": "Educational"},
     {"name": "Teaching"},
     {"name": "Simulation"},
+    {"name": "Simulation"},
     {"name": "Tool"},
     {"name": "Camera"}
  ],
+
+  "archive":[
+    {
+      "id":"2020-showcase",
+      "title": "p5.js 2020 Showcase",
+      "image":"qtv.png",
+      "description": "Curated by Connie Liu"
+    },
+    {
+      "id":"2019-showcase",
+      "title": "p5.js 2019 Showcase",
+      "image":"airi-flies.png",
+      "description": "Curated by Ashley Kang"
+    }
+  ],
+
  "showcase2019":[
     {
     "id": "airi-flies",

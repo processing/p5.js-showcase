@@ -29,7 +29,7 @@
  "Question5":"¿Qué es algo interesante que deberíamos explorar?",
  "2019about": "Curatoría por [Ashley Kang](https://ashleykang.dev/) durante el verano de 2019. ¡Ahora presentamos la primera colección de curatoría para la p5.js Showcase! Aprende más sobre cada trabajo, haciendo click en la vista previa. \n \n[¡Revisa la implementación original aquí!](https://p5js.org/showcase/)",
  "About":"Acerca de la p5.js Showcase",
- "Welcome":"Bienvenide a la p5.js 2020 showcase!",
+ "Welcome":"Bienvenido al escaparate de p5.js 2021: ¡La ética del amor!",
  "2020_intro1":"Durante el verano 2020 le pedimos a la comunidad de p5.js alrededor del mundo que presentara sus obras a una nueva y expandida edición de la Showcase. A continuación encontrarás todo tipo de trabajos que van desde visualizaciones basadas en sonidos, pasando por juegos educacionales y también simulaciones matemáticas.",
  "2020_intro1.5":"Personalmente como la curadora de la Showcase de este año, solamente puedo describir la experiencia con una palabra: _inspiración_. La cantidad de pasión y curiosidad creativa que emana de cada trabajo me emociona - y realmente creo que encapsula el espírut de la comunidad de p5.js.",
  "2020_intro2":"¡Conoce más sobre la comunidad de p5.js a continuación!",
@@ -53,6 +53,7 @@
     {"name": "Herrmienta"},
     {"name": "Cámara"}
  ],
+
  "showcase2019":[
     {
     "id": "airi-flies",
