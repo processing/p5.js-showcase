@@ -111,8 +111,6 @@ function Archive() {
 }
 
 
-
-
 function Gallerynineteen() {
   var Markdown = require('react-markdown');
   const { t, i18n } = useTranslation();
