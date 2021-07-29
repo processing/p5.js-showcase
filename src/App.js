@@ -198,20 +198,21 @@ function Gallerytwenty() {
   return (
     <div className="body">
       <div className="cover2020">
+      <h1>{t('Welcome')}</h1>
+      <h2><em>{t('Created By')} Katie Chan</em></h2>
         <div className="flex">
           <div className="column">
-            <h1>{t('Welcome')}</h1>
-            <p><em>{t('Created By')} Katie Chan</em></p>
-            <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
-            <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink>
+          <h3><Markdown source={t('2020_intro1')}/></h3>
+            {/* <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
+            <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink> */}
 
           </div>
           <div className="column">
-            <div class="gradient-border" id="box">
-              <h3>{t('2020_intro1')}</h3>
-              <h3><Markdown source={t('2020_intro1.5')} /></h3>
+            {/* <div class="gradient-border" id="box"> */}
+              <h3><Markdown source={t('2020_intro1.5')}/></h3>
+              {/* <h3><Markdown source={t('2020_intro1.5')} /></h3> */}
               <h2><HashLink smooth to="#twentyviz"><Markdown source={t('2020_intro2')} /></HashLink></h2>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>
