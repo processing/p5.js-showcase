@@ -18,8 +18,8 @@ const filterPathnames = [
   'Text',
   'Sound',
   'Educational',
-  'Teaching',
   'Simulation',
+  'Teaching',
   'Tool',
   'Camera',
 ];
@@ -39,6 +39,8 @@ function GalleryTwenty (props){
   :a.type[2]===filter?a.type[2]:
   null)
   );
+
+console.log(showcase2020)
 
   const filterList = filtermap.map(({name}, index) => (
     <Link
@@ -63,7 +65,7 @@ function GalleryTwenty (props){
   return (
     <div className="body">
     <div className="intro2020">
-    <h1>p5.js 2020 Showcase</h1>
+    <h1>p5.js 2021 Showcase</h1>
     <h3><em>{<Markdown source={t('2020Gallery_Intro')}/>}</em></h3>
     </div>
     <div className="filterlist">
