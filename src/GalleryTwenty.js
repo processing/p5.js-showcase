@@ -40,6 +40,8 @@ function GalleryTwenty (props){
   null)
   );
 
+console.log(showcase2020)
+
   const filterList = filtermap.map(({name}, index) => (
     <Link
     key={filterPathnames[index]}

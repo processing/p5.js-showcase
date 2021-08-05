@@ -345,9 +345,9 @@
         "location": "New York, NY",
         "title": "Black Lives Matter Chatbot",
         "description": "My project is a Chatbot that reviews basic terminology and information regarding the Black Lives Matter Movement, police brutality, and the difference between race, ethnicity, and nationality. There are also Google forms included in the Chatbot, one being a recap on the information recieved during the conversation, and another as a feedback form on the experience.",
-        "extradesc": "",
+        "extradesc": "", 
         "live": "https://sydneychatbot.glitch.me/",
-        "code": "",
+        "code": "https://glitch.com/edit/#!/sydneychatbot?path=brain.rive%3A1%3A0",
         "type": ["Text","Educational","Tool"],
         "tools": "",
         "difficulty": "Intermediate",
@@ -523,8 +523,6 @@
         "picid": "68.png"
       },
 
-    
-
       {
         "author": "Priyanshu Kumar",
         "pronouns": "he/him",
@@ -545,8 +543,32 @@
         "answer6": "https://virusinlinux.github.io/DysonSphere.github.io/",
         "social": "https://www.linkedin.com/in/priyanshu-kumar-8852bb1a0/",
         "id":"project-6",
-        "picid": "60.png"
+        "picid": "71.png"
       },
+
+      {
+        "author": "Siori Kitajima",
+        "pronouns": "she/her",
+        "location": "California, USA",
+        "title": "Perspective",
+        "description": "A data viz animation which visualizes how many of us suffering from mental health issues in Singapore",
+        "extradesc": "This generative sprite-animated data-biz piece was made for a Singapore documentary series 'Strangers In My Head' and their resource site. In some countries like Singapore and Japan, the mental health issue is still taboo, and people who suffer are often isolated. I wanted to visualize how it looks if we see how many of us are fighting for, to show that \"We are not alone.\" It is based on the real-world stats in Singapore (2016). I used p5.js and p5.play.js for the animation.",
+        "live": "https://siorikitajima.github.io/perspective/",
+        "code": "https://github.com/siorikitajima/perspective",
+        "type": ["Visual", "Educational", "Data Visualization"],
+        "tools": "p5.play.createSprite(), p5.play.frameDelay(), p5.play.setCollider()",
+        "difficulty": "Intermediate",
+        "answer1": "I'm a multimedia artist who loves data viz and generative art. Currently working on a series of data-viz about human's violence history and its correlation to information",
+        "answer2": "When I started to learn javascript two years ago, I met Daniel Shiffman's amazing Code Train video tutorials. I learned javascript with P5, so P5 is like a home to me.",
+        "answer3": "I used p5.play.js for sprite animation of each character, and p5.js for everything else, such as animating characters horizontally, their speed, color, timing, size, and vertical positioning (to mimic 3D space. This is not webgl)",
+        "answer4": "noise()",
+        "answer5": "This was my first time to use sprite animation with javascript. I created a demo with gif animation and p5 first, then started to try with different libraries like lottie.js and anime.js for sprite animation. I wanted to make characters walk at different speeds, and I want the sprite animation speed to match the walking speed. But controlling the speed of sprite animation was not very easy. After some tries and errors, I found p5.play, and its frameDelay() solved the problem.",
+        "answer6": "https://earth.nullschool.net/",
+        "social": "https://siorikitajima.com/",
+        "id":"project-20",
+        "picid": "69.gif"
+      },
+    
       {
         "author": "Lillian",
         "pronouns": "she/her",
@@ -567,7 +589,7 @@
         "answer6": "Love this tutorial!!\nhttps://thecodingtrain.com/CodingChallenges/147-chrome-dinosaur",
         "social": "https://www.lillianlimd.com/",
         "id":"project-7",
-        "picid": "60.png"
+        "picid": "70.gif"
       },
       {
         "author": "Vineet",
@@ -813,28 +835,7 @@
         "id":"project-19",
         "picid": "60.png"
       },
-      {
-        "author": "Siori Kitajima",
-        "pronouns": "she/her",
-        "location": "California, USA",
-        "title": "Perspective",
-        "description": "A data viz animation which visualizes how many of us suffering from mental health issues in Singapore",
-        "extradesc": "This generative sprite-animated data-biz piece was made for a Singapore documentary series 'Strangers In My Head' and their resource site. In some countries like Singapore and Japan, the mental health issue is still taboo, and people who suffer are often isolated. I wanted to visualize how it looks if we see how many of us are fighting for, to show that \"We are not alone.\" It is based on the real-world stats in Singapore (2016). I used p5.js and p5.play.js for the animation.",
-        "live": "https://siorikitajima.github.io/perspective/",
-        "code": "https://github.com/siorikitajima/perspective",
-        "type": ["Visual", "Educational", "Data Visualization"],
-        "tools": "p5.play.createSprite(), p5.play.frameDelay(), p5.play.setCollider()",
-        "difficulty": "Intermediate",
-        "answer1": "I'm a multimedia artist who loves data viz and generative art. Currently working on a series of data-viz about human's violence history and its correlation to information",
-        "answer2": "When I started to learn javascript two years ago, I met Daniel Shiffman's amazing Code Train video tutorials. I learned javascript with P5, so P5 is like a home to me.",
-        "answer3": "I used p5.play.js for sprite animation of each character, and p5.js for everything else, such as animating characters horizontally, their speed, color, timing, size, and vertical positioning (to mimic 3D space. This is not webgl)",
-        "answer4": "noise()",
-        "answer5": "This was my first time to use sprite animation with javascript. I created a demo with gif animation and p5 first, then started to try with different libraries like lottie.js and anime.js for sprite animation. I wanted to make characters walk at different speeds, and I want the sprite animation speed to match the walking speed. But controlling the speed of sprite animation was not very easy. After some tries and errors, I found p5.play, and its frameDelay() solved the problem.",
-        "answer6": "https://earth.nullschool.net/",
-        "social": "https://siorikitajima.com/",
-        "id":"project-20",
-        "picid": "60.png"
-      },
+      
       {
         "author": "rare todd",
         "pronouns": "he/him",
