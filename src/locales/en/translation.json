@@ -591,6 +591,30 @@
         "id":"project-7",
         "picid": "70.gif"
       },
+
+      {
+        "author": "patternseeing",
+        "pronouns": "he/him",
+        "location": "Frankfurt am Main, Germany",
+        "title": "Constellations of Love",
+        "description": "Generative art rendering unique constellation compositions using the letters of the word love over 100 different languages",
+        "extradesc": "",
+        "live": "https://constellationsoflove.netlify.app/",
+        "code": "https://github.com/patternseeing/constellations-of-love",
+        "type": "Text",
+        "tools": "loadTable(),sin(),lerp()",
+        "difficulty": "Intermediate",
+        "answer1": "Art and design research practitioner with exploratory interests in human experience and cognition.",
+        "answer2": "Having a previous experience using processing made p5js easier. learning mostly by going through P5js reference page when required to solve a part or the whole problem. Found coding train also as a wonderful resource. My first P5js sketches were a collection of interactive wallpapers.",
+        "answer3": "I used p5js for the basic data parsing and also for defining the form and aesthetics of  the animation",
+        "answer4": "My favorite function is lerp() and lerpColor() as it allow enormous possibilities in creating transformations and animations.",
+        "answer5": "The first challenge was to create dictionary function that include all the characters of the word love in different languages. and the second was to finding the balance while working different layers of animations. As always Iterative process is often the only way out for me. I learn something new with every iteration.",
+        "answer6": "https://www.youtube.com/watch?v=p8yfhE8F8MI",
+        "social": "https://patternseeing.wordpress.com/",
+        "id":"project-30",
+        "picid": "constellations.jpg"
+      },
+
       {
         "author": "Vineet",
         "pronouns": "he/him",
@@ -677,7 +701,7 @@
         "answer6": "Coding Train!",
         "social": "https://peilingjiang.com",
         "id":"project-11",
-        "picid": "60.png"
+        "picid": "72.png"
       },
     
       {
@@ -700,7 +724,7 @@
         "answer6": "Tone.js. We've used it in another game to create generative music that the player builds by pressing keys",
         "social": "https://gamesforcrows.itch.io/",
         "id":"project-12",
-        "picid": "60.png"
+        "picid": "concretenest.png"
       },
       {
         "author": "Galo Canizares",
@@ -722,7 +746,7 @@
         "answer6": "Digital Fabrications: Designer Stories for a Software-Based Planet is a book I wrote recently about the intersections of software and design practice/education.",
         "social": "https://galocanizares.com/\n@itsgalo (Instagram)",
         "id":"project-13",
-        "picid": "60.png"
+        "picid": "ourpaper.png"
       },
       
       {
@@ -767,7 +791,7 @@
         "answer6": "I hope this isn't too self-promotional, but I  have some processing inspired (not p5.js though....) poems in my first poetry collection :) \nhttps://blackspringpressgroup.com/products/valid-virtual-vegetable-reality-by-rebecca-close",
         "social": "http://criticaldias.net/about",
         "id":"project-16",
-        "picid": "60.png"
+        "picid": "close.jpg"
       },
       {
         "author": "Filipe Lopes",
@@ -811,7 +835,7 @@
         "answer6": "Hard question! There are so many cool things in creative coding, both p5 and other (as I discovered in the last few months). I will simply share one of my new favourite creative coders – I believe she codes in Unity, but a lot of the same can be produced in p5 (maybe?) - https://twitter.com/ojelibalon (Deniz Bicer)",
         "social": "https://deabankova.com/",
         "id":"project-18",
-        "picid": "60.png"
+        "picid": "idontlikeyou.png"
       },
       {
         "author": "Shervin Shirmohamadi",
@@ -900,7 +924,7 @@
         "answer6": "You may check out how fascinating our eyes could trigger the interaction in the refrigerator.",
         "social": "www.linkedin.com/in/juihungt",
         "id":"project-23",
-        "picid": "60.png"
+        "picid": "smartfridge.gif"
       },
     
       {
@@ -946,7 +970,7 @@
         "answer6": "The smoothness of the animations! It was what I had the hardest time achieving.",
         "social": "https://www.instagram.com/jerson.latorre",
         "id":"project-28",
-        "picid": "60.png"
+        "picid": "blackstars.png"
       },
       {
         "author": "Keith S. Wilson",
@@ -968,30 +992,9 @@
         "answer6": "My book (Fieldnotes on Ordinary Love) was selected as a notable book by the New York Times! :)",
         "social": "https://keithswilson.com/",
         "id":"project-29",
-        "picid": "60.png"
+        "picid": "rebinary.png"
       },
-      {
-        "author": "patternseeing",
-        "pronouns": "he/him",
-        "location": "Frankfurt am Main, Germany",
-        "title": "Constellations of Love",
-        "description": "Generative art rendering unique constellation compositions using the letters of the word love over 100 different languages",
-        "extradesc": "",
-        "live": "https://constellationsoflove.netlify.app/",
-        "code": "https://github.com/patternseeing/constellations-of-love",
-        "type": "Text",
-        "tools": "loadTable(),sin(),lerp()",
-        "difficulty": "Intermediate",
-        "answer1": "Art and design research practitioner with exploratory interests in human experience and cognition.",
-        "answer2": "Having a previous experience using processing made p5js easier. learning mostly by going through P5js reference page when required to solve a part or the whole problem. Found coding train also as a wonderful resource. My first P5js sketches were a collection of interactive wallpapers.",
-        "answer3": "I used p5js for the basic data parsing and also for defining the form and aesthetics of  the animation",
-        "answer4": "My favorite function is lerp() and lerpColor() as it allow enormous possibilities in creating transformations and animations.",
-        "answer5": "The first challenge was to create dictionary function that include all the characters of the word love in different languages. and the second was to finding the balance while working different layers of animations. As always Iterative process is often the only way out for me. I learn something new with every iteration.",
-        "answer6": "https://www.youtube.com/watch?v=p8yfhE8F8MI",
-        "social": "https://patternseeing.wordpress.com/",
-        "id":"project-30",
-        "picid": "60.png"
-      },
+    
       {
         "author": "Natalie Caiko",
         "pronouns": "she/her",
