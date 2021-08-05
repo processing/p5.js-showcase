@@ -638,29 +638,7 @@
         "answer6": "city girl's music",
         "social": "https://www.vineetk.com/",
         "id":"project-8",
-        "picid": "60.png"
-      },
-      {
-        "author": "Mark Butler",
-        "pronouns": "he/him",
-        "location": "Dublin, Ireland.",
-        "title": "Runaway - Kanye West Drum Machine.",
-        "description": "I designed a fully functional drum machine which plays Kanye West's song Runaway.",
-        "extradesc": "",
-        "live": "https://youtu.be/dnGOS6MJyGY",
-        "code": "https://editor.p5js.org/MarkB17/sketches/tiS-1q7CX",
-        "type": "Sound",
-        "tools": "p5.Sound and p5 Reference",
-        "difficulty": "Intermediate",
-        "answer1": "I am finished my first year studying Creative Music Production in IADT, Dublin, Ireland.",
-        "answer2": "I learned to code using p5.js as part of an assignment in one of my college modules.",
-        "answer3": "I used p5.js to recreate Kanye West's iconic live performance of his song Runaway on a drum machine. I utilised different libraries, youtube videos and websites to help bring the project to life. I also can't forget to mention my lecturer Conor Brennan who was a great help throughout the process.\n\nMy sources:\n //Pixel Array Background Change: https://youtu.be/nMUMZ5YRxHI\n  //Refresher On Creating OScillating Waves: https://youtu.be/GvwPwIUSYqE\n  //Conor's Oscillator class and For Loops: https://editor.p5js.org/CB/sketches/tz3yhe8UX\n  //Getting The Sounds To Play With Buttons (16:36-24:24): https://youtu.be/Iep6ZWtf4o8\n  //Changing Font: https://youtu.be/L-aTxyWmaTU\n  //Changing Volume with sliders: https://youtu.be/Pn1g1wjxl_0\n  //Inputting images to the sketch: https://p5js.org/reference/#/p5/loadImage\n  //keyIsDown function: https://p5js.org/reference/#/p5/keyIsDown\n  //Reverb Function: https://p5js.org/reference/#/p5.Reverb",
-        "answer4": "My favourite feature is definitely the loadPixels(); function. It allowed me to create a cool background for the drum machine. Also I have to give a mention to the keyTyped() function with allowed the samples to be played via the keyboard.",
-        "answer5": "The biggest challenge I faced during the project was definitely trying to get the samples to play when it was triggered by a specific key but also have that pad the sample is linked to light up at the same time. To trigger the sound using specific keystrokes, I used the keyTyped() function to trigger the sounds with keystrokes mapped with ASCII. To light up the drum pad played by the sound, I implemented the if (keyIsDown(insert ASCII value of keystroke))  to fill a square with up when the key is pressed.",
-        "answer6": "The inspiration for my instrument:\nhttps://youtu.be/OvH3vBC8yK0",
-        "social": "https://www.linkedin.com/in/mark-butler-518531205",
-        "id":"project-9",
-        "picid": "60.png"
+        "picid": "neon.png"
       },
       {
         "author": "Amira Hanafi",
@@ -682,7 +660,7 @@
         "answer6": "https://www.youtube.com/watch?v=2m8YACFJlMg",
         "social": "https://amirahanafi.com",
         "id":"project-10",
-        "picid": "60.png"
+        "picid": "canada.jpeg"
       },
       {
         "author": "Peiling Jiang",
@@ -772,7 +750,7 @@
         "answer6": "I created a game that revolves around electric fields here: https://icphysweb.z13.web.core.windows.net/site/game.html",
         "social": "https://github.com/tedkmburu",
         "id":"project-15",
-        "picid": "60.png"
+        "picid": "electronic.png"
       },
       {
         "author": "Rebecca",
@@ -816,7 +794,7 @@
         "answer6": "The many projects involving sound in the web, such as Locus Sonus (https://locusonus.org/soundmap/051/).",
         "social": "https://filipelopes.net",
         "id":"project-17",
-        "picid": "60.png"
+        "picid": "polis.png"
       },
       {
         "author": "Dea Bankova",
@@ -860,7 +838,7 @@
         "answer6": "More challenges or showCases for interested people .",
         "social": "I am using Daniel Shiffman tutorials in youtube and I thinks it's very good .",
         "id":"project-19",
-        "picid": "60.png"
+        "picid": "illogical.png"
       },
       
       {
@@ -883,30 +861,9 @@
         "answer6": "https://aprja.net/article/view/116062/164244",
         "social": "https://www.notion.so/raretodd/ITP-Shenanigans-53f7433348b641428d41d74b1089ab6d",
         "id":"project-21",
-        "picid": "60.png"
+        "picid": "saytheirnames2.png"
       },
-      {
-        "author": "Indhu Kanth",
-        "pronouns": "he/him",
-        "location": "Kerala, India",
-        "title": "Dissociative Typeface",
-        "description": "A postmortem of familiar perceptions. This parametric model allows one to dissect the letters along with their grids, that we write, speak, hear and even think in.",
-        "extradesc": "In his essay \"Art as Technique\", Viktor Shklovsky put forward the concept of Defamiliarization (making strange) where he states that: \"Our perception of the world has withered away; what has remained is mere recognition. It is the function of art to renew our perception. What we are familiar with, we cease to see\".\n\nBy making everyday objects unfamiliar, we prolong the process of perception thereby introducing a refreshing visibility, thought and curiosity in interpreting the things we have accustomed to.  And nothing is more abstract than our languages, which we have accepted as granted; unquestioning the complexity of operations that relates the mental structure expressing the semantic content of utterance to its physical realization. (Chomsky). The letters we are very familiar with become apparent with faster motion and stranger with static instances. And as Martin Heidegger remarked that it is not we who speak languages, but its the language that speaks us, this dissociative typefaces could imbibe new meanings to interpret the evolving digital cultures.",
-        "live": "https://beingink.github.io/Generative-Bitmap-Typography/",
-        "code": "https://github.com/Beingink/Generative-Bitmap-Typography",
-        "type": "Text",
-        "tools": "Math, Typography, Rendering & DOM libraries",
-        "difficulty": "Intermediate",
-        "answer1": "I currently work as a design researcher and strategist. I come from an interdisciplinary educational background with a mix of electrical engineering, sociology and environmental econometrics. However, I have always been an information visualist with a passion to explore the intersection of systems thinking and social behavior on everyday things. I enjoy exploring and experimenting with generative algorithms, typography, 3d and motion media graphics to fuse the syntax and semantic into a delightful spectacle of sorts.",
-        "answer2": "Last December (2020), I happen to chance upon a coding train video from YouTube recommendation on my feed and the zeal, knowledge and fun brought by Prof. Daniel Shiffman in his alluring tutorials helped me gain a strong foothold and interest in exploring P5.js. My very first project was a kinetic typography one.",
-        "answer3": "I built the entire tool using P5.js and wouldn't have been possible if not for the open source platform.",
-        "answer4": "Its hard to really point out, but I don't ever seem to run out of possibilities that noise and createGraphics functions offers. Also, the various functions under events makes the experience more immersive.",
-        "answer5": "Most of the projects had few hiccups but the simplicity of the code helped me to understand and apply expressions and logics from other resources and paper. The community, blogs, coding train channel and the numerous reddit groups provides enormous support in addressing various challenges.",
-        "answer6": "Its too early for me to answer this and its hard to fathom if something can miss your horizon. However I have been using the output of p5js especially with creating textures to use in Touchdesigner, Blender3d and Spark AR for creating visceral experiences and so maybe some possibility of integrations would be cool.",
-        "social": "https://www.behance.net/indhuinkka14d9",
-        "id":"project-22",
-        "picid": "60.png"
-      },
+
       {
         "author": "Juihung Tseng",
         "pronouns": "he/him",
@@ -929,30 +886,7 @@
         "id":"project-23",
         "picid": "smartfridge.gif"
       },
-    
-      {
-        "author": "Marco Heleno",
-        "pronouns": "he/him",
-        "location": "Lisbon, Portugal",
-        "title": "Perceptron Explanator",
-        "description": "Researchers and software engineers have been developing deeper artificial neural networks. This deepening augments the capabilities of these systems, but, as a consequence, also raises the number of calculations or decision iterations. These increments, in the number of iterations, give way to an increasing statistical complexity in the decision-making process, turning these systems into black boxes.  Perceptron Explanator is an interactive visualization that reveals the accumulated decision iterations of the most elementary system of an artificial neural network: a perceptron. It explains the decision-making progress, revealing the causality present in the process, while freeing the observer from the statistical complexity intrinsic to the algorithm. This visualization aims to help develop an intuition about the inner workings of the perceptron to non-specialists, to everyone.  Please be patient until you get a system run that has more than one decision iteration. If you get only one decision iteration, click the bottom refresh button until you get a system run with more than one iteration.",
-        "extradesc": "-",
-        "live": "https://marcoheleno.gitlab.io/projects/perceptronexplanator/",
-        "code": "https://editor.p5js.org/marcoheleno/sketches/W8wXVNlHt",
-        "type": ["Visual", "Educational"],
-        "tools": "-",
-        "difficulty": "Intermediate",
-        "answer1": "Marco Heleno is a designer that studies and develops work in the areas of information visualization, computational aesthetics and interaction design. He is currently focused on explaining machine learning using information visualization, PhD research at NOVA LINCS, Portugal. Teaches at the Caldas da Rainha School of Arts and Design (ESAD.CR). Holds a master's degree in Technology and Digital Art and a bachelor’s degree in Graphic Design and Multimedia.",
-        "answer2": "I learned Processing (Java) in 2007 while attending my university degree. In 2012, I started teaching Processing (Java) at the same university. In 2017, I made the transition to p5js, both as a tool to produce my artwork and to teach. The first task I performed was porting most of my code in Processing (Java) to p5js. Of course most of the code is identical, but by porting my code, I was able to identify the few key lines of code that differ Processing (Java) from p5js, while I also getting familiar with JavaScript and the manipulation of the DOM.",
-        "answer3": "p5js is used for creating the interactive visualization. The Perceptron used in this project was initially also in p5js, but I converted it to pure JavaScript so that it can later be shared and used in other projects.",
-        "answer4": "As a user and teacher I prefer not to highlight any specific function or code library, but rather emphasize the ease with which you can initialize and develop an idea while having visual outputs early in the development process. That's my favorite feature! :)",
-        "answer5": "I remember that the main challenges of this project were understanding, visualizing and representing the inner workings of a Perceptron (not yet fully visualized/explained, more will come out in the next visualization) and manipulation of the DOM.",
-        "answer6": "I really like my previous visualization, also in p5js. It can be seen at the following link: https://marcoheleno.gitlab.io/projects/transparentperceptron/ Please be patient until you get a system run that has more than one decision iteration. If so, click on \"CLICK TO RUN THE SYSTEM AGAIN\", until you get a system run with more than one iteration.",
-        "social": "https://marcoheleno.gitlab.io",
-        "id":"project-25",
-        "picid": "60.png"
-      },
-    
+
       {
         "author": "Jerson La Torre",
         "pronouns": "he/him",
@@ -996,29 +930,7 @@
         "social": "https://keithswilson.com/",
         "id":"project-29",
         "picid": "rebinary.png"
-      },
-    
-      {
-        "author": "Natalie Caiko",
-        "pronouns": "she/her",
-        "location": "Vilnius, Lithuania",
-        "title": "Holos",
-        "description": "Holos is a generative design platform that explores Benford's law in different sets of data.",
-        "extradesc": "Is there a way to measure harmony of the surrounding processes? The universe is mathematically accurate. This is why statistics depicting natural processes are usually distributed according to Benford's law and indicate the harmony of these phenomena. Benford's law is like a lie detector that can check the validity of data. Holos project explores applicability of Benford’s law in various spheres of human activity and natural processes, revealing the beauty of harmonic mathematical world order. Each digit corresponds to a specific musical note that in combination creates unique sound of real time data. Holos offers real time data visualisations of daily earthquakes, covid-19 data, stock market prices and land area by countries. You can also create data visualisation and check its validity by entering random numbers Yourself.",
-        "live": "www.holosproject.com",
-        "code": "https://github.com/lalajann/holos",
-        "type": "Simulation",
-        "tools": "p5.js; sound.js",
-        "difficulty": "Intermediate",
-        "answer1": "I'am a graphic designer and illustrator. I just recently graduated from Vilnius Academy of Arts  and was using p5.js as a base for my bachelor project.",
-        "answer2": "I started watching Coding Train tutorials from scratch and used some ideas for my personal project.",
-        "answer3": "All platform is based on p5.js library. I am using 4 different API's  that are integrated into the code  for data visualization. All data is interpreted and regrouped according to the Benford's law digit distribution. Main aim was to reveal the beauty of numbers and proof that Benford's law is applicable to various data sets. Leading digits are analysed and grouped according to its value. Each digit has a specific sound so statistical data in whole gain unique melody, that differs every time you run it.",
-        "answer4": "I guess the transformation of flat objects into 3D using WEBGL.",
-        "answer5": "The project itself was a great challenge for me as I am not a programmer. However, Dan Shiffman works some wonders with his Coding train tutorials, as I managed to extract and apply very useful information about p5.js functions. Without Coding Train I guess my project could never be completed.",
-        "answer6": "Benford's law and the way all natural processes in our universe apply to it.",
-        "social": "https://www.behance.net/NatalieCaiko",
-        "id":"project-31",
-        "picid": "60.png"
       }
+  
     ]
 }
