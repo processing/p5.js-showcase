@@ -3,6 +3,7 @@ import React, {useState }from "react";
 import {useTranslation} from "react-i18next";
 import "./styles/App.css";
 import FilterButton from "./FilterButton.js";
+import DifficultyFilterButton from './DifficultyFilterButton.js';
 import ScrollToTop from "./ScrollToTop.js"
 import {
   Link,
@@ -24,15 +25,6 @@ const difficultyPathnames = [
   'Beginner',
   'Intermediate',
   'Advanced',
-]
-
-const topicPathnames = [
-  'BLM',
-  'BIPOC Contributors',
-  'Love',
-  'Community',
-  'Accessibility'
-
 ]
 
 function GalleryTwenty (props){
@@ -73,22 +65,6 @@ console.log(showcase2020)
   ));
 
 
-  // function GalleryTwenty (props){
-  //   let { id, filter } = useParams();
-  //   ScrollToTop();
-  //   var Markdown = require('react-markdown');
-  //   const { t, i18n } = useTranslation(); 
-  //   const [filtered, setFilter] = useState('All');
-  //   const filtermap=(t('filters', {returnObjects: true}));
-  
-  //   var showcase2020 = (filter==='All')?t('showcase2020', {returnObjects: true}): t('showcase2020', {returnObjects: true}).filter((a)=>
-  //  (a.type===filter?a.type
-  //   :a.type[0]===filter?a.type[0]
-  //   :a.type[1]===filter?a.type[1]
-  //   :a.type[2]===filter?a.type[2]:
-  //   null)
-  //   );
-
   // DIFFICULTY FILTER COMPONENT
 
   const difficultyList = filtermap.map(({name}, index) => (
@@ -98,7 +74,7 @@ console.log(showcase2020)
       // Use english filter name in the url pathname
       pathname: `/2020-${difficultyPathnames[index]}/`
     }}>
-      <FilterButton
+      <DifficultyFilterButton
       key={difficultyPathnames[index]}
       name={difficultyPathnames[index]}
       displayName={name}
@@ -109,8 +85,6 @@ console.log(showcase2020)
     />
     </Link>
   ));
-
-// TOPIC FILTER COMPONENT
 
 
   return (
@@ -124,7 +98,7 @@ console.log(showcase2020)
     </div>
 
     <div className="difficultylist">
-      <h2>{difficultyList}</h2>
+      <h2>{t("level")}:{difficultyList}</h2>
     </div>
 
   
