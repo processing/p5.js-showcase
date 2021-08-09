@@ -18,7 +18,7 @@
  "About2":"How is it organized?",
  "About3":"What else should I check out?",
  "Acknowledgements":"Acknowledgements",
- "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this projec through. I'd also like to thank my wonderful mentors Sam Vassor, KT Duffy, and Ashley Kang (Showcase big sister) for helping me and for all their words of wisdom. Finally I'd like to thank Lauren McCarthy, Saber Khan, Qianqian Ye, evelyn masso, Connie Liu, and the p5 maintainers and contributors for helping me out on my open source journey and this project.",
+ "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this project through. I'd also like to thank my wonderful mentors Sam Vassor, KT Duffy, and Ashley Kang (Showcase big sister) for all their support and words of wisdom. Finally I'd like to thank Lauren McCarthy, Saber Khan, Qianqian Ye, evelyn masso, Connie Liu, and the p5 maintainers and contributors for helping me out on my open source journey and this project.",
  "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)) and is currently curated by [Connie Liu](https://connieliu0.github.io). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
  "Answer2":"Usually the p5.js will open up a call for submissions via [Twitter](https://twitter.com/p5xjs) or [Instagram](https://www.instagram.com/p5xjs/)! For the last two years, the Showcase has been run as a [GSoC project](https://summerofcode.withgoogle.com/).",
  "Answer3":"Make some sketches of your own with the [p5.js editor](https://editor.p5js.org/), discover more with [OpenProcessing](https://www.openProcessing.org/), and learn more with the [Coding Train](https://www.youtube.com/user/shiffman) and [Cozy Coding](https://www.twitch.tv/cozycoding/)!",
@@ -45,15 +45,17 @@
     {"name": "Visual"},
     {"name": "Data Visualization"},
     {"name": "Game"},
-    {"name": "World"},
     {"name": "Text"},
     {"name": "Sound"},
     {"name": "Educational"},
-    {"name": "Teaching"},
-    {"name": "Simulation"},
-    {"name": "Tool"},
     {"name": "Camera"}
  ],
+
+  "difficulty":[
+    {"name": "Beginner"},
+    {"name": "Intermediate"},
+    {"name": "Advanced"}
+  ],
 
   "archive":[
     {
@@ -70,274 +72,6 @@
     }
   ],
 
- "showcase2019":[
-    {
-    "id": "airi-flies",
-    "title": "Airi Flies",
-    "image": "airi-flies.png",
-    "description": "In this game developed with p5.play, help Airi fly by saying PEW.",
-    "location":"Kyiv, Ukraine",
-    "author": "Phuong Ngo",
-    "pronouns": "she/her",
-    "type": "Game",
-    "resources":
-    [ 
-        {
-        "name":"Play Airi Flies!",
-        "link": "https://www.yonaymoris.me/AiriFlies/"
-        },
-        { 
-        "name":"Code for AiriFlies on GitHub",
-        "link": "https://github.com/yonaymoris/AiriFlies"
-        },
-        {
-        "name":"More info in Phuong Ngo's portfolio",
-        "link": "https://www.yonaymoris.me/projects/airiflies"
-    }
-    ],
-    "socials":[{
-        "name":"Website",
-        "link":"https://www.yonaymoris.me"
-    }
-    ],
-    "tools": "ml5.js,p5.play",
-    
-    "qanda": {
-        "answer1":"I'm a creative coder and designer, a [School of Machines, Making & Make-Believe diversity scholarship recipient](https://schoolofma.org/), and just a curious creature.\n\nI was taking a course at the [School of Machines](https://schoolofma.org/bots.html) in Berlin this summer called \"Bots and Machine Learning,\" mainly taught by [Yining Shi](https://1023.io/).",
-        "answer2":"I used p5.js to work on the visual part of the game. The animation sprites for Airi and the ghosts were drawn on an iPad app called [Pixaki](https://rizer.co/pixaki/) and then integrated into [p5.play](https://molleindustria.github.io/p5.play/) code. I mainly used examples at p5.play as a reference.\n\nFor the endless scrolling background, I found a p5 sketch by [chjno](https://editor.p5js.org/chjno/sketches/ByZlypKWM). I set a condition so whenever the word \"pew\" or a mouse click was detected, the scrolling speed would change to make an illusion of Airi flying up. When the user does not do anything, the scrolling speed is negative, which makes it look like Airi is falling down.\n\nFor sound recognition, I used [Google's Teachable Machine 2](https://teachablemachine.withgoogle.com/io19) (currently, there is a beta version not available in public yet, but it will be very soon!). I added around 120 samples of my classmates saying the word \"pew\" with different intonations and 80 samples of background noise to train it. Then I integrated the model into the game with [ml5.js](https://ml5js.org/).",
-        "answer3":"I really love how easily you can create, manipulate, and delete HTML blocks and classes with the p5.js library via [createDiv()](https://p5js.org/reference/#/p5/createDiv), [addClass()](https://p5js.org/reference/#/p5.Element/addClass) etc. But my most favorite function is [draw()](https://p5js.org/reference/#/p5/draw), since this is where you create magic.",
-        "answer4":"There were a lot of challenges simply because p5.js was something new to me. I did not work much with JavaScript in general before. Reading documentation and searching for similar examples helped a lot.",
-        "answer5":"Check out School of Machines' courses! They try hard to connect the most creative people in the world and they do it well so far ❤."
-    }
-    },
-    {
-        "id": "programmed-plotter",
-        "title": "Programmed Plotter Drawings",
-        "image": "programmed-plotter.png",
-        "description": "Sine waves and lerps generated in p5.js, exported as SVG, and drawn with a plotter and pens.",
-        "location":"Toronto, Canada",
-        "author": "Roni Cantor",  
-        "pronouns": "she/her",
-        "resources":
-        [ 
-            {
-            "name":"Example sketch in p5.js Web Editor",
-            "link": "https://editor.p5js.org/ronicantor/sketches/eq2bIhmh2"
-            },
-            { 
-            "name":"AxiDraw V3 demo video",
-            "link": "https://drive.google.com/file/d/1UJy6q5cDl6Hg79O9mX1ZN7NFp0NXSYCs/view?usp=sharing"
-            }
-        ],
-    
-        "type": "game",
-        
-        "tools":"lerp",
-        "socials":[{
-            "name":" ",
-            "link":" "
-        }
-        ],
-        
-        "qanda": {
-            "answer1":"I just graduated from Ryerson University's New Media program. Coming from 4 years of coding and making robots, I decided to take a break and play with some more traditional forms of art—while still coding and playing with robots.",
-            "answer2":"I used p5.js in this project to generate the sine wave and lerp (linear interpolation) formulas and display the visuals in the p5.js Web Editor. I then used a feature in my code that exported my programmed graphic into an [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) file. I needed an SVG file to give to the plotter—an [AxiDraw V3](https://shop.evilmadscientist.com/productsmenu/846)—so that it understood where to draw the lines that I programmed. I sent this information to the plotter with a program called [Inkscape](https://inkscape.org/)!",
-            "answer3":"[lerp()](https://p5js.org/reference/#/p5/lerp) because lines are fun and \"lerp\" is a fun word to say!",
-            "answer4":"It was my first time using p5.js, Inkscape, and a plotter! I really benefited from the people around me who had used p5 before, as well as online guides and forums.",
-            "answer5":"[@gandyworks](https://www.instagram.com/gandyworks/) on Instagram—super cool analog plotter stuff."
-        }
-        },
-        {
-            "id": "chillin",
-            "title": "Chillin'",
-            "image": "chillin.png",
-            "description": "An interactive typographic poster that uses a mobile device's motion sensor with p5.js.",
-            "location":"Baltimore, Maryland",
-            "author": "Dae In Chung", 
-            "pronouns": "he/him",
-            "resources":
-            [ 
-                {
-                "name":"View Chillin’",
-                "link": "https://exp.paperdove.com/chillin/"
-                },
-         {
-                "name":"Code for Chillin’ on Github",
-                "link": "https://github.com/cdaein/exp/tree/gh-pages/chillin"
-                },
-         {
-                "name":"More info in Dae in Chung’s Portfolio",
-                "link": "https://paperdove.com/work/2019-chillin/"
-                }
-            ],
-            
-            "type": "visual",
-            
-            "tools":"matter.js,WEBGL,p5.Camera",
-    
-            "socials":[{
-                "name":"Instagram",
-                "link":"https://www.instagram.com/cdaein/"
-            }
-            ],
-            "qanda": {
-                "answer1":"I am a graphic designer and a faculty member at Maryland Institute College of Art, where I mainly teach coding (with p5.js and Processing, of course) and motion graphics. \n\n I have been using Processing for some time, and when p5.js came along, I started using it without a second thought because it was easy to convert existing Processing code and share projects online.",
-                "answer2":"This summer, I gave myself a challenge of making typographic posters with coding, and this is one of the posters I made. I didn’t know until very recently that I could use motion sensor data with p5.js. I was also watching [Dan Shiffman’s matter.js tutorial videos](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bLh3T_4wtrmVHOrOEM1ig_), so I thought why not combine the two and practice what I was learning?",
-                "answer3":"There are many things I love about p5.js such as the online community and beginner friendliness. What I really like right now is the [online editor](https://editor.p5js.org/), with which I can not only work online for myself but also share URLs quickly in the present mode. For this project in particular, I had to do a lot of testing on my phone, and it was much easier and quicker than committing to GitHub.",
-                "answer4":"I had some troubles with handling font, alpha channel and z-depth in [WebGL](https://github.com/Processing/p5.js/wiki/Getting-started-with-WebGL-in-p5) mode. I am still not happy with all my decisions. But in general, it was helpful to search the forum and not to forget to break down problems into smaller ones and iterate little by little. Also, I had issues with rendering out video files directly out of p5.js. Screen recording was not an option because of intermittent frame rate drops (my laptop is pretty slow). After doing some research, I decided to learn some basics of [Electron](https://electronjs.org/) and build a tool for myself.",
-                "answer5":"As mentioned above, if you want to render out frames and video files out of p5.js sketches, check out my [Canvas Saver boilerplate](https://github.com/cdaein/p5js-electron-canvas-saver-boilerplate) and let me know what you think."
-            }
-            },
-            {
-                "id": "qtv",
-                "title": "Qtv",
-                "author": "Qianqian Ye",
-                "image": "qtv.png",
-                "description": "A channel with 1-min videos in Mandarin about creative coding, art, and technology, including p5.js tutorials for beginners.",
-                "location":"Los Angeles, California",
-                "pronouns": "she/her",
-                "resources":
-                [ 
-                    {
-                    "name":"Qtv Youtube’",
-                    "link": "https://bit.ly/2XVzPAv"
-                    },
-             {
-                    "name":"Qtv Instagram",
-                    "link": "https://www.instagram.com/q_tv_/"
-                    },
-             {
-                    "name":"Qtv Bilibili",
-                    "link": "https://space.bilibili.com/442343394"
-                    },
-                    {
-                    "name":"@Q_tv TikTok",
-                    "link": "https://v.douyin.com/sopAGk/"
-                    },
-                    {
-                    "name":"Processing Foundation interview with Qianqian Ye",
-                    "link": "https://medium.com/Processing-foundation/interview-with-2019-fellow-qianqian-ye-799c0115c295"
-                    }
-                ],
-                
-                "type": "tutorial",
-                
-                "tools":"",
-        
-                "socials":[{
-                    "name":"website",
-                    "link":"https://qianqian-ye.com"
-                }
-                ],
-                "qanda": {
-                    "answer1":"I am a Chinese artist and designer based in Los Angeles. \n\n My partner introduced me to p5.js, which I learned mainly by watching free online video tutorials. My first p5.js project was drawing some shapes with different colors.",
-                    "answer2":"This project started with an idea of teaching my mom, who lives in China and doesn’t speak English, to code with p5.js. This project was difficult on multiple levels, and I wanted to start by identifying the main reasons why it’s more challenging for someone like my mother to learn to code—primarily due to the lack of free creative coding education resources. Most of the free resources to learn creative coding are unavailable in China. The p5.js tutorials on YouTube as well as the p5.js Twitter and Instagram accounts are inaccessible in China because of internet censorship. \n\n I learned a lot from YouTube videos such as the [Coding Train](https://thecodingtrain.com/), but the more I watched coding tutorials online, the more I realized how difficult it is to find other womxn and people of color teaching coding, especially in Mandarin. I wanted to help other Chinese womxn relate to creative coding. \n\n I am working on opening up the video channels to other Chinese creatives who want to contribute to the educational resource together, like interviews and guest tutorials. If you are interested in teaching/talking about creative coding in Mandarin, HMU!",
-                    "answer3":"The [p5.js Web Editor](https://editor.p5js.org/) is my favorite feature. It makes web-based creative coding seamless.",
-                    "answer4":"Learning to code in a second language was difficult and the lack of community made this process even harder. I hope to speak from my experience as a beginner and someone who once felt like an outsider to the creative coding and video tutorial world. \n\nI spend a lot of time researching the latest technology for my videos. In the end, I decided on using my phone to record and iMovie to edit. I hope to encourage others that it doesn’t take a lot of expensive gears to get started making instructional videos. \n\n Another issue I came across was my own fear of putting myself online. I first had to get over my anxiety of making mistakes in the videos or receiving negative comments online. Often womxn and people of color are targets for online harassment. I’m hoping to help set an example for other womxn and people of color that it’s ok to put yourselves online and strengthen your communities by sharing your knowledge. Eventually, we will be able to stop online harassment by creating strong diverse communities.",
-                    "answer5":"I am very excited about [Tiny Tech Zines](http://tinytechzines.org/) in LA."
-                }
-            },
-            {
-                "id": "moving-responsive-posters",
-                "title": "Moving Responsive Posters",
-                "author": "Moon Jang, Xin Xin, and students",
-                "image": "moving-responsive-posters.png",
-                "description": "Browser-based moving posters that use p5.js to address the connotations of a word.",
-                "location":"Athens, Georgia",
-                "pronouns": "she/her, they/them",
-                "resources":
-                [ 
-                    {
-                    "name":"Avery Ray's Poster",
-                    "link": "https://editor.p5js.org/avezray/present/JTjhOdGRB"
-                    },
-             {
-                    "name":"Carlee Wooddell's Poster",
-                    "link": "https://editor.p5js.org/carcarw/present/DyKJHUtCN"
-                    },
-             {
-                    "name":"Mia Hofmann's Poster",
-                    "link": "https://editor.p5js.org/mdh54215/present/h5wp4EYen"
-                    },
-                    {
-                    "name":"Katie Huang's Poster",
-                    "link": "https://editor.p5js.org/katiehuang1998@gmail.com/present/1GhSDw-Og"
-                    },
-                    {
-                    "name":"Lila Mitchell's Poster",
-                    "link": "https://editor.p5js.org/borderrider@gmail.com/present/Lg_pSPRHF"
-                    },
-                    {
-                    "name":"Kathryn Wallace's Poster",
-                    "link": "https://editor.p5js.org/wallacekd/present/GqWZOYUSN"
-                }
-                ],
-                
-                "type": "visual",
-                
-                "tools":"rect,translate",
-        
-                "socials":[{
-                    "name":"Website",
-                    "link":"http://www.moonjang.com/"
-                },
-                {
-                    "name":"@borderrider",
-                    "link":"https://www.instagram.com/borderrider/"
-                }
-                ],
-                "qanda": {
-                    "answer1":"Moon: I'm a graphic designer, visual artist, and design educator. This summer, I taught a graphic design course in the University of Georgia Cortona program in Italy, introducing some basics of p5.js. This fall, I am planning to teach and to study digital platforms at UGA. \n\n My former colleague, [Xin Xin](https://xin-xin.info/), invited me to [Processing Community Day](https://medium.com/Processing-foundation/pcd/home) in [LA in January 2019](https://day.Processing.org/pcd-la.html). They helped me with the tools and logics of p5.js. It was an excellent teaching and learning experience.",
-                    "answer2":"We followed basic tutorials, [Daniel's videos on YouTube](https://thecodingtrain.com/), and [Reference on the p5.js website](https://p5js.org/reference/).",
-                    "answer3":"My favorite function is related to [type](https://p5js.org/reference/#group-Typography) and [transformation](https://p5js.org/reference/#group-Transform): [rotate()](https://p5js.org/reference/#/p5/rotate). I was able to use and to teach this tool to visualize various ideas about time in motion.",
-                    "answer4":"It was challenging for me, a beginner, to understand the overall structure of p5.js and how code works in general. I had to repeat the p5.js basics a couple of times, and then I drew a chart to memorize and to teach the way I understood the p5.js structure and code with strong constraints I set up. It was an excellent teaching and learning experience.",
-                    "answer5":"Check out the [Design Triennale](http://www.brokennature.org/) in Milan, Italy."
-                }
-            },
-            {
-                "id": "p5.js-shaders",
-                "title": "p5.js Shaders",
-                "author": "Casey Conchinha, Louise Lessél",
-                "image": "p5-shaders.png",
-                "description": "A resource for learning the what, why, and how of using shaders in p5.js.",
-                "location":"New York, New York",
-                "pronouns": "he/him, she/her",
-                "resources":
-                [ 
-                    {
-                    "name":"p5.js Shaders guide",
-                    "link": "https://bit.ly/p5shaders"
-                    },
-               {
-                    "name":"Glitch collection of p5.js shader examples",
-                    "link": "https://bit.ly/p5shadersexamples"
-                    }                
-                ],
-                
-                "type": "code",
-                
-                "tools":"",
-        
-                "socials":[{
-                    "name":"Casey's Website",
-                    "link":"https://cargocollective.com/kcconch"
-                },
-                {
-                    "name":"Louise's Website",
-                    "link":"http://www.louiselessel.com/"
-                }
-                ],
-                "qanda": {
-                    "answer1":"Casey: I'm a student at NYU ITP who's interested in computer graphics and interactive spaces, physical and digital. \n\n Louise: I'm a student at NYU ITP who's interested in computer graphics and interactive spaces based on sensor technologies. \n\n Casey: I started learning p5.js in 2018 in my first semester at ITP, though I had been dabbling in Processing since 2012. I was introduced to Processing by my friend Pedro while I was studying graphic design, and it blew my mind. The idea of making my own tools for creating graphics and interactive art piqued my interest, but once I actually tried it, I was hooked. The first project I can remember was an eye that followed you around the screen, and it was sad when you left it alone. \n\n Louise: I initially learned p5.js to make a website I was creating more playful. I’m a C# programmer, so this was a good segway into JavaScript for me.",
-                    "answer2":"Casey: I was putting off learning shaders for a long time, and I was also curious if I could use them in p5.js. Then I heard about a grant for open source, storytelling, and learning resource projects at ITP called [xStory](https://www.itpxstory.com/). Since I wasn't finding much in the way of p5.js + shader documentation, I decided to figure out how they're implemented in p5.js and create a resource for others to learn. When I told Louise about the project, she was immediately excited about learning and teaching shaders in p5.js. She's been great about making sure the project is a learning resource and not just a collection of examples.",
-                    "answer3":"Casey: Does [Shiffman](https://thecodingtrain.com/) count as a feature? I also love having the ability to share my programs on the web so that people don't have to install special software or come to NYC to see my work. \n\n Louise: My favorite feature is [push()](https://p5js.org/reference/#/p5/push) and [pop()](https://p5js.org/reference/#/p5/pop) for transformation of the coordinate system to make generative visuals.",
-                    "answer4":"Casey: The beginning of the project (figuring out how things work) was us reaching out to amazing people, asking questions, and asking for permission to use their examples in our project. [Adam Ferriss' GitHub](https://github.com/aferriss/p5jsShaderExamples) repo really laid the groundwork for us in understanding how shaders work in p5.js and provided a framework of approachable examples for us to build on. For some specific p5.js-related issues we were having, we reached out to [Kate Hollenbach](http://www.katehollenbach.com/) and [Stalgia Grigg](https://stalgiagrigg.name/) (who worked on the [WebGL implementation in p5.js](https://github.com/Processing/p5.js/issues?q=is%3Aissue+is%3Aopen+webgl+label%3Aarea%3Awebgl), and they were super helpful. \n\n Louise: The learning curve was pretty steep for getting shaders into p5. Luckily, there were some very well-documented examples on GitHub by Adam Ferriss. Our aim was to do so in a way that a complete beginner can understand how to implement it, so it was as much a technical challenge as it was a challenge in teaching code to strangers and beginners. Here we drew inspiration from the way the [openFrameworks](https://openframeworks.cc/ofBook/chapters/foreword.html) book is written. A fun \"hey, it’s not hard and you can do it too\" approach is what we believe in.",
-                    "answer5":"Check out the [xStory GitHub](https://github.com/ITP-xStory) to explore our peers' amazing grant projects!"
-                }
-            }
-            
-],
-
 "showcase2020":[
       {
         "author": "Sydney DJ",
@@ -348,7 +82,7 @@
         "extradesc": "", 
         "live": "https://sydneychatbot.glitch.me/",
         "code": "https://glitch.com/edit/#!/sydneychatbot?path=brain.rive%3A1%3A0",
-        "type": ["Text","Educational","Tool"],
+        "type": "Educational",
         "tools": "",
         "difficulty": "Intermediate",
         "answer1": "I'm a senior in high school, with a great interest or more so dedication to social justice and leadership. I am currently in the process of doing college research, and am finishing up a summer internship with JPMorganChase. I also have my own podcast called \"sorry in advance :/\".",
@@ -360,6 +94,7 @@
         "social": "https://sydneynicole1.wixsite.com/website",
         "id":"project-62",
         "picid": "62.png"
+
       },
 
       {
@@ -371,7 +106,7 @@
         "extradesc": "",
         "live": "https://niki-ito.github.io/Artist-Activists-Interactive-Portrait/",
         "code": "https://github.com/niki-ito/Artist-Activists-Interactive-Portrait",
-        "type": ["Visual", "Educational"],
+        "type": "Educational",
         "tools": "p5.sound, p5.Element, select(), createButton(), noCursor(), preload(), push(), class, console, mouseX, mouseY, map(), millis()",
         "difficulty": "Intermediate",
         "answer1": "I'm a graphic design undergraduate student. I enjoy working with fine art, graphic design, and multi-media art. This summer, I was a part of Google Summer of Code to create a community-focused visual narrative website with audio visualizations created in p5.",
@@ -382,7 +117,8 @@
         "answer6": "I personally love stop motion and I get many inspirations form wanting to combine 2d elements with 3d textures and effects. Here is a stop motion director and artist I like: https://www.instagram.com/siqi.song/",
         "social": "https://www.instagram.com/12niki14/",
         "id":"project-14",
-        "picid": "63.png"
+        "picid": "63.png",
+        "twittericon": "twitter.png"
       },
 
       {
@@ -396,7 +132,7 @@
         "code": "https://github.com/siusoon/VocableCode/blob/master/vocablecode_program/vocableCode.js",
         "type": ["Educational","Text"],
         "tools": "p5.sound, random(),",
-        "difficulty": "",
+        "difficulty": "Intermediate",
         "answer1": "I am an artist and teacher working on queer code. I have been teaching p5 for few years and just published a book called aesthetic programming with Geoff Cox: https://aesthetic-programming.net/",
         "answer2": "I started with processing first and then switched to p5.js couple years ago.",
         "answer3": "Instead of just focusing on the technical syntax, I also pay attention to the language of the syntax and how they sound when one reads aloud. I use the sound library to load the sound clips and play them, but the loadjson() is an important function too to store the meta data of each voice contributor.",
@@ -419,7 +155,7 @@
         "code": "https://github.com/netanoir/say-their-names",
         "type": "Text",
         "tools": "loadTable()",
-        "difficulty": "",
+        "difficulty": "Intermediate",
         "answer1": "I'm an organizer and teacher at the School for Poetic Computation. I'm currently making zines about archives, abolition and technology and will be a first time vendor at the 2021 Brooklyn Art Book Fair.",
         "answer2": "I learned p5.js at SFPC and NYU ITP.",
         "answer3": "I used p5 to post process a live database by the Washington Post which includes every Black person killed by police violence since 2015.",
@@ -479,27 +215,29 @@
       },
 
       {
-        "author": "Salil",
+        "author": "patternseeing",
         "pronouns": "he/him",
-        "location": "New York, USA",
-        "title": "The Context Clock",
-        "description": "Time is an integral part of our existence, and it defines our temporality. What happens when we change the unit of time?",
+        "location": "Frankfurt am Main, Germany",
+        "title": "Constellations of Love",
+        "description": "Generative art rendering unique constellation compositions using the letters of the word love over 100 different languages",
         "extradesc": "",
-        "live": "https://editor.p5js.org/burnedsap/sketches/QJr6EWuaD",
-        "code": "https://editor.p5js.org/burnedsap/sketches/QJr6EWuaD",
-        "type": "Visual",
-        "tools": "",
-        "difficulty": "",
-        "answer1": "I'm a student at The New School, New York.",
-        "answer2": "The Coding Train",
-        "answer3": "I used p5js to create the clock, and the visuals",
-        "answer4": "ellipse(); it's the simplest and can do so so much.",
-        "answer5": "The challenge in this project was curating the different models of time, there's so many relevant ones to choose from.",
-        "answer6": "https://www.alicemaz.com/writing/minecraft.html",
-        "social": "http://salilparekh.work",
-        "id":"project-2",
-        "picid": "66.png"
+        "live": "https://constellationsoflove.netlify.app/",
+        "code": "https://github.com/patternseeing/constellations-of-love",
+        "type": "Text",
+        "tools": "loadTable(),sin(),lerp()",
+        "difficulty": "Intermediate",
+        "answer1": "Art and design research practitioner with exploratory interests in human experience and cognition.",
+        "answer2": "Having a previous experience using processing made p5js easier. learning mostly by going through P5js reference page when required to solve a part or the whole problem. Found coding train also as a wonderful resource. My first P5js sketches were a collection of interactive wallpapers.",
+        "answer3": "I used p5js for the basic data parsing and also for defining the form and aesthetics of  the animation",
+        "answer4": "My favorite function is lerp() and lerpColor() as it allow enormous possibilities in creating transformations and animations.",
+        "answer5": "The first challenge was to create dictionary function that include all the characters of the word love in different languages. and the second was to finding the balance while working different layers of animations. As always Iterative process is often the only way out for me. I learn something new with every iteration.",
+        "answer6": "https://www.youtube.com/watch?v=p8yfhE8F8MI",
+        "social": "https://patternseeing.wordpress.com/",
+        "id":"project-30",
+        "picid": "constellations.jpg"
       },
+      
+
       {
         "author": "Hala Shaban",
         "pronouns": "she/her",
@@ -509,9 +247,9 @@
         "extradesc": "",
         "live": "https://editor.p5js.org/HalaS/present/sbJtrb8Og",
         "code": "https://editor.p5js.org/HalaS/sketches/sbJtrb8Og",
-        "type": ["Educational","Visual"],
+        "type": "Data Visualization",
         "tools": "",
-        "difficulty": "",
+        "difficulty": "Intermediate",
         "answer1": "I'm a Digital Designer senior based in NYC and earlier this year I learned how to code HTML and Javascript. I'm currently applying for internships as I enjoy my last semester as an undergraduate.",
         "answer2": "Since March I've been learning P5 through my professor and mentor Stalgia. My work has been consisting of bringing attention to real world issues by combining art and coding.",
         "answer3": "I drew the background and coded the jail bars. My biggest struggle was portraying time passing, I was sure to add environment for it would take away from the message until I accidentally made the bars move. At first it was a still image and I added speed  {size *= 1;\n speedX *= '.01'}",
@@ -524,26 +262,26 @@
       },
 
       {
-        "author": "Priyanshu Kumar",
+        "author": "Jerson La Torre",
         "pronouns": "he/him",
-        "location": "New Delhi, India",
-        "title": "2-D Animation of a shape",
-        "description": "Heart shape created by using mathematical formulas and animating back and forth. So! cool to see. I'll eventually add more in this project.",
+        "location": "Lima, Perú",
+        "title": "Black Stars",
+        "description": "Duality is one of the most empathic concepts we can experience. Understanding that we only exist from the other and that differences are only illusions will help us to find true beauty in any instant of what we understand as time.",
         "extradesc": "",
-        "live": "https://virusinlinux.github.io/heartAnimation/",
-        "code": "https://github.com/virusinlinux/heartAnimation",
+        "live": "https://blackstars.surge.sh",
+        "code": "https://github.com/jersonlatorre/blackstars",
         "type": "Visual",
-        "tools": "stroke(),",
-        "difficulty": "Beginner",
-        "answer1": "I'm a second year student at GGSIPU(Bhagwan Parshuram Institute of Technology) pursuing B-Tech in Information Technology branch.",
-        "answer2": "I was always excited about java script and started learning Java script from beginning of my college days. Then on randomly surfing about p5.js. That it is a JavaScript library for creative coding. Then I started learning slowly practicing from articles, books and some youtubers. And now I'm pretty descent in this tech.",
-        "answer3": "I was interested in making shapes with mathematical equations and want to implement some shapes using this library. So, I choose this Heart-Curve\nI have got the major help from: \nlink: shorturl.at/cuSX8",
-        "answer4": "I have some of my favorite functions and camera() is one of them. It sets the camera position for a 3D sketch.",
-        "answer5": "Got some problem over making the mathematical equation work in the real world but it was also fun making these cool projects, and I read some books about the concepts and some articles for that and finally solved the bugs, at the end I love p5.js very much.",
-        "answer6": "https://virusinlinux.github.io/DysonSphere.github.io/",
-        "social": "https://www.linkedin.com/in/priyanshu-kumar-8852bb1a0/",
-        "id":"project-6",
-        "picid": "71.png"
+        "tools": "p5.j, howler.js",
+        "difficulty": "Intermediate",
+        "answer1": "I am an artist, creative coder and teacher. I love to express myself in the language of movement and interaction.",
+        "answer2": "I found p5js while looking for ways to use Processing from a web site. My first project was a set of tools to teach video game programming.",
+        "answer3": "Basically the whole project is made in p5js. I use it to create the animations and interactions.",
+        "answer4": "My favorites are learp() and map(). I also love that because it is based on javascript, it can be integrated with several other existing web libraries.",
+        "answer5": "The most challenging thing was to manage the animations by states and control them using only one time variable. Often my biggest challenge is to simplify my own code.",
+        "answer6": "The smoothness of the animations! It was what I had the hardest time achieving.",
+        "social": "https://www.instagram.com/jerson.latorre",
+        "id":"project-28",
+        "picid": "blackstars.png"
       },
 
       {
@@ -555,7 +293,7 @@
         "extradesc": "This generative sprite-animated data-biz piece was made for a Singapore documentary series 'Strangers In My Head' and their resource site. In some countries like Singapore and Japan, the mental health issue is still taboo, and people who suffer are often isolated. I wanted to visualize how it looks if we see how many of us are fighting for, to show that \"We are not alone.\" It is based on the real-world stats in Singapore (2016). I used p5.js and p5.play.js for the animation.",
         "live": "https://siorikitajima.github.io/perspective/",
         "code": "https://github.com/siorikitajima/perspective",
-        "type": ["Visual", "Educational", "Data Visualization"],
+        "type": "Data Visualization",
         "tools": "p5.play.createSprite(), p5.play.frameDelay(), p5.play.setCollider()",
         "difficulty": "Intermediate",
         "answer1": "I'm a multimedia artist who loves data viz and generative art. Currently working on a series of data-viz about human's violence history and its correlation to information",
@@ -567,6 +305,29 @@
         "social": "https://siorikitajima.com/",
         "id":"project-20",
         "picid": "69.gif"
+      },
+
+      {
+        "author": "Shervin Shirmohamadi",
+        "pronouns": "he/him",
+        "location": "Tehran,Iran.",
+        "title": "Illogical Act",
+        "description": "Regardless to your origin, color or society, Love happens due to your acts not to your thoughts .",
+        "extradesc": "",
+        "live": "https://preview.p5js.org/SherVin/present/6dsElgnDE",
+        "code": "https://preview.p5js.org/SherVin/present/6dsElgnDE",
+        "type": "Visual",
+        "tools": "",
+        "difficulty": "Beginner",
+        "answer1": "I am a freshman majoring in mechanical engineering at Sbu,Teharn. I'm really fascinated by coding and programming to make systems become more smarter and precise and I'm new to  P5.",
+        "answer2": "About 2 weeks ago, I became familiar with P5.js due to Behnaz Farahi works and advice on coding.My first projects were some simple geometrical shapes moving around and using simple methods .",
+        "answer3": "As I said , I'm new to p5 and because of time shortage , I preferred to make this simple project as quick as possible and without any specific complexity like math functions or OOP \n and etc . \nAfter bringing shapes and required data in project , I used for-loops and if conditions to give more attraction to the project .",
+        "answer4": "It's an difficult question to answer . Almost every method and function is useful but I think 'rectMode () or angleMode() ' is my favorite.",
+        "answer5": "I was late knowing about this submission :( and I tried to make this project in the shortest time to be able to submit in the 2021 ShowCase . So there were some minor problems with Nested loops and the order of given properties.",
+        "answer6": "More challenges or showCases for interested people .",
+        "social": "I am using Daniel Shiffman tutorials in youtube and I thinks it's very good .",
+        "id":"project-19",
+        "picid": "illogical.png"
       },
     
       {
@@ -593,50 +354,52 @@
       },
 
       {
-        "author": "patternseeing",
+        "author": "rare todd",
         "pronouns": "he/him",
-        "location": "Frankfurt am Main, Germany",
-        "title": "Constellations of Love",
-        "description": "Generative art rendering unique constellation compositions using the letters of the word love over 100 different languages",
-        "extradesc": "",
-        "live": "https://constellationsoflove.netlify.app/",
-        "code": "https://github.com/patternseeing/constellations-of-love",
-        "type": "Text",
-        "tools": "loadTable(),sin(),lerp()",
+        "location": "Brooklyn, NYC, USA",
+        "title": "say their names...",
+        "description": "The algorithms that structure and model our world are designed for maximizing efficiency. However, victims of vigilante-police violence often have names that aren’t legible to these systems and their names aren’t heard.",
+        "extradesc": "The algorithms that structure and model our world are designed for maximizing efficiency. However, every system that seeks optimization necessarily leaves out those that are “unfit” and “not optimized”. \n\nWith “say their names…” I use genetic algorithms and natural selection as models to highlight victims of vigilante-police violence who are left out of our perspectives and narratives, even after their untimely deaths. The goal of this project is to use systems built for optimization to highlight the “unfit” that are left behind. For every victim of vigilante-police violence, there are many behind them whose names aren’t legible and are never spoken.",
+        "live": "https://editor.p5js.org/raretodd/sketches/KGRkzdS1f",
+        "code": "https://editor.p5js.org/raretodd/sketches/KGRkzdS1f",
+        "type": ["Data Visualization", "Text"],
+        "tools": "p5.speech",
         "difficulty": "Intermediate",
-        "answer1": "Art and design research practitioner with exploratory interests in human experience and cognition.",
-        "answer2": "Having a previous experience using processing made p5js easier. learning mostly by going through P5js reference page when required to solve a part or the whole problem. Found coding train also as a wonderful resource. My first P5js sketches were a collection of interactive wallpapers.",
-        "answer3": "I used p5js for the basic data parsing and also for defining the form and aesthetics of  the animation",
-        "answer4": "My favorite function is lerp() and lerpColor() as it allow enormous possibilities in creating transformations and animations.",
-        "answer5": "The first challenge was to create dictionary function that include all the characters of the word love in different languages. and the second was to finding the balance while working different layers of animations. As always Iterative process is often the only way out for me. I learn something new with every iteration.",
-        "answer6": "https://www.youtube.com/watch?v=p8yfhE8F8MI",
-        "social": "https://patternseeing.wordpress.com/",
-        "id":"project-30",
-        "picid": "constellations.jpg"
+        "answer1": "I'm a graduate student at NYU's ITP. I'm also a communications technologies researcher at Citizen Lab, focusing my work on police surveillance practices of marginalized communities.",
+        "answer2": "I was first introduced to P5 during ITP's Intro to Computational Media course.",
+        "answer3": "The P5 environment is a perfect match for the p5 Speech library.",
+        "answer4": "My favorite p5 feature is its accessibility. I love that I can log-in on any computer and my progress for any project is saved. Similarly, an important part of learning to code is revisiting my older work. I love that my previous p5 projects are saved and that I can easily access them when I need a refresher on syntax, functions, etc.",
+        "answer5": "I'm borrowing a lot from Dan Shiffman's work on genetic algorithms. Admittedly, he's done all the hard work and I've just tweaked things to give them a fresh spin.",
+        "answer6": "https://aprja.net/article/view/116062/164244",
+        "social": "https://www.notion.so/raretodd/ITP-Shenanigans-53f7433348b641428d41d74b1089ab6d",
+        "id":"project-21",
+        "picid": "saytheirnames2.png"
       },
 
+
       {
-        "author": "Vineet",
+        "author": "Salil",
         "pronouns": "he/him",
-        "location": "New Delhi, India",
-        "title": "Neon Impasse",
-        "description": "A musical generative art experiment based on track 1 of the album \"neon impasse\" by city girl.",
+        "location": "New York, USA",
+        "title": "The Context Clock",
+        "description": "Time is an integral part of our existence, and it defines our temporality. What happens when we change the unit of time?",
         "extradesc": "",
-        "live": "https://playriffs.netlify.app/",
-        "code": "https://github.com/vineetkl/playriffs/blob/main/sketch.js",
-        "type": ["Visual", "Sound"],
-        "tools": "p5.sound",
-        "difficulty": "Intermediate",
-        "answer1": "I'm an Undergraduate Design student in Junior year and currently interning at Rakuten",
-        "answer2": "I just found it while fiddling around internet; I always wanted to try coding and p5 gave me a huge kickstart because of it's approachability and this creative essence attached to it",
-        "answer3": "I used p5 for two main aspects in this project:\n1. Sound - I personally composed and recorded guitar riffs and used p5.sound to add trimmed sections that would play on a keypress along with a visual\n2. Visuals - Studying a lot of p5 projects helped me create exactly what I wanted  be it a falling star, a random star trail, or a flicker",
-        "answer4": "push and pop were live saving features in this one; I could bring in a section of draw function at my convienience",
-        "answer5": "This was not only my first p5 project but also my first coding/frontend experience so I faced problems in html and css too; to be specific I was struggling with using visuals on top of each other then I got to know later that there's a z-index css property that could fix it.",
-        "answer6": "city girl's music",
-        "social": "https://www.vineetk.com/",
-        "id":"project-8",
-        "picid": "neon.png"
+        "live": "https://editor.p5js.org/burnedsap/sketches/QJr6EWuaD",
+        "code": "https://editor.p5js.org/burnedsap/sketches/QJr6EWuaD",
+        "type": "Data Visualization",
+        "tools": "",
+        "difficulty": "Beginner",
+        "answer1": "I'm a student at The New School, New York.",
+        "answer2": "The Coding Train",
+        "answer3": "I used p5js to create the clock, and the visuals",
+        "answer4": "ellipse(); it's the simplest and can do so so much.",
+        "answer5": "The challenge in this project was curating the different models of time, there's so many relevant ones to choose from.",
+        "answer6": "https://www.alicemaz.com/writing/minecraft.html",
+        "social": "http://salilparekh.work",
+        "id":"project-2",
+        "picid": "66.png"
       },
+
       {
         "author": "Amira Hanafi",
         "pronouns": "she/her",
@@ -659,28 +422,6 @@
         "id":"project-10",
         "picid": "canada.jpeg"
       },
-      {
-        "author": "Peiling Jiang",
-        "pronouns": "he/him",
-        "location": "New York, USA",
-        "title": "b5",
-        "description": "b5 is for learning, prototyping, and accessibility, based on p5.js. Using blocks and wires, non-programmers can quickly build and share creative coding projects with the online editor featuring live coding and embedded documentation.",
-        "extradesc": "How will the next generation learn creative coding? Do they have to look up hundreds of pages of documentation and take classes? Do they have to write redundant code for features already well accomplished due to lack of information? Do they have to learn English? b5 rethinks the future of creative coding in terms of clarity, accessibility, and customizability in a world that increasingly emphasizes remote collaboration, internationalization, and personalized learning. b5 is a web-based visual programming language for learning and fast prototyping for people with minimal to no programming experience, leveraging novel features compared to other visual programming languages, including (1) position-based sequential execution (blocks are executed in order based on their positions in the code canvas), (2) customized blocks (users can use the predefined blocks and the graphical interface to design and construct new blocks), and (3) effect blocks (block that affects other code blocks based on their contextual relationship instead of wire connection). b5 makes programming easy to learn and encourages programmers to explore and try, while more analysis is needed to assess its usability and long-term effects when used as the learning platform for beginners. Please visit https://www.jpl.design/b5 to learn more about this project.",
-        "live": "https://b5editor.app/",
-        "code": "https://github.com/peilingjiang/b5",
-        "type": ["Educational", "Tool"],
-        "tools": "",
-        "difficulty": "Advanced",
-        "answer1": "I am a recent graduate from NYU double-majored in Interactive Media Arts and Psychology. I am interested in building efficient and actuating novel interfaces in the field of human-computer interaction.",
-        "answer2": "I started learning p5.js (and ml5.js) in a class called Intro to Machine Learning for Arts with Daniel Shiffman. My first project was a game where people need to move their heads around to eat healthy food (https://blog.jpl.design/posts/f19/machine-learning-for-the-arts/more/apple/).",
-        "answer3": "p5.js is at the core of this project, both conceptually and technically. The project was inspired by p5.js and its idea of bringing creative coding to a larger community and leveraged many of its designs, e.g., the fundamental \"setup-and-draw\" structure. Lingdong's q5.js project also makes it perform better.",
-        "answer4": "I love `lerp()`! Many math functions, e.g., `dist()`, are also super helpful.",
-        "answer5": "I encountered a great many technical issues during the development process. However, I solve them all by myself, with help from online communities, like Stack Overflow.",
-        "answer6": "Coding Train!",
-        "social": "https://peilingjiang.com",
-        "id":"project-11",
-        "picid": "72.png"
-      },
     
       {
         "author": "Games For Crows",
@@ -692,7 +433,7 @@
         "live": "https://gamesforcrows.itch.io/concrete-nest",
         "code": "https://github.com/vividfax/concrete-nest",
         "type": ["Visual", "Game"],
-        "tools": "loadStrings(), new Audio()",
+        "tools": "loadStrings(), newAudio()",
         "difficulty": "Beginner",
         "answer1": "We're an indie game studio, creating games and other interactive things.",
         "answer2": "Started out with Processing, recommended by a friend.",
@@ -726,29 +467,99 @@
         "id":"project-13",
         "picid": "ourpaper.png"
       },
-      
+    
       {
-        "author": "Ted Mburu",
+        "author": "Filipe Lopes",
         "pronouns": "he/him",
-        "location": "New York, USA",
-        "title": "A Dynamic Electric Field Simulation",
-        "description": "The electric field simulation dynamically changes as the user moves point charges around. Test charges can also be placed anywhere in the field and will move accordingly.",
-        "extradesc": "My hopes with this project are to help high school or college students that are being exposed to electric field for the first time. There are a lot of misconceptions that can come up when first learning about them and I think this simulation can be used to clear some of those up.",
-        "live": "https://icphysweb.z13.web.core.windows.net/",
-        "code": "https://github.com/tedkmburu/E-FieldSim-v2",
-        "type": "Educational",
-        "tools": "createVector(),vertex(),curveVertex(),p5(),beginShape(),endShape()",
-        "difficulty": "Advanced",
-        "answer1": "I'm a Junior Physics and Engineering Double major currently doing physics education research. I developed this simulation as well as an electric field game that also uses the p5.js library. I've presented this project to my department and at 2 national physics conferences.",
-        "answer2": "I took a gap year and worked through nearly every video on The Coding Train's YouTube channel. I started out with more \"fun\" videos like building snake and flappy bird then I started to appreciate the more technical videos as well.",
-        "answer3": "The p5.js library is the only library I used for this project. I translated some physics equations like Coulomb's law into code that work by going through an array of charges to calculate things like net forces and E-fields. I then used other things like recursion and Object Oriented Programming to being the simulation to life. Euler's method was then used to move test charges around the screen in response to the forces exerted on them by the point charges. To create the voltage gradient, I used two canvases, one in the foreground and one in the background. The background canvas is where the gradients are created by first creating a very pixelated image to map out the voltage then applying a CSS blur to the whole canvas. Everything else in the simulation runs on the foreground canvas.",
-        "answer4": "Creating two canvas instances with instance mode was my favorite part of this project. I was stuck on how to get my voltage gradients to look good and not slow everything down and I can up with a solution that uses two canvases that worked nicely.",
-        "answer5": "While a lot of the smaller technical problems I ran into could be solved through google, the bigger more conceptual problems I ran into couldn't be googled. From what I've seen, no one has created an electric field simulation with all of the functionality that the one I created has so I didn't have a lot of resources that I could reference. I created a YouTube series to teach people how to build the simulation in hopes that people can learn from my mistakes and hopefully build upon the project.",
-        "answer6": "I created a game that revolves around electric fields here: https://icphysweb.z13.web.core.windows.net/site/game.html",
-        "social": "https://github.com/tedkmburu",
-        "id":"project-15",
-        "picid": "electronic.png"
+        "location": "Porto, Portugal",
+        "title": "POLISphone",
+        "description": "POLISphone is a software for music performance, in- spired on the popular idea of “soundmap”. Unlike most soundmaps, its main aim is to provide a way to easily create original soundmaps and perform with it.",
+        "extradesc": "",
+        "live": "https://filipelopes.net/polisphone/",
+        "code": "https://github.com/Filk/POLISphone",
+        "type": "Sound",
+        "tools": "P5.sound library",
+        "difficulty": "Intermediate",
+        "answer1": "I'm a composer and professor teaching in a higher education institute (ESMAD at Porto Polytechnic). I teach sound, audio and music to students interested in cinema, multimedia, music and music education. I also compose music for performances, cinema, installations and instrumental music",
+        "answer2": "I was already a Processing enthusiast because I had already used it during my Masters and, afterwards, to develop the first version of POLISphone. Since many friends, students and music teachers were asking me to develop a version for the web (making it more accessible to schools anywhere), I started to learn P5.js.",
+        "answer3": "My first aim was to implement in P5.js a similar version of POLISphone coded using Processing. My second aim (it still is an ongoing aim...) is to include the web possibilities (e.g. search sounds online, send my POLISphones to other persons, online data) to enhance its \"interactive\" possibilities.",
+        "answer4": "P5.sound library and the P5.js website documentation/Examples",
+        "answer5": "Yes. Implementing many features and make them work in all browsers and operative systems is hard! Dealing with sound in browsers is difficult. My way to address these issues was to search solutions online whenever a problem was occurring; test as many times as possible in different browsers and operative systems; ask help to professional programmers to help me find solutions. POLISphone is somewhat reliable but still is not solid rock in all browsers and operative systems (that's why I'm a enthusiast coder and not a professional ;) )",
+        "answer6": "The many projects involving sound in the web, such as Locus Sonus (https://locusonus.org/soundmap/051/).",
+        "social": "https://filipelopes.net",
+        "id":"project-17",
+        "picid": "polis.png"
       },
+      {
+        "author": "Dea Bankova",
+        "pronouns": "she/her",
+        "location": "Tokyo, Japan",
+        "title": "I don't like you...",
+        "description": "A data art piece about racially and religiously motivated hate crime incidents in London over the last decade.",
+        "extradesc": "",
+        "live": "https://deaxmachina.github.io/hatecrime_uk_p5/",
+        "code": "https://github.com/deaxmachina/hatecrime_uk_p5",
+        "type": "Data Visualization",
+        "tools": "d3.js in addition to p5",
+        "difficulty": "Intermediate",
+        "answer1": "I am a data scientist turned data visualisation designer and developer, particularly interested in creative viz and data art. Currently based at the University of Tokyo, originally from Bulgaria.",
+        "answer2": "Started about 3 months ago when I was learning canvas for data viz purposes and discovered p5. I binge-watched many videos on The Coding Train YouTube channel and got inspired to create some simple sketches, and enter this competition :)",
+        "answer3": "I tried to make this project as p5-centered as possible, including the DOM manipulation (I did some of the DOM creation using p5, rather than the normal JS). I used the built-in animation loop of p5 to make the shape move through the years. For the circular shapes, I followed the class-based pattern that I learnt from watching The Coding Train videos. I also learnt about Perlin noise from there (https://youtu.be/Qf4dIN99e2w?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD ), and used it both for the ‘veil’ and for the movement of the circles. For the layout arrangement of the circles, I found it easier to use d3.js, as I am familiar with its packing helper functions – see d3.packSiblings in the data.js file in source.",
+        "answer4": "From the start, my favourite thing about p5 was the built-in animation loop in the draw() function. It has really helped me wrap my head around animation. I have also started playing with the sound capabilities of p5.sound – it makes a topic that I had no idea how to approach actually straightforward. Also, the built-in Perlin noise and the image capabilities.",
+        "answer5": "Yes! I was a beginner when I started this project, and I felt that I learnt a lot from doing it. There are still some bits that I didn’t manage to iron out, mostly to do with responsiveness. I struggled with figuring out how to ‘escape’ the animation loop, where I wanted the ‘veil’ around the circles to keep expanding over time, while the circles updated with the timeline. I found a solution in creating a background behind just the shapes and updating that on each animation loop, essentially erasing the circles, while keeping the ‘veil’.",
+        "answer6": "Hard question! There are so many cool things in creative coding, both p5 and other (as I discovered in the last few months). I will simply share one of my new favourite creative coders – I believe she codes in Unity, but a lot of the same can be produced in p5 (maybe?) - https://twitter.com/ojelibalon (Deniz Bicer)",
+        "social": "https://deabankova.com/",
+        "id":"project-18",
+        "picid": "idontlikeyou.png"
+      },
+      
+
+      {
+        "author": "Juihung Tseng",
+        "pronouns": "he/him",
+        "location": "Taipei, Taiwan",
+        "title": "Smart Refrigerator",
+        "description": "The smart refrigerator plays a medium to convey our mood to our lovers, family, and friends. We could also make friends with the fruit family while exploring the smart refrigerator.",
+        "extradesc": "",
+        "live": "https://juihungt.github.io/smart-refrig/",
+        "code": "https://github.com/juihungt/smart-refrig.git",
+        "type": "Camera",
+        "tools": "p5.collide2D, ml5.js, textToPoints()",
+        "difficulty": "Beginner",
+        "answer1": "I am a graduate student majors in real estate development at Pratt Institute. I started to learn to code two months ago.",
+        "answer2": "This summer, I participated in an elective course, Creative Coding class, held by Professor Matt Martin. He inspired me, and I am so glad that I started to explore a new field for myself.",
+        "answer3": "In this project, p5.js is more like a tool to fulfill the graphic design, and it lets me quickly get familiar with the basic functions in p5.js. The fascinating thing about p5.js is that there are many interactive functions and libraries that would make our projects alive.",
+        "answer4": "My favorite feature is PoseNet, the machine learning model. It makes me think about the unlimited opportunities of the disabled’s interaction.",
+        "answer5": "PoseNet has some limits for the camera size and position, so I did the scale modification to locate the barcode reader. If I have more time to develop this project, I will simplify my coding. For example, I should use the array to create the different fruit to be more efficient, and maybe they may appear randomly.",
+        "answer6": "You may check out how fascinating our eyes could trigger the interaction in the refrigerator.",
+        "social": "www.linkedin.com/in/juihungt",
+        "id":"project-23",
+        "picid": "smartfridge.gif"
+      },
+
+      {
+        "author": "Keith S. Wilson",
+        "pronouns": "he/him",
+        "location": "Chicago, IL USA",
+        "title": "Re-Binary",
+        "description": "This program that translates a word you enter in the “universal” language of binary. Binary can be represented by anything that has two states—we commonly imagine it as 1 and 0 but it can be anything and its opposite. Here I use “yes” and “no,” which creates a kind of dialogue that any person from any culture can understand",
+        "extradesc": "I believe love is political but often the message that is communicated is some version of \"love conquers all.\" This is a noble cause, but I think it downplays how dangerous the pursuit of love has historically been for marginalized people, and the struggle that love is even in the best of circumstances. Part of what Re-Binary does is highlight how love, even when attempted to be \"translated\" into black and white terms is still a series of struggles and negotiations: yes-es and no-s as well as intermittent gaps of communication.",
+        "live": "This program that translates a word you enter in the “universal” language of binary. Binary can be represented by anything that has two states—we commonly imagine it as 1 and 0 but it can be anything and its opposite. Here I use “yes” and “no,” which creates a kind of dialogue that any person from any culture can understand",
+        "code": "https://editor.p5js.org/graphofgrey/sketches/8YExV8HUG",
+        "type": "Text",
+        "tools": "",
+        "difficulty": "Beginner",
+        "answer1": "I am a Stegner Fellow in Poetry at Stanford University and an Electronic Literature Organization \"Amplify Anti-Racism Creative\" Fellow. I recently finished the Poets and Scholars Anti-Racism Workshop at Rutgers",
+        "answer2": "As part of a digital arts residency at Laboratory Spokane. All my projects are documented there, and through my account at p5js, but my first project was a generator of just the opening (not the racist punchline) of racist jokes that were pulled from an API repository of jokes.",
+        "answer3": "A number of links exist in the code of my project, but essentially, I found code for converting ASCII to binary, wrote code to convert that binary to yes (1) and no (0), and then moved on to calculating how to make that text print slowly (and vary depending on the size of it). I also learned how to add GUI elements like a slider that determines text size, and an input box that allows the user to enter any word (not just \"love\")",
+        "answer4": "I love the speed at which p5js allows me to mock up a project and test its feasibility. When trying to create digital poetry, one of the issues is that traditional poetry is comparatively very fast both to create something and to change it. \"Mock ups\" (drafts) are very fast and you can explore lots of ideas before you decide to invest your time in one. This is almost never true of computer code (except perhaps if you are an expert coder) and so the thing I love about p5js is that I can quickly create something, see it run, and iterate on that as I would a poem.",
+        "answer5": "I was still learning a lot when I created this project, and one of the big challenges I had was in generating text that could be any size but still fill the pre-determined square that I had created (calculating the width of each letter and figuring out how many letters could fit on a line, and then doing the same with its height). This can be done by generating html elements instead of graphical ones, but part of the \"invisible\" intention of this project was to better understand p5hs and javascript in general.",
+        "answer6": "My book (Fieldnotes on Ordinary Love) was selected as a notable book by the New York Times! :)",
+        "social": "https://keithswilson.com/",
+        "id":"project-29",
+        "picid": "rebinary.png"
+      },
+
       {
         "author": "Rebecca",
         "pronouns": "they/them",
@@ -771,162 +582,97 @@
         "id":"project-16",
         "picid": "close.jpg"
       },
+
       {
-        "author": "Filipe Lopes",
+        "author": "Vineet",
         "pronouns": "he/him",
-        "location": "Porto, Portugal",
-        "title": "POLISphone",
-        "description": "POLISphone is a software for music performance, in- spired on the popular idea of “soundmap”. Unlike most soundmaps, its main aim is to provide a way to easily create original soundmaps and perform with it.",
+        "location": "New Delhi, India",
+        "title": "Neon Impasse",
+        "description": "A musical generative art experiment based on track 1 of the album \"neon impasse\" by city girl.",
         "extradesc": "",
-        "live": "https://filipelopes.net/polisphone/",
-        "code": "https://github.com/Filk/POLISphone",
+        "live": "https://playriffs.netlify.app/",
+        "code": "https://github.com/vineetkl/playriffs/blob/main/sketch.js",
         "type": "Sound",
-        "tools": "P5.sound library; JSzip; Fontawesome; FileSaver.js; FileReader.js",
+        "tools": "p5.sound",
         "difficulty": "Intermediate",
-        "answer1": "I'm a composer and professor teaching in a higher education institute (ESMAD at Porto Polytechnic). I teach sound, audio and music to students interested in cinema, multimedia, music and music education. I also compose music for performances, cinema, installations and instrumental music",
-        "answer2": "I was already a Processing enthusiast because I had already used it during my Masters and, afterwards, to develop the first version of POLISphone. Since many friends, students and music teachers were asking me to develop a version for the web (making it more accessible to schools anywhere), I started to learn P5.js.",
-        "answer3": "My first aim was to implement in P5.js a similar version of POLISphone coded using Processing. My second aim (it still is an ongoing aim...) is to include the web possibilities (e.g. search sounds online, send my POLISphones to other persons, online data) to enhance its \"interactive\" possibilities.",
-        "answer4": "P5.sound library and the P5.js website documentation/Examples",
-        "answer5": "Yes. Implementing many features and make them work in all browsers and operative systems is hard! Dealing with sound in browsers is difficult. My way to address these issues was to search solutions online whenever a problem was occurring; test as many times as possible in different browsers and operative systems; ask help to professional programmers to help me find solutions. POLISphone is somewhat reliable but still is not solid rock in all browsers and operative systems (that's why I'm a enthusiast coder and not a professional ;) )",
-        "answer6": "The many projects involving sound in the web, such as Locus Sonus (https://locusonus.org/soundmap/051/).",
-        "social": "https://filipelopes.net",
-        "id":"project-17",
-        "picid": "polis.png"
-      },
-      {
-        "author": "Dea Bankova",
-        "pronouns": "she/her",
-        "location": "Tokyo, Japan",
-        "title": "I don't like you...",
-        "description": "A data art piece about racially and religiously motivated hate crime incidents in London over the last decade.",
-        "extradesc": "",
-        "live": "https://deaxmachina.github.io/hatecrime_uk_p5/",
-        "code": "https://github.com/deaxmachina/hatecrime_uk_p5",
-        "type": ["Visual", "Data Visualization"],
-        "tools": "d3.js in addition to p5",
-        "difficulty": "Intermediate",
-        "answer1": "I am a data scientist turned data visualisation designer and developer, particularly interested in creative viz and data art. Currently based at the University of Tokyo, originally from Bulgaria.",
-        "answer2": "Started about 3 months ago when I was learning canvas for data viz purposes and discovered p5. I binge-watched many videos on The Coding Train YouTube channel and got inspired to create some simple sketches, and enter this competition :)",
-        "answer3": "I tried to make this project as p5-centered as possible, including the DOM manipulation (I did some of the DOM creation using p5, rather than the normal JS). I used the built-in animation loop of p5 to make the shape move through the years. For the circular shapes, I followed the class-based pattern that I learnt from watching The Coding Train videos. I also learnt about Perlin noise from there (https://youtu.be/Qf4dIN99e2w?list=PLRqwX-V7Uu6bgPNQAdxQZpJuJCjeOr7VD ), and used it both for the ‘veil’ and for the movement of the circles. For the layout arrangement of the circles, I found it easier to use d3.js, as I am familiar with its packing helper functions – see d3.packSiblings in the data.js file in source.",
-        "answer4": "From the start, my favourite thing about p5 was the built-in animation loop in the draw() function. It has really helped me wrap my head around animation. I have also started playing with the sound capabilities of p5.sound – it makes a topic that I had no idea how to approach actually straightforward. Also, the built-in Perlin noise and the image capabilities.",
-        "answer5": "Yes! I was a beginner when I started this project, and I felt that I learnt a lot from doing it. There are still some bits that I didn’t manage to iron out, mostly to do with responsiveness. I struggled with figuring out how to ‘escape’ the animation loop, where I wanted the ‘veil’ around the circles to keep expanding over time, while the circles updated with the timeline. I found a solution in creating a background behind just the shapes and updating that on each animation loop, essentially erasing the circles, while keeping the ‘veil’.",
-        "answer6": "Hard question! There are so many cool things in creative coding, both p5 and other (as I discovered in the last few months). I will simply share one of my new favourite creative coders – I believe she codes in Unity, but a lot of the same can be produced in p5 (maybe?) - https://twitter.com/ojelibalon (Deniz Bicer)",
-        "social": "https://deabankova.com/",
-        "id":"project-18",
-        "picid": "idontlikeyou.png"
-      },
-      {
-        "author": "Shervin Shirmohamadi",
-        "pronouns": "he/him",
-        "location": "Tehran,Iran.",
-        "title": "Illogical Act",
-        "description": "Regardless to your origin, color or society, Love happens due to your acts not to your thoughts .",
-        "extradesc": "",
-        "live": "https://preview.p5js.org/SherVin/present/6dsElgnDE",
-        "code": "https://preview.p5js.org/SherVin/present/6dsElgnDE",
-        "type":["Visual","Game"],
-        "tools": "",
-        "difficulty": "Beginner",
-        "answer1": "I am a freshman majoring in mechanical engineering at Sbu,Teharn. I'm really fascinated by coding and programming to make systems become more smarter and precise and I'm new to  P5.",
-        "answer2": "About 2 weeks ago, I became familiar with P5.js due to Behnaz Farahi works and advice on coding.My first projects were some simple geometrical shapes moving around and using simple methods .",
-        "answer3": "As I said , I'm new to p5 and because of time shortage , I preferred to make this simple project as quick as possible and without any specific complexity like math functions or OOP \n and etc . \nAfter bringing shapes and required data in project , I used for-loops and if conditions to give more attraction to the project .",
-        "answer4": "It's an difficult question to answer . Almost every method and function is useful but I think 'rectMode () or angleMode() ' is my favorite.",
-        "answer5": "I was late knowing about this submission :( and I tried to make this project in the shortest time to be able to submit in the 2021 ShowCase . So there were some minor problems with Nested loops and the order of given properties.",
-        "answer6": "More challenges or showCases for interested people .",
-        "social": "I am using Daniel Shiffman tutorials in youtube and I thinks it's very good .",
-        "id":"project-19",
-        "picid": "illogical.png"
-      },
-      
-      {
-        "author": "rare todd",
-        "pronouns": "he/him",
-        "location": "Brooklyn, NYC, USA",
-        "title": "say their names...",
-        "description": "The algorithms that structure and model our world are designed for maximizing efficiency. However, victims of vigilante-police violence often have names that aren’t legible to these systems and their names aren’t heard.",
-        "extradesc": "The algorithms that structure and model our world are designed for maximizing efficiency. However, every system that seeks optimization necessarily leaves out those that are “unfit” and “not optimized”. \n\nWith “say their names…” I use genetic algorithms and natural selection as models to highlight victims of vigilante-police violence who are left out of our perspectives and narratives, even after their untimely deaths. The goal of this project is to use systems built for optimization to highlight the “unfit” that are left behind. For every victim of vigilante-police violence, there are many behind them whose names aren’t legible and are never spoken.",
-        "live": "https://editor.p5js.org/raretodd/sketches/KGRkzdS1f",
-        "code": "https://editor.p5js.org/raretodd/sketches/KGRkzdS1f",
-        "type": ["Data Visualization", "Text"],
-        "tools": "Library: P5 Speech & Dan Shiffman's Genetic Algorithms",
-        "difficulty": "Intermediate",
-        "answer1": "I'm a graduate student at NYU's ITP. I'm also a communications technologies researcher at Citizen Lab, focusing my work on police surveillance practices of marginalized communities.",
-        "answer2": "I was first introduced to P5 during ITP's Intro to Computational Media course.",
-        "answer3": "The P5 environment is a perfect match for the p5 Speech library.",
-        "answer4": "My favorite p5 feature is its accessibility. I love that I can log-in on any computer and my progress for any project is saved. Similarly, an important part of learning to code is revisiting my older work. I love that my previous p5 projects are saved and that I can easily access them when I need a refresher on syntax, functions, etc.",
-        "answer5": "I'm borrowing a lot from Dan Shiffman's work on genetic algorithms. Admittedly, he's done all the hard work and I've just tweaked things to give them a fresh spin.",
-        "answer6": "https://aprja.net/article/view/116062/164244",
-        "social": "https://www.notion.so/raretodd/ITP-Shenanigans-53f7433348b641428d41d74b1089ab6d",
-        "id":"project-21",
-        "picid": "saytheirnames2.png"
+        "answer1": "I'm an Undergraduate Design student in Junior year and currently interning at Rakuten",
+        "answer2": "I just found it while fiddling around internet; I always wanted to try coding and p5 gave me a huge kickstart because of it's approachability and this creative essence attached to it",
+        "answer3": "I used p5 for two main aspects in this project:\n1. Sound - I personally composed and recorded guitar riffs and used p5.sound to add trimmed sections that would play on a keypress along with a visual\n2. Visuals - Studying a lot of p5 projects helped me create exactly what I wanted  be it a falling star, a random star trail, or a flicker",
+        "answer4": "push and pop were live saving features in this one; I could bring in a section of draw function at my convienience",
+        "answer5": "This was not only my first p5 project but also my first coding/frontend experience so I faced problems in html and css too; to be specific I was struggling with using visuals on top of each other then I got to know later that there's a z-index css property that could fix it.",
+        "answer6": "city girl's music",
+        "social": "https://www.vineetk.com/",
+        "id":"project-8",
+        "picid": "neon.png"
       },
 
       {
-        "author": "Juihung Tseng",
+        "author": "Peiling Jiang",
         "pronouns": "he/him",
-        "location": "Taipei, Taiwan",
-        "title": "Smart Refrigerator",
-        "description": "The smart refrigerator plays a medium to convey our mood to our lovers, family, and friends. We could also make friends with the fruit family while exploring the smart refrigerator.",
-        "extradesc": "",
-        "live": "https://juihungt.github.io/smart-refrig/",
-        "code": "https://github.com/juihungt/smart-refrig.git",
-        "type": "Visual",
-        "tools": "p5.collide2D, ml5.js, textToPoints()",
-        "difficulty": "Beginner",
-        "answer1": "I am a graduate student majors in real estate development at Pratt Institute. I started to learn to code two months ago.",
-        "answer2": "This summer, I participated in an elective course, Creative Coding class, held by Professor Matt Martin. He inspired me, and I am so glad that I started to explore a new field for myself.",
-        "answer3": "In this project, p5.js is more like a tool to fulfill the graphic design, and it lets me quickly get familiar with the basic functions in p5.js. The fascinating thing about p5.js is that there are many interactive functions and libraries that would make our projects alive.",
-        "answer4": "My favorite feature is PoseNet, the machine learning model. It makes me think about the unlimited opportunities of the disabled’s interaction.",
-        "answer5": "PoseNet has some limits for the camera size and position, so I did the scale modification to locate the barcode reader. If I have more time to develop this project, I will simplify my coding. For example, I should use the array to create the different fruit to be more efficient, and maybe they may appear randomly.",
-        "answer6": "You may check out how fascinating our eyes could trigger the interaction in the refrigerator.",
-        "social": "www.linkedin.com/in/juihungt",
-        "id":"project-23",
-        "picid": "smartfridge.gif"
+        "location": "New York, USA",
+        "title": "b5",
+        "description": "b5 is for learning, prototyping, and accessibility, based on p5.js. Using blocks and wires, non-programmers can quickly build and share creative coding projects with the online editor featuring live coding and embedded documentation.",
+        "extradesc": "How will the next generation learn creative coding? Do they have to look up hundreds of pages of documentation and take classes? Do they have to write redundant code for features already well accomplished due to lack of information? Do they have to learn English? b5 rethinks the future of creative coding in terms of clarity, accessibility, and customizability in a world that increasingly emphasizes remote collaboration, internationalization, and personalized learning. b5 is a web-based visual programming language for learning and fast prototyping for people with minimal to no programming experience, leveraging novel features compared to other visual programming languages, including (1) position-based sequential execution (blocks are executed in order based on their positions in the code canvas), (2) customized blocks (users can use the predefined blocks and the graphical interface to design and construct new blocks), and (3) effect blocks (block that affects other code blocks based on their contextual relationship instead of wire connection). b5 makes programming easy to learn and encourages programmers to explore and try, while more analysis is needed to assess its usability and long-term effects when used as the learning platform for beginners. Please visit https://www.jpl.design/b5 to learn more about this project.",
+        "live": "https://b5editor.app/",
+        "code": "https://github.com/peilingjiang/b5",
+        "type": ["Educational", "Tool"],
+        "tools": "",
+        "difficulty": "Advanced",
+        "answer1": "I am a recent graduate from NYU double-majored in Interactive Media Arts and Psychology. I am interested in building efficient and actuating novel interfaces in the field of human-computer interaction.",
+        "answer2": "I started learning p5.js (and ml5.js) in a class called Intro to Machine Learning for Arts with Daniel Shiffman. My first project was a game where people need to move their heads around to eat healthy food (https://blog.jpl.design/posts/f19/machine-learning-for-the-arts/more/apple/).",
+        "answer3": "p5.js is at the core of this project, both conceptually and technically. The project was inspired by p5.js and its idea of bringing creative coding to a larger community and leveraged many of its designs, e.g., the fundamental \"setup-and-draw\" structure. Lingdong's q5.js project also makes it perform better.",
+        "answer4": "I love `lerp()`! Many math functions, e.g., `dist()`, are also super helpful.",
+        "answer5": "I encountered a great many technical issues during the development process. However, I solve them all by myself, with help from online communities, like Stack Overflow.",
+        "answer6": "Coding Train!",
+        "social": "https://peilingjiang.com",
+        "id":"project-11",
+        "picid": "72.png"
       },
 
       {
-        "author": "Jerson La Torre",
+        "author": "Ted Mburu",
         "pronouns": "he/him",
-        "location": "Lima, Perú",
-        "title": "Black Stars",
-        "description": "Duality is one of the most empathic concepts we can experience. Understanding that we only exist from the other and that differences are only illusions will help us to find true beauty in any instant of what we understand as time.",
-        "extradesc": "",
-        "live": "https://blackstars.surge.sh",
-        "code": "https://github.com/jersonlatorre/blackstars",
-        "type": "Visual",
-        "tools": "p5.j, howler.js",
-        "difficulty": "Intermediate",
-        "answer1": "I am an artist, creative coder and teacher. I love to express myself in the language of movement and interaction.",
-        "answer2": "I found p5js while looking for ways to use Processing from a web site. My first project was a set of tools to teach video game programming.",
-        "answer3": "Basically the whole project is made in p5js. I use it to create the animations and interactions.",
-        "answer4": "My favorites are learp() and map(). I also love that because it is based on javascript, it can be integrated with several other existing web libraries.",
-        "answer5": "The most challenging thing was to manage the animations by states and control them using only one time variable. Often my biggest challenge is to simplify my own code.",
-        "answer6": "The smoothness of the animations! It was what I had the hardest time achieving.",
-        "social": "https://www.instagram.com/jerson.latorre",
-        "id":"project-28",
-        "picid": "blackstars.png"
+        "location": "New York, USA",
+        "title": "A Dynamic Electric Field Simulation",
+        "description": "The electric field simulation dynamically changes as the user moves point charges around. Test charges can also be placed anywhere in the field and will move accordingly.",
+        "extradesc": "My hopes with this project are to help high school or college students that are being exposed to electric field for the first time. There are a lot of misconceptions that can come up when first learning about them and I think this simulation can be used to clear some of those up.",
+        "live": "https://icphysweb.z13.web.core.windows.net/",
+        "code": "https://github.com/tedkmburu/E-FieldSim-v2",
+        "type": "Educational",
+        "tools": "createVector(),vertex(),curveVertex(),p5(),beginShape(),endShape()",
+        "difficulty": "Advanced",
+        "answer1": "I'm a Junior Physics and Engineering Double major currently doing physics education research. I developed this simulation as well as an electric field game that also uses the p5.js library. I've presented this project to my department and at 2 national physics conferences.",
+        "answer2": "I took a gap year and worked through nearly every video on The Coding Train's YouTube channel. I started out with more \"fun\" videos like building snake and flappy bird then I started to appreciate the more technical videos as well.",
+        "answer3": "The p5.js library is the only library I used for this project. I translated some physics equations like Coulomb's law into code that work by going through an array of charges to calculate things like net forces and E-fields. I then used other things like recursion and Object Oriented Programming to being the simulation to life. Euler's method was then used to move test charges around the screen in response to the forces exerted on them by the point charges. To create the voltage gradient, I used two canvases, one in the foreground and one in the background. The background canvas is where the gradients are created by first creating a very pixelated image to map out the voltage then applying a CSS blur to the whole canvas. Everything else in the simulation runs on the foreground canvas.",
+        "answer4": "Creating two canvas instances with instance mode was my favorite part of this project. I was stuck on how to get my voltage gradients to look good and not slow everything down and I can up with a solution that uses two canvases that worked nicely.",
+        "answer5": "While a lot of the smaller technical problems I ran into could be solved through google, the bigger more conceptual problems I ran into couldn't be googled. From what I've seen, no one has created an electric field simulation with all of the functionality that the one I created has so I didn't have a lot of resources that I could reference. I created a YouTube series to teach people how to build the simulation in hopes that people can learn from my mistakes and hopefully build upon the project.",
+        "answer6": "I created a game that revolves around electric fields here: https://icphysweb.z13.web.core.windows.net/site/game.html",
+        "social": "https://github.com/tedkmburu",
+        "id":"project-15",
+        "picid": "electronic.png"
       },
+
       {
-        "author": "Keith S. Wilson",
+        "author": "Priyanshu Kumar",
         "pronouns": "he/him",
-        "location": "Chicago, IL USA",
-        "title": "Re-Binary",
-        "description": "This program that translates a word you enter in the “universal” language of binary. Binary can be represented by anything that has two states—we commonly imagine it as 1 and 0 but it can be anything and its opposite. Here I use “yes” and “no,” which creates a kind of dialogue that any person from any culture can understand",
-        "extradesc": "I believe love is political but often the message that is communicated is some version of \"love conquers all.\" This is a noble cause, but I think it downplays how dangerous the pursuit of love has historically been for marginalized people, and the struggle that love is even in the best of circumstances. Part of what Re-Binary does is highlight how love, even when attempted to be \"translated\" into black and white terms is still a series of struggles and negotiations: yes-es and no-s as well as intermittent gaps of communication.",
-        "live": "This program that translates a word you enter in the “universal” language of binary. Binary can be represented by anything that has two states—we commonly imagine it as 1 and 0 but it can be anything and its opposite. Here I use “yes” and “no,” which creates a kind of dialogue that any person from any culture can understand",
-        "code": "https://editor.p5js.org/graphofgrey/sketches/8YExV8HUG",
-        "type": "Text",
-        "tools": "",
+        "location": "New Delhi, India",
+        "title": "2-D Animation of a shape",
+        "description": "Heart shape created by using mathematical formulas and animating back and forth. So! cool to see. I'll eventually add more in this project.",
+        "extradesc": "",
+        "live": "https://virusinlinux.github.io/heartAnimation/",
+        "code": "https://github.com/virusinlinux/heartAnimation",
+        "type": "Visual",
+        "tools": "stroke(),",
         "difficulty": "Beginner",
-        "answer1": "I am a Stegner Fellow in Poetry at Stanford University and an Electronic Literature Organization \"Amplify Anti-Racism Creative\" Fellow. I recently finished the Poets and Scholars Anti-Racism Workshop at Rutgers",
-        "answer2": "As part of a digital arts residency at Laboratory Spokane. All my projects are documented there, and through my account at p5js, but my first project was a generator of just the opening (not the racist punchline) of racist jokes that were pulled from an API repository of jokes.",
-        "answer3": "A number of links exist in the code of my project, but essentially, I found code for converting ASCII to binary, wrote code to convert that binary to yes (1) and no (0), and then moved on to calculating how to make that text print slowly (and vary depending on the size of it). I also learned how to add GUI elements like a slider that determines text size, and an input box that allows the user to enter any word (not just \"love\")",
-        "answer4": "I love the speed at which p5js allows me to mock up a project and test its feasibility. When trying to create digital poetry, one of the issues is that traditional poetry is comparatively very fast both to create something and to change it. \"Mock ups\" (drafts) are very fast and you can explore lots of ideas before you decide to invest your time in one. This is almost never true of computer code (except perhaps if you are an expert coder) and so the thing I love about p5js is that I can quickly create something, see it run, and iterate on that as I would a poem.",
-        "answer5": "I was still learning a lot when I created this project, and one of the big challenges I had was in generating text that could be any size but still fill the pre-determined square that I had created (calculating the width of each letter and figuring out how many letters could fit on a line, and then doing the same with its height). This can be done by generating html elements instead of graphical ones, but part of the \"invisible\" intention of this project was to better understand p5hs and javascript in general.",
-        "answer6": "My book (Fieldnotes on Ordinary Love) was selected as a notable book by the New York Times! :)",
-        "social": "https://keithswilson.com/",
-        "id":"project-29",
-        "picid": "rebinary.png"
+        "answer1": "I'm a second year student at GGSIPU(Bhagwan Parshuram Institute of Technology) pursuing B-Tech in Information Technology branch.",
+        "answer2": "I was always excited about java script and started learning Java script from beginning of my college days. Then on randomly surfing about p5.js. That it is a JavaScript library for creative coding. Then I started learning slowly practicing from articles, books and some youtubers. And now I'm pretty descent in this tech.",
+        "answer3": "I was interested in making shapes with mathematical equations and want to implement some shapes using this library. So, I choose this Heart-Curve\nI have got the major help from: \nlink: shorturl.at/cuSX8",
+        "answer4": "I have some of my favorite functions and camera() is one of them. It sets the camera position for a 3D sketch.",
+        "answer5": "Got some problem over making the mathematical equation work in the real world but it was also fun making these cool projects, and I read some books about the concepts and some articles for that and finally solved the bugs, at the end I love p5.js very much.",
+        "answer6": "https://virusinlinux.github.io/DysonSphere.github.io/",
+        "social": "https://www.linkedin.com/in/priyanshu-kumar-8852bb1a0/",
+        "id":"project-6",
+        "picid": "71.png"
       }
   
     ]

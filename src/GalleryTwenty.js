@@ -14,15 +14,26 @@ const filterPathnames = [
   'Visual',
   'Data Visualization',
   'Game',
-  'World',
   'Text',
   'Sound',
   'Educational',
-  'Simulation',
-  'Teaching',
-  'Tool',
   'Camera',
 ];
+
+const difficultyPathnames = [
+  'Beginner',
+  'Intermediate',
+  'Advanced',
+]
+
+const topicPathnames = [
+  'BLM',
+  'BIPOC Contributors',
+  'Love',
+  'Community',
+  'Accessibility'
+
+]
 
 function GalleryTwenty (props){
   let { id, filter } = useParams();
@@ -62,6 +73,46 @@ console.log(showcase2020)
   ));
 
 
+  // function GalleryTwenty (props){
+  //   let { id, filter } = useParams();
+  //   ScrollToTop();
+  //   var Markdown = require('react-markdown');
+  //   const { t, i18n } = useTranslation(); 
+  //   const [filtered, setFilter] = useState('All');
+  //   const filtermap=(t('filters', {returnObjects: true}));
+  
+  //   var showcase2020 = (filter==='All')?t('showcase2020', {returnObjects: true}): t('showcase2020', {returnObjects: true}).filter((a)=>
+  //  (a.type===filter?a.type
+  //   :a.type[0]===filter?a.type[0]
+  //   :a.type[1]===filter?a.type[1]
+  //   :a.type[2]===filter?a.type[2]:
+  //   null)
+  //   );
+
+  // DIFFICULTY FILTER COMPONENT
+
+  const difficultyList = filtermap.map(({name}, index) => (
+    <Link
+    key={difficultyPathnames[index]}
+    to={{
+      // Use english filter name in the url pathname
+      pathname: `/2020-${difficultyPathnames[index]}/`
+    }}>
+      <FilterButton
+      key={difficultyPathnames[index]}
+      name={difficultyPathnames[index]}
+      displayName={name}
+      isPressed={difficultyPathnames[index] === filtered}
+      setFilter={setFilter}
+      id={difficultyPathnames[index]}
+      className={difficultyPathnames[index]===filter?'active':''}
+    />
+    </Link>
+  ));
+
+// TOPIC FILTER COMPONENT
+
+
   return (
     <div className="body">
     <div className="intro2020">
@@ -69,7 +120,14 @@ console.log(showcase2020)
     <h3><em>{<Markdown source={t('2020Gallery_Intro')}/>}</em></h3>
     </div>
     <div className="filterlist">
-      <h2>{t("filter by")}:</h2>{filterList}</div>
+      <h2>{t("filter by")}:</h2>{filterList}
+    </div>
+
+    <div className="difficultylist">
+      <h2>{difficultyList}</h2>
+    </div>
+
+  
     <div className="gallery">
 <div class="row">
   {showcase2020.map(({author,title, description, live, code, type, tools, social, id,picid})=>(
