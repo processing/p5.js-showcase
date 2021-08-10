@@ -22,6 +22,7 @@ const filterPathnames = [
 ];
 
 const difficultyPathnames = [
+  'All',
   'Beginner',
   'Intermediate',
   'Advanced',
@@ -34,6 +35,8 @@ function GalleryTwenty (props){
   const { t, i18n } = useTranslation(); 
   const [filtered, setFilter] = useState('All');
   const filtermap=(t('filters', {returnObjects: true}));
+  // difficulty filter
+  const difficultymap=(t('difficulty', {returnObjects: true}));
 
   var showcase2020 = (filter==='All')?t('showcase2020', {returnObjects: true}): t('showcase2020', {returnObjects: true}).filter((a)=>
  (a.type===filter?a.type
@@ -41,6 +44,7 @@ function GalleryTwenty (props){
   :a.type[1]===filter?a.type[1]
   :a.type[2]===filter?a.type[2]:
   null)
+
   );
 
 console.log(showcase2020)
@@ -67,7 +71,7 @@ console.log(showcase2020)
 
   // DIFFICULTY FILTER COMPONENT
 
-  const difficultyList = filtermap.map(({name}, index) => (
+  const difficultyList = difficultymap.map(({name}, index) => (
     <Link
     key={difficultyPathnames[index]}
     to={{

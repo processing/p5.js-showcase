@@ -52,6 +52,7 @@
  ],
 
   "difficulty":[
+    {"name": "All"},
     {"name": "Beginner"},
     {"name": "Intermediate"},
     {"name": "Advanced"}
