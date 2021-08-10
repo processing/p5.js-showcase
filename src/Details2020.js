@@ -34,11 +34,15 @@ return (
                 <h2 className="short">{t('Created By')}</h2>
                 <h3>{author} <span class="small">({pronouns}) from {location}</span></h3>
                 <div class="row"> 
-                {(social.length!==0)&&
+                 {(social.length!==0)&&
                 sociallinks.map((so, index)=>{
                   return(
-                    <a href={so}>{t('Social Media')}</a>
-                  );})}
+                    <a href={so}>{t('f099')}
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                  );})} 
+                  
+  
                 </div>
             <div className="row">
                 <div className="col">

@@ -356,7 +356,7 @@ filter: none;
   padding-top:5px;
   padding-bottom:5px;
   padding-right: 0px;
-  font-size: 32px;
+  font-size: 30px;
 }
 #Visual.active {
   -webkit-text-fill-color: pink;
@@ -433,7 +433,7 @@ filter: none;
 
 .filterlist h2{
   -webkit-text-fill-color: #FFF2F2;
-  font-size:32px;
+  font-size:30px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #FF2457;
   text-shadow:
@@ -442,6 +442,77 @@ filter: none;
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+/* DIFFICULTY BUTTON */
+
+.difficultylist{
+  font-family: "Montserrat ExtraBold";
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+}
+.difficultylist button{
+  letter-spacing: 1.5px;
+  font-family: "Montserrat ExtraBold";
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #DB3B60;
+  display: inline-block;
+  background-color: transparent;
+  color: #DB3B60;
+  border-radius: 25px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right: 0px;
+  font-size: 30px;
+}
+
+#Beginner.active {
+  -webkit-text-fill-color: pink;
+  text-shadow:
+  2px 2px #ff1f8f;
+}
+#Intermediate.active{
+  -webkit-text-fill-color: pink;
+  text-shadow:
+  2px 2px #ff1f8f;
+}
+#Advanced.active{
+  -webkit-text-fill-color: pink;
+  text-shadow:
+  2px 2px #ff1f8f;
+}
+
+.difficultylist button:hover{
+  -webkit-text-fill-color: pink;
+  display: inline-block;
+  color: #DB3B60;
+  text-shadow:
+  2px 2px #ff1f8f;
+  padding-top:5px;
+  padding-bottom:5px;
+  transition: all .3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+
+}
+
+.difficultylist h2{
+  -webkit-text-fill-color: #FFF2F2;
+  font-size:30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF2457;
+  text-shadow:
+  2px 2px #ff1f8f;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+
+
 #intro2019 h1{
   color: #ff577e;
   margin-top: 20px;
