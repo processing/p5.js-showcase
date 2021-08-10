@@ -23,7 +23,7 @@ export default function Simple() {
   });
   return (
     
-    <Map center={[0, 0]} zoom={2} scrollWheelZoom	={false}>
+    <Map center={[30, 0]} zoom={2} scrollWheelZoom	={false}>
        <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
