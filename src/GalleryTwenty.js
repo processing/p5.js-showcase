@@ -43,7 +43,10 @@ function GalleryTwenty (props){
   :a.type[0]===filter?a.type[0]
   :a.type[1]===filter?a.type[1]
   :a.type[2]===filter?a.type[2]:
-  null)
+  
+  a.difficulty===filter?a.difficulty
+    :a.difficulty[0]===filter?a.difficulty[0]:
+    null)
 
   );
 
@@ -108,7 +111,7 @@ console.log(showcase2020)
   
     <div className="gallery">
 <div class="row">
-  {showcase2020.map(({author,title, description, live, code, type, tools, social, id,picid})=>(
+  {showcase2020.map(({author,title, description, live, code, type, difficulty, tools, social, id,picid})=>(
         <TestCard2020 key={`card-${id}`} 
         title={title} 
         author={author} 
@@ -116,6 +119,7 @@ console.log(showcase2020)
         live={live}
         code={code}
         type={type}
+        difficulty={difficulty}
         tools={tools}
         social={social}
         id={id}
