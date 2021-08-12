@@ -22,11 +22,12 @@ const filterPathnames = [
 ];
 
 const difficultyPathnames = [
-  'All',
+  // 'All',
   'Beginner',
   'Intermediate',
   'Advanced',
 ]
+
 
 function GalleryTwenty (props){
   let { id, filter } = useParams();

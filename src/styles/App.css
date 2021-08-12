@@ -446,57 +446,54 @@ filter: none;
 /* DIFFICULTY BUTTON */
 
 .difficultylist{
-  font-family: "Montserrat ExtraBold";
+  font-family: "Montserrat Extrabold";
   margin-bottom: 20px;
   letter-spacing: 1.5px;
 }
 .difficultylist button{
   letter-spacing: 1.5px;
-  font-family: "Montserrat ExtraBold";
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #DB3B60;
+  font-family: "Montserrat";
+  /* -webkit-text-fill-color: white; */
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #DB3B60; */
   display: inline-block;
-  background-color: transparent;
-  color: #DB3B60;
-  border-radius: 25px;
+  background-color:pink;
+  color: white;
   padding-top:5px;
   padding-bottom:5px;
-  padding-right: 0px;
-  font-size: 30px;
+  padding-right: 10px;
+  font-size: 20px;
 }
 
 #Beginner.active {
-  -webkit-text-fill-color: pink;
-  text-shadow:
-  2px 2px #ff1f8f;
+  -webkit-text-fill-color: white;
+  /* text-shadow:
+  2px 2px #ff1f8f; */
+  background-color: #DB3B60;
 }
 #Intermediate.active{
-  -webkit-text-fill-color: pink;
-  text-shadow:
-  2px 2px #ff1f8f;
+  -webkit-text-fill-color: white;
+  /* text-shadow:
+  2px 2px #ff1f8f; */
+  background-color: #DB3B60;
+
 }
 #Advanced.active{
-  -webkit-text-fill-color: pink;
-  text-shadow:
-  2px 2px #ff1f8f;
+  -webkit-text-fill-color:white;
+  /* text-shadow:
+  2px 2px #ff1f8f; */
+  background-color: #DB3B60;
+
 }
 
-.difficultylist button:hover{
-  -webkit-text-fill-color: pink;
+/* .difficultylist button:hover{
+  -webkit-text-fill-color:white;
   display: inline-block;
-  color: #DB3B60;
-  text-shadow:
-  2px 2px #ff1f8f;
+  background-color:#FF2457 ;
   padding-top:5px;
   padding-bottom:5px;
-  transition: all .3s;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease;
-  transition-delay: 0s;
 
-}
+} */
 
 .difficultylist h2{
   -webkit-text-fill-color: #FFF2F2;
