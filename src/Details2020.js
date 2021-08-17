@@ -2,6 +2,13 @@ import React from 'react';
 import './styles/App.css';
 import toolslist from './data/tools.json';
 import { useTranslation } from 'react-i18next';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
 import ScrollToTop from './ScrollToTop.js';
 import {
   Link
@@ -36,11 +43,47 @@ return (
                 <div class="row"> 
                  {(social.length!==0)&&
                 sociallinks.map((so, index)=>{
+                  if (so.includes(
+                    'instagram' 
+                  ))
                   return(
-                    <a href={so}>{t('f099')}
-                    <i class="fab fa-twitter"></i>
+                    <a aria-label="Instagram" href={so}>{t('')} 
+                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                     </a>
-                  );})} 
+                  );
+
+                  if (so.includes(
+                    'twitter' 
+                  ))
+                  return(
+                    <a aria-label="Twitter" href={so}>{t('')}
+                     <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    </a>
+
+                  );
+
+                  if (so.includes(
+                    'github' 
+                  ))
+                  return(
+                    <a aria-label="Github" href={so}>{t('')}
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                    </a>
+                  );
+
+                  if (so.includes(
+                    'linkedin' 
+                  ))
+                  return(
+                    <a aria-label="Github" href={so}>{t('')}
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    </a>
+                  );
+
+                  return(
+                    <a href={so}>{t('Portfolio')}
+                    </a>);
+                  })} 
                   
   
                 </div>

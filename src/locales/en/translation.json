@@ -140,7 +140,7 @@
         "answer4": "draw() - it is conceptually powerful to think about programming as drawing, but with the continuous loop feature. It changes the way on how your structure elements.",
         "answer5": "The challenges are writing the code that is readable, speakable and executable.",
         "answer6": "Read aloud the source code to think about the poetics of language (natural and machine languages)",
-        "social": "www.siusoon.net; twitter: @siusoon",
+        "social": "www.siusoon.net , twitter: @siusoon",
         "id":"project-1",
         "picid": "61.png"
       },
@@ -210,7 +210,7 @@
         "answer4": "My favorite feature is createGraphics(), it's so nice to have a second canvas that you can move around, hide, or orient however you like!",
         "answer5": "I had a lot of trouble using machine learning models on glitch, as I had to use the glitch console to upload the model data.",
         "answer6": "I recently discovered https://neal.fun/ and it's been pretty inspiration for me in terms of design and interactivity!",
-        "social": "instagram @jayborgwardt Porfolio: jayborgwardt.com",
+        "social": "https://www.instagram.com/jayborgwardt/ , jayborgwardt.com",
         "id":"project-26",
         "picid": "67.gif"
       },
