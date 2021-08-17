@@ -140,7 +140,7 @@
         "answer4": "draw() - it is conceptually powerful to think about programming as drawing, but with the continuous loop feature. It changes the way on how your structure elements.",
         "answer5": "The challenges are writing the code that is readable, speakable and executable.",
         "answer6": "Read aloud the source code to think about the poetics of language (natural and machine languages)",
-        "social": "www.siusoon.net , https://twitter.com/siusoon?lang=en",
+        "social": "https://siusoon.net/, https://twitter.com/siusoon?lang=en",
         "id":"project-1",
         "picid": "61.png"
       },
@@ -326,7 +326,7 @@
         "answer4": "It's an difficult question to answer . Almost every method and function is useful but I think 'rectMode () or angleMode() ' is my favorite.",
         "answer5": "I was late knowing about this submission :( and I tried to make this project in the shortest time to be able to submit in the 2021 ShowCase . So there were some minor problems with Nested loops and the order of given properties.",
         "answer6": "More challenges or showCases for interested people .",
-        "social": "I am using Daniel Shiffman tutorials in youtube and I thinks it's very good .",
+        "social": "",
         "id":"project-19",
         "picid": "illogical.png"
       },
@@ -501,7 +501,7 @@
         "live": "https://deaxmachina.github.io/hatecrime_uk_p5/",
         "code": "https://github.com/deaxmachina/hatecrime_uk_p5",
         "type": "Data Visualization",
-        "tools": "d3.js in addition to p5",
+        "tools": "",
         "difficulty": "Intermediate",
         "answer1": "I am a data scientist turned data visualisation designer and developer, particularly interested in creative viz and data art. Currently based at the University of Tokyo, originally from Bulgaria.",
         "answer2": "Started about 3 months ago when I was learning canvas for data viz purposes and discovered p5. I binge-watched many videos on The Coding Train YouTube channel and got inspired to create some simple sketches, and enter this competition :)",
@@ -533,7 +533,7 @@
         "answer4": "My favorite feature is PoseNet, the machine learning model. It makes me think about the unlimited opportunities of the disabled’s interaction.",
         "answer5": "PoseNet has some limits for the camera size and position, so I did the scale modification to locate the barcode reader. If I have more time to develop this project, I will simplify my coding. For example, I should use the array to create the different fruit to be more efficient, and maybe they may appear randomly.",
         "answer6": "You may check out how fascinating our eyes could trigger the interaction in the refrigerator.",
-        "social": "www.linkedin.com/in/juihungt",
+        "social": "https://www.linkedin.com/in/juihungt/",
         "id":"project-23",
         "picid": "smartfridge.gif"
       },
