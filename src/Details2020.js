@@ -3,6 +3,13 @@ import './styles/App.css';
 import toolslist from './data/tools.json';
 import { useTranslation } from 'react-i18next';
 import ScrollToTop from './ScrollToTop.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faInstagram,
+  faTwitter,
+  faLinkedin,
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
 import {
   Link
 } from "react-router-dom";
