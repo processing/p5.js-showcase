@@ -486,14 +486,14 @@ filter: none;
 
 }
 
-/* .difficultylist button:hover{
+.difficultylist button:hover{
   -webkit-text-fill-color:white;
   display: inline-block;
   background-color:#FF2457 ;
   padding-top:5px;
   padding-bottom:5px;
 
-} */
+}
 
 .difficultylist h2{
   -webkit-text-fill-color: #FFF2F2;
