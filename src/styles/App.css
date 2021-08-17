@@ -495,7 +495,6 @@ filter: none;
   transition-duration: 0.3s;
   transition-timing-function: ease;
   transition-delay: 0s;
-
 }
 
 .difficultylist h2{
@@ -940,6 +939,7 @@ h1.tenpx{
     font-size: 24px;
     -webkit-text-stroke-width:.75px;
   }
+
   .card2019 .bigcard{
     width:90vw;
   }
@@ -952,6 +952,11 @@ h1.tenpx{
   }
   .filterlist button{
     text-align: left;
+  }
+  .difficultylist button{
+    text-align: left;
+    font-size: 24px;
+    -webkit-text-stroke-width:.75px;
   }
   .cover2020 h1{
     font-size: 3rem;
