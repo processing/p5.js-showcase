@@ -43,6 +43,7 @@ return (
                 <div class="row"> 
                  {(social.length!==0)&&
                 sociallinks.map((so, index)=>{
+                 
                   if (so.includes(
                     'instagram' 
                   ))
@@ -84,8 +85,6 @@ return (
                     <a href={so}>{t('Portfolio')}
                     </a>);
                   })} 
-                  
-        
                   
   
                 </div>
