@@ -29,7 +29,7 @@ return (
           <div className="details-image">
           <img
               src={
-                require(`../public/2020images/${picid}`)
+                require(`../public/2021images/${picid}`)
               }
               alt={title}
               className="Card-image"
@@ -83,6 +83,7 @@ return (
                   return(
                     <a href={so}>{t('Portfolio')}
                     </a>);
+                  
                   })} 
                   
   
