@@ -32,7 +32,7 @@ export default function App() {
       <div className="navigation">
         <div className="left">
           <Link to="/" className="item">Foreword</Link>
-          <Link to="/2020-All" className="item">Gallery</Link>
+          <Link to="/2021-All" className="item">Gallery</Link>
           <Link to="/archive" className="item">Archive</Link>
           <Link to="/about" className="item">About</Link>
           <a href="https://p5js.org">p5.js</a>
@@ -49,8 +49,8 @@ export default function App() {
           <Route exact path="/" children={<Gallerytwenty />} />
           <Route exact path="/archive" children={<Archive />} />
           <Route exact path="/2019/:id" children={<DetailedPage />} />
-          <Route exact path="/2020-:filter/" children={<GalleryTwenty />} />
-          <Route exact path="/2020-:filter/:id" children={<Detailed2020Page />} />
+          <Route exact path="/2021-:filter/" children={<GalleryTwenty />} />
+          <Route exact path="/2021-:filter/:id" children={<Detailed2020Page />} />
           <Route exact path="/about" children={<About />} />
         </Analytics>
       </Switch>{" "}
@@ -267,7 +267,7 @@ function Gallerytwenty() {
             <P5Wrapper sketch={sketch} />
           </div>
           <h1>
-            <Link to="/2020-All">{t('Viz4')}</Link>
+            <Link to="/2021-All">{t('Viz4')}</Link>
           </h1>
         </div>
       </div>

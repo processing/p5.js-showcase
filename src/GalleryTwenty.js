@@ -28,6 +28,7 @@ const difficultyPathnames = [
   'Advanced',
 ]
 
+
 function GalleryTwenty (props){
   let { id, filter } = useParams();
   ScrollToTop();
@@ -57,7 +58,7 @@ console.log(showcase2020)
     key={filterPathnames[index]}
     to={{
       // Use english filter name in the url pathname
-      pathname: `/2020-${filterPathnames[index]}/`
+      pathname: `/2021-${filterPathnames[index]}/`
     }}>
       <FilterButton
       key={filterPathnames[index]}
@@ -79,7 +80,7 @@ console.log(showcase2020)
     key={difficultyPathnames[index]}
     to={{
       // Use english filter name in the url pathname
-      pathname: `/2020-${difficultyPathnames[index]}/`
+      pathname: `/2021-${difficultyPathnames[index]}/`
     }}>
       <DifficultyFilterButton
       key={difficultyPathnames[index]}
@@ -108,7 +109,7 @@ console.log(showcase2020)
       <h2>{t("level")}:{difficultyList}</h2>
     </div>
 
-  
+
     <div className="gallery">
 <div class="row">
   {showcase2020.map(({author,title, description, live, code, type, difficulty, tools, social, id,picid})=>(
