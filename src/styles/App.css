@@ -687,6 +687,10 @@ float:right;
   color: #DB3B60;
 }
 
+#portfolio{
+  vertical-align: 50%;
+}
+
 canvas {
   display: block;
 }

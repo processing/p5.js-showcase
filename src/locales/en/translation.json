@@ -6,7 +6,7 @@
   "Directions":"Click on the pink text to change graphs!",
   "Directions2":"Press space to interact with this visualization!",
   "Created By":"Created By",
- "2020Gallery_Intro":"To learn more about the project and how it was made, click on the image of each card preview. \n\nFeel free to leave feedback or a comment in our [guestbook](https://forms.gle/nJ4Z6v31z2HZ6boaA)!",
+ "2020Gallery_Intro":"To learn more about the project and how it was made, click on the image of each card preview. \n\nFeel free to leave feedback or a comment in our [guestbook](https://forms.gle/Mxb2thi2k27EZ3Mo7)!",
  "Project Links": "Project Links",
  "Visualizations":"Visualizations",
  "Projects":"Projects",
@@ -209,7 +209,7 @@
         "answer4": "My favorite feature is createGraphics(), it's so nice to have a second canvas that you can move around, hide, or orient however you like!",
         "answer5": "I had a lot of trouble using machine learning models on glitch, as I had to use the glitch console to upload the model data.",
         "answer6": "I recently discovered https://neal.fun/ and it's been pretty inspiration for me in terms of design and interactivity!",
-        "social": "https://www.instagram.com/jayborgwardt/ , jayborgwardt.com",
+        "social": "https://www.instagram.com/jayborgwardt/ , https://www.jayborgwardt.com/",
         "id":"The-ASL-Machine",
         "picid": "67.gif"
       },

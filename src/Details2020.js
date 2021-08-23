@@ -41,6 +41,7 @@ return (
                 <h2 className="short">{t('Created By')}</h2>
                 <h3>{author} <span class="small">({pronouns}) from {location}</span></h3>
                 <div class="row"> 
+                  <div id = "portfolio">
                  {(social.length!==0)&&
                 sociallinks.map((so, index)=>{
                   if (so.includes(
@@ -80,13 +81,14 @@ return (
                     </a>
                   );
 
+
                   return(
                     <a href={so}>{t('Portfolio')}
                     </a>);
-                  
                   })} 
                   
-  
+             
+                  </div>
                 </div>
             <div className="row">
                 <div className="col">
