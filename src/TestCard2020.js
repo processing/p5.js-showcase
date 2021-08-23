@@ -20,7 +20,7 @@ function TestCard2020 (props){
          }}>
             <img
               src={
-                require(`../public/2020images/${props.picid}`)
+                require(`../public/2021images/${props.picid}`)
               }
               alt={props.title}
               className="Card-image"

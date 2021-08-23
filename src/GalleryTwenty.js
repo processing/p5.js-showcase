@@ -22,7 +22,7 @@ const filterPathnames = [
 ];
 
 const difficultyPathnames = [
-  'All',
+  // 'All',
   'Beginner',
   'Intermediate',
   'Advanced',
@@ -98,16 +98,18 @@ console.log(showcase2020)
   return (
     <div className="body">
     <div className="intro2020">
-    <h1>p5.js 2021 Showcase</h1>
+    <h1>p5.js 2021 Showcase: 
+      <br></br>
+      The Love Ethic</h1>
     <h3><em>{<Markdown source={t('2020Gallery_Intro')}/>}</em></h3>
     </div>
     <div className="filterlist">
-      <h2>{t("filter by")}:</h2>{filterList}
+      <h2>{t("filter by")}:</h2>{filterList} <h2>/</h2>{difficultyList}
     </div>
 
-    <div className="difficultylist">
+    {/* <div className="difficultylist">
       <h2>{t("level")}:{difficultyList}</h2>
-    </div>
+    </div> */}
 
 
     <div className="gallery">

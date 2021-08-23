@@ -87,7 +87,36 @@ function Archive() {
         <div id="intro2019">
         <h1>Archive</h1>
         <h3><Markdown source={t('Archiveabout')} /></h3>
-        <div class="row">
+        </div>
+        
+    
+       <div className = "flex">
+         <div className = "column">
+        <div id= "archive2020">
+          <h1>p5.js 2020 Showcase</h1>
+          <h3><i>Curated by Connie Liu</i></h3>
+        <a href='https://showcase.p5js.org/#/2020-All' target="blank"><button className = "view">View</button></a>
+          <a href='https://medium.com/processing-foundation/increasing-the-organization-and-scope-of-the-p5-js-showcase-7193ef558c5a' target="blank"><button className = "readmore">Read More</button></a>
+
+          </div>
+        </div>
+   
+
+      <br></br>
+
+          <div className="column">
+        <div id = "archive2019">
+          <h1>p5.js 2019 Showcase</h1>
+          <h3><i>Curated by Ashley Kang</i></h3>
+     
+        <a href='https://p5js.org/showcase/' target="blank"><button className ="view">View</button></a>
+        
+          <a href='https://medium.com/processing-foundation/p5-js-showcase-4a3756528542' target="blank"><button className = "readmore">Read More</button></a>
+    </div>
+      </div>
+      </div>
+
+        {/* <div class="row">
           {t('archive', { returnObjects: true }).map(({ id, title, author, description, image }) => (
             <Link
               key={id}
@@ -103,8 +132,7 @@ function Archive() {
                 image={image} />
             </Link>
           ))}
-        </div>
-      </div>
+        </div> */}
     </div>
     </div>
   );
@@ -205,13 +233,13 @@ function Gallerytwenty() {
           <h3><Markdown source={t('2020_intro1')}/></h3>
             {/* <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
             <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink> */}
-
           </div>
           <div className="column">
             {/* <div class="gradient-border" id="box"> */}
               <h3><Markdown source={t('2020_intro1.5')}/></h3>
               {/* <h3><Markdown source={t('2020_intro1.5')} /></h3> */}
               <h2><HashLink smooth to="#twentyviz"><Markdown source={t('2020_intro2')} /></HashLink></h2>
+              <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink>
             {/* </div> */}
           </div>
         </div>
