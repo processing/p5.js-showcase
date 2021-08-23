@@ -203,7 +203,7 @@ function Gallerytwenty() {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [83.6, 16.4],
+        data: [76.8, 23.2],
       }
     ]
   };
@@ -217,7 +217,7 @@ function Gallerytwenty() {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [41, 29.5, 29.5]
+        data: [41.3, 35.5, 28.8]
       }
     ]
   };
