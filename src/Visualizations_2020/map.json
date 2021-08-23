@@ -460,25 +460,6 @@
         }
       },
 
-      {
-        "type": "Feature",
-        "properties": {
-          "author": "Ted Mburu",
-          "location": "New York City USA",
-          "title": "A Dynamic Electric Field Simulation",
-          "project_link": "https://icphysweb.z13.web.core.windows.net/",
-          "occupation": "Student"
-        },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -74.0060,
-            40.712
-            
-          ]
-        }
-      },
-
     {
       "type": "Feature",
       "properties": {
