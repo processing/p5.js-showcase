@@ -32,7 +32,7 @@ export default function App() {
       <div className="navigation">
         <div className="left">
           <Link to="/" className="item">Foreword</Link>
-          <Link to="/2020-All" className="item">Gallery</Link>
+          <Link to="/2021-All" className="item">Gallery</Link>
           <Link to="/archive" className="item">Archive</Link>
           <Link to="/about" className="item">About</Link>
           <a href="https://p5js.org">p5.js</a>
@@ -49,8 +49,8 @@ export default function App() {
           <Route exact path="/" children={<Gallerytwenty />} />
           <Route exact path="/archive" children={<Archive />} />
           <Route exact path="/2019/:id" children={<DetailedPage />} />
-          <Route exact path="/2020-:filter/" children={<GalleryTwenty />} />
-          <Route exact path="/2020-:filter/:id" children={<Detailed2020Page />} />
+          <Route exact path="/2021-:filter/" children={<GalleryTwenty />} />
+          <Route exact path="/2021-:filter/:id" children={<Detailed2020Page />} />
           <Route exact path="/about" children={<About />} />
         </Analytics>
       </Switch>{" "}
@@ -87,7 +87,36 @@ function Archive() {
         <div id="intro2019">
         <h1>Archive</h1>
         <h3><Markdown source={t('Archiveabout')} /></h3>
-        <div class="row">
+        </div>
+        
+    
+       <div className = "flex">
+         <div className = "column">
+        <div id= "archive2020">
+          <h1>p5.js 2020 Showcase</h1>
+          <h3><i>Curated by Connie Liu</i></h3>
+        <a href='https://showcase.p5js.org/#/2020-All' target="blank"><button className = "view">View</button></a>
+          <a href='https://medium.com/processing-foundation/increasing-the-organization-and-scope-of-the-p5-js-showcase-7193ef558c5a' target="blank"><button className = "readmore">Read More</button></a>
+
+          </div>
+        </div>
+   
+
+      <br></br>
+
+          <div className="column">
+        <div id = "archive2019">
+          <h1>p5.js 2019 Showcase</h1>
+          <h3><i>Curated by Ashley Kang</i></h3>
+     
+        <a href='https://p5js.org/showcase/' target="blank"><button className ="view">View</button></a>
+        
+          <a href='https://medium.com/processing-foundation/p5-js-showcase-4a3756528542' target="blank"><button className = "readmore">Read More</button></a>
+    </div>
+      </div>
+      </div>
+
+        {/* <div class="row">
           {t('archive', { returnObjects: true }).map(({ id, title, author, description, image }) => (
             <Link
               key={id}
@@ -103,8 +132,7 @@ function Archive() {
                 image={image} />
             </Link>
           ))}
-        </div>
-      </div>
+        </div> */}
     </div>
     </div>
   );
@@ -175,7 +203,7 @@ function Gallerytwenty() {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [83.6, 16.4],
+        data: [76.8, 23.2],
       }
     ]
   };
@@ -189,7 +217,7 @@ function Gallerytwenty() {
         borderWidth: 1,
         hoverBackgroundColor: 'rgba(255,99,132,0.4)',
         hoverBorderColor: 'rgba(255,99,132,1)',
-        data: [41, 29.5, 29.5]
+        data: [41.3, 35.5, 28.8]
       }
     ]
   };
@@ -205,13 +233,13 @@ function Gallerytwenty() {
           <h3><Markdown source={t('2020_intro1')}/></h3>
             {/* <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
             <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink> */}
-
           </div>
           <div className="column">
             {/* <div class="gradient-border" id="box"> */}
               <h3><Markdown source={t('2020_intro1.5')}/></h3>
               {/* <h3><Markdown source={t('2020_intro1.5')} /></h3> */}
               <h2><HashLink smooth to="#twentyviz"><Markdown source={t('2020_intro2')} /></HashLink></h2>
+              <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink>
             {/* </div> */}
           </div>
         </div>
@@ -267,7 +295,7 @@ function Gallerytwenty() {
             <P5Wrapper sketch={sketch} />
           </div>
           <h1>
-            <Link to="/2020-All">{t('Viz4')}</Link>
+            <Link to="/2021-All">{t('Viz4')}</Link>
           </h1>
         </div>
       </div>

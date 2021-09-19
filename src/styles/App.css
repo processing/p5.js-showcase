@@ -356,6 +356,7 @@ filter: none;
   padding-top:5px;
   padding-bottom:5px;
   padding-right: 0px;
+  padding-left: 15px;
   font-size: 30px;
 }
 #Visual.active {
@@ -509,7 +510,7 @@ filter: none;
   margin-top: 10px;
 }
 
-
+/* ARCHIVE PAGE */
 
 
 #intro2019 h1{
@@ -518,6 +519,47 @@ filter: none;
   margin-bottom: 20px;
   text-shadow: 2px 2px 4px #AD1349;
 }
+
+#archive2020 h1 {
+  color: #ff577e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  
+}
+
+#archive2019 h1 {
+  color: #ff577e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+#archive2020 , #archive2019{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 1em;
+  width: 85%;
+  border-radius: 25px;
+}
+
+
+.view, .readmore{
+  font-size: 15px;
+  cursor: pointer;
+  flex: 1 1 auto;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  background-size: 100% auto;
+  color: #ff577e;
+  /* box-shadow: 0 0 10px #eee; */
+  background-color: #f5f5f5;
+}
+
+
+
+
 .intro2020 h1{
   text-align: center;
   font-family: "Montserrat ExtraBold";
@@ -643,6 +685,10 @@ float:right;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #DB3B60;
+}
+
+#portfolio{
+  vertical-align: 50%;
 }
 
 canvas {

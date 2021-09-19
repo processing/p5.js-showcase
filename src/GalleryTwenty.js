@@ -58,7 +58,7 @@ console.log(showcase2020)
     key={filterPathnames[index]}
     to={{
       // Use english filter name in the url pathname
-      pathname: `/2020-${filterPathnames[index]}/`
+      pathname: `/2021-${filterPathnames[index]}/`
     }}>
       <FilterButton
       key={filterPathnames[index]}
@@ -80,7 +80,7 @@ console.log(showcase2020)
     key={difficultyPathnames[index]}
     to={{
       // Use english filter name in the url pathname
-      pathname: `/2020-${difficultyPathnames[index]}/`
+      pathname: `/2021-${difficultyPathnames[index]}/`
     }}>
       <DifficultyFilterButton
       key={difficultyPathnames[index]}
@@ -98,18 +98,20 @@ console.log(showcase2020)
   return (
     <div className="body">
     <div className="intro2020">
-    <h1>p5.js 2021 Showcase</h1>
+    <h1>p5.js 2021 Showcase: 
+      <br></br>
+      The Love Ethic</h1>
     <h3><em>{<Markdown source={t('2020Gallery_Intro')}/>}</em></h3>
     </div>
     <div className="filterlist">
-      <h2>{t("filter by")}:</h2>{filterList}
+      <h2>{t("filter by")}:</h2>{filterList} <h2>/</h2>{difficultyList}
     </div>
 
-    <div className="difficultylist">
+    {/* <div className="difficultylist">
       <h2>{t("level")}:{difficultyList}</h2>
-    </div>
+    </div> */}
 
-  
+
     <div className="gallery">
 <div class="row">
   {showcase2020.map(({author,title, description, live, code, type, difficulty, tools, social, id,picid})=>(

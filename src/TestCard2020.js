@@ -16,11 +16,11 @@ function TestCard2020 (props){
       <Link
          key={props.id}
          to={{
-           pathname: `/2020-${props.filter}/${props.id}/`
+           pathname: `/2021-${props.filter}/${props.id}/`
          }}>
             <img
               src={
-                require(`../public/2020images/${props.picid}`)
+                require(`../public/2021images/${props.picid}`)
               }
               alt={props.title}
               className="Card-image"
@@ -31,7 +31,7 @@ function TestCard2020 (props){
       <Link
          key={props.id}
          to={{
-           pathname: `/2020-${props.filter}/${props.id}/`
+           pathname: `/2021-${props.filter}/${props.id}/`
          }}>
         <h2>{props.title}</h2>
         <h2><em>{props.author}</em></h2>

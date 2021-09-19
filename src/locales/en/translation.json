@@ -6,7 +6,7 @@
   "Directions":"Click on the pink text to change graphs!",
   "Directions2":"Press space to interact with this visualization!",
   "Created By":"Created By",
- "2020Gallery_Intro":"To learn more about the project and how it was made, click on the image of each card preview. \n\nFeel free to leave feedback or a comment in our [guestbook](https://forms.gle/nJ4Z6v31z2HZ6boaA)!",
+ "2020Gallery_Intro":"To learn more about the project and how it was made, click on the image of each card preview. \n\nFeel free to leave feedback or a comment in our [guestbook](https://forms.gle/Mxb2thi2k27EZ3Mo7)!",
  "Project Links": "Project Links",
  "Visualizations":"Visualizations",
  "Projects":"Projects",
@@ -18,20 +18,20 @@
  "About2":"How is it organized?",
  "About3":"What else should I check out?",
  "Acknowledgements":"Acknowledgements",
- "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this project through. I'd also like to thank my wonderful mentors Sam Vassor, KT Duffy, and Ashley Kang (Showcase big sister) for all their support and words of wisdom. Finally I'd like to thank Lauren McCarthy, Saber Khan, Qianqian Ye, evelyn masso, Connie Liu, and the p5 maintainers and contributors for helping me out on my open source journey and this project.",
- "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)) and is currently curated by [Connie Liu](https://connieliu0.github.io). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
- "Answer2":"Usually the p5.js will open up a call for submissions via [Twitter](https://twitter.com/p5xjs) or [Instagram](https://www.instagram.com/p5xjs/)! For the last two years, the Showcase has been run as a [GSoC project](https://summerofcode.withgoogle.com/).",
- "Answer3":"Make some sketches of your own with the [p5.js editor](https://editor.p5js.org/), discover more with [OpenProcessing](https://www.openProcessing.org/), and learn more with the [Coding Train](https://www.youtube.com/user/shiffman) and [Cozy Coding](https://www.twitch.tv/cozycoding/)!",
+ "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this project through. I'd also like to thank my wonderful mentors Sam Vassor, KT Duffy, and Ashley Kang for all their (emotional and technical) support and words of wisdom. Finally I'd like to thank Lauren McCarthy, Saber Khan, Qianqian Ye, evelyn masso, Connie Liu, Jiwon Shin and the p5 maintainers and contributors for helping me with this project and being a part of the start of my open source journey 💗",
+ "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)), previously curated by [Connie Liu](https://connieliu0.github.io), and currently maintained by [Katie Chan](https://katiechan.cargo.site/). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
+ "Answer2":"Usually the p5.js will open up a call for submissions via [Twitter](https://twitter.com/p5xjs) or [Instagram](https://www.instagram.com/p5xjs/)! For the past three years, the Showcase has been run as a [GSoC project](https://summerofcode.withgoogle.com/). In addition, this year's showcase was organized and curated based off of a specific theme." ,
+ "Answer3":"Make some sketches of your own with the [p5.js editor](https://editor.p5js.org/), discover more with [OpenProcessing](https://www.openProcessing.org/), and learn more with the [Coding Train](https://www.youtube.com/user/shiffman), [sosunnyproject] (https://www.youtube.com/channel/UCKNXAqIvqc25JJ1CWdayqBA), and [Xinxin] (https://www.youtube.com/channel/UCufOCDs5G1A4AffwmeV0XBw)!",
  "Question1":"What are you up to? How did you get started with p5.js?",
  "Question2":"How did you use p5.js in this project?",
  "Question3":"What's your favorite p5.js feature?",
  "Question4":"Did you face any challenges working on this project? If so, how did you overcome them?",
  "Question5":"What's a cool thing we should check out?",
- "Archiveabout": "The p5.js Showcase was started by Ashley Kang in the summer of 2019 and has continued on each summer since. Learn more about each showcase and their projects below!",
+ "Archiveabout": "The p5.js Showcase was started by Ashley Kang in the summer of 2019 and has continued on each summer since. View or read more about each project below!",
  "2019about": "Curated by [Ashley Kang](https://ashleykang.dev/) in the summer of 2019, below is the first ever curated collection of the p5.js Showcase! Learn more about each one by clicking on the preview. \n \n[View the original implementation here!](https://p5js.org/showcase/)",
  "About":"About the p5.js Showcase",
  "Welcome":"Welcome to the p5.js 2021 Showcase: The Love Ethic!",
- "2020_intro1":"During Summer 2021 we asked the p5.js community around the world to submit their pieces for a showcase that was centered around love - specifically author [bell hooks' love ethic] (https://cac.org/a-love-ethic-2020-11-11/). To embrace the love ethic is to utilize all dimensions of love - 'care, commitment, trust, responsibility, respect, and knowledge' - in our everyday lives.",
+ "2020_intro1":"During Summer 2021 we asked the p5.js community around the world to submit their work for a showcase that was centered around love, specifically author [bell hooks' love ethic] (https://cac.org/a-love-ethic-2020-11-11/). To embrace the love ethic is to utilize all dimensions of love - 'care, commitment, trust, responsibility, respect, and knowledge' - in our everyday lives.",
  "2020_intro1.5":"Here, you'll find a diverse array of work that interpret the love ethic through p5.js, demonstrating how p5.js can be a radical community with values rooted in social justice and accessibility. As the curator of this year's showcase, I am enamoured by the p5.js community and their passion for pushing the perceptions of how p5.js can be used.",
  "2020_intro2":"Learn more about the p5.js community below!",
  "Viz1":"this year we got submissions from...",
@@ -92,7 +92,7 @@
         "answer5": "Ensuring that conversation remained somewhat smoothly, while also allowing for younger students to be able to use the chatbot as well, was definitely a challenge.",
         "answer6": "I would truly appreciate people checking out the Google forms inc luded as I can see the responses and learn where I can improve as well as how muich information people have on these topics already.",
         "social": "https://sydneynicole1.wixsite.com/website",
-        "id":"project-62",
+        "id":"BLM-Chatbot",
         "picid": "62.png"
 
       },
@@ -116,7 +116,7 @@
         "answer5": "I faced many challenges during this project. The only reason I was able to finish it in 3 weeks is because of my professor who knew all the answers to my questions. I was originally planning to create four different portraits which later changed to two, and ultimately one. The coding portion took the most time since I never get anything right with code on my first try. It took many attempts before having the code work smoothly. I have learned that with coding, it takes a lot of patients and optimism that if you continue to work on it, you will get it right.",
         "answer6": "I personally love stop motion and I get many inspirations form wanting to combine 2d elements with 3d textures and effects. Here is a stop motion director and artist I like: https://www.instagram.com/siqi.song/",
         "social": "https://www.instagram.com/12niki14/",
-        "id":"project-14",
+        "id":"Artists-Activists-Interactive-Portrait",
         "picid": "63.png",
         "twittericon": "twitter.png"
       },
@@ -130,7 +130,7 @@
         "extradesc": "Collective statements and voices complete the phrase “Queer is…” and together make a computational and poetic composition. Through running Vocable Code on a browser, the texts and voices are repeated and disrupted by mathematical chaos, creating a dynamic audio-visual literature and exploring the performativity of code, subjectivity and language.",
         "live": "https://dobbeltdagger.net/VocableCode_Educational/",
         "code": "https://github.com/siusoon/VocableCode/blob/master/vocablecode_program/vocableCode.js",
-        "type": ["Educational","Text"],
+        "type": "Text",
         "tools": "p5.sound, random(),",
         "difficulty": "Intermediate",
         "answer1": "I am an artist and teacher working on queer code. I have been teaching p5 for few years and just published a book called aesthetic programming with Geoff Cox: https://aesthetic-programming.net/",
@@ -139,8 +139,8 @@
         "answer4": "draw() - it is conceptually powerful to think about programming as drawing, but with the continuous loop feature. It changes the way on how your structure elements.",
         "answer5": "The challenges are writing the code that is readable, speakable and executable.",
         "answer6": "Read aloud the source code to think about the poetics of language (natural and machine languages)",
-        "social": "www.siusoon.net , https://twitter.com/siusoon?lang=en",
-        "id":"project-1",
+        "social": "https://siusoon.net/, https://twitter.com/siusoon?lang=en",
+        "id":"Vocable-Code",
         "picid": "61.png"
       },
 
@@ -163,7 +163,7 @@
         "answer5": "Yes, figuring out how to load a table and navigate through the table. Wasn't easy, but there are a few tutorials out there that helped me.",
         "answer6": "Survived & Punished's latest zine: No Good DAs https://www.survivedandpunishedny.org/anti-prosecution/no-good-das-zine/",
         "social": "https://netabomani.com",
-        "id":"project-4",
+        "id":"Say-Their-Names.",
         "picid": "64.png"
       },
 
@@ -187,7 +187,7 @@
         "answer5": "Just keep Swimming'\n\nDo not give up easily. Breaking down the projects into smaller parts helps. Refer to the documentation. Many wonderful people have created very cool libraries which could be of help. And most importantly, explore and have fun doing it.\nOh, and watch out for missing ; or mistakes in spelling and case or   :p",
         "answer6": "I recently came across this video of Theatre Hours- https://vimeo.com/345012746\nThe project was shortlisted at Cannes Lions 2019 for branding. Interesting work on alphabets and Typography. Gave me some inspiration for a Typography based project in P5.",
         "social": "https://www.monalisathakur.com/",
-        "id":"project-24",
+        "id":"Self-Love",
         "picid": "65.png"
       },
 
@@ -209,8 +209,8 @@
         "answer4": "My favorite feature is createGraphics(), it's so nice to have a second canvas that you can move around, hide, or orient however you like!",
         "answer5": "I had a lot of trouble using machine learning models on glitch, as I had to use the glitch console to upload the model data.",
         "answer6": "I recently discovered https://neal.fun/ and it's been pretty inspiration for me in terms of design and interactivity!",
-        "social": "https://www.instagram.com/jayborgwardt/ , jayborgwardt.com",
-        "id":"project-26",
+        "social": "https://www.instagram.com/jay.borgwardt/ , https://www.jayborgwardt.com/",
+        "id":"The-ASL-Machine",
         "picid": "67.gif"
       },
 
@@ -233,7 +233,7 @@
         "answer5": "The first challenge was to create dictionary function that include all the characters of the word love in different languages. and the second was to finding the balance while working different layers of animations. As always Iterative process is often the only way out for me. I learn something new with every iteration.",
         "answer6": "https://www.youtube.com/watch?v=p8yfhE8F8MI",
         "social": "https://patternseeing.wordpress.com/",
-        "id":"project-30",
+        "id":"Constellations-of-Love",
         "picid": "constellations.jpg"
       },
       
@@ -257,7 +257,7 @@
         "answer5": "My challenge that I solved recently is my drawing resolution wasn't big enough for the window. Meaning my drawing and canvas as on the left side of the window with the rest of the page is white and empty. I finally taught myself to go in the CSS file to {justify-content: center;} to shift everything to the center of the window, then I made the CSS background color black to match the canvas color in the JS file.",
         "answer6": "Cool things to check out and learn is basic CSS, CSS can edit and fix window problems that might be easier to solve then through JS",
         "social": "https://www.instagram.com/marsinwonder/",
-        "id":"project-5",
+        "id":"Guilty-Until-Proven-Innocent",
         "picid": "68.png"
       },
 
@@ -280,7 +280,7 @@
         "answer5": "The most challenging thing was to manage the animations by states and control them using only one time variable. Often my biggest challenge is to simplify my own code.",
         "answer6": "The smoothness of the animations! It was what I had the hardest time achieving.",
         "social": "https://www.instagram.com/jerson.latorre",
-        "id":"project-28",
+        "id":"Black-Stars",
         "picid": "blackstars.png"
       },
 
@@ -303,7 +303,7 @@
         "answer5": "This was my first time to use sprite animation with javascript. I created a demo with gif animation and p5 first, then started to try with different libraries like lottie.js and anime.js for sprite animation. I wanted to make characters walk at different speeds, and I want the sprite animation speed to match the walking speed. But controlling the speed of sprite animation was not very easy. After some tries and errors, I found p5.play, and its frameDelay() solved the problem.",
         "answer6": "https://earth.nullschool.net/",
         "social": "https://siorikitajima.com/",
-        "id":"project-20",
+        "id":"Perspective",
         "picid": "69.gif"
       },
 
@@ -325,8 +325,8 @@
         "answer4": "It's an difficult question to answer . Almost every method and function is useful but I think 'rectMode () or angleMode() ' is my favorite.",
         "answer5": "I was late knowing about this submission :( and I tried to make this project in the shortest time to be able to submit in the 2021 ShowCase . So there were some minor problems with Nested loops and the order of given properties.",
         "answer6": "More challenges or showCases for interested people .",
-        "social": "I am using Daniel Shiffman tutorials in youtube and I thinks it's very good .",
-        "id":"project-19",
+        "social": "",
+        "id":"Illogical-Act",
         "picid": "illogical.png"
       },
     
@@ -349,7 +349,7 @@
         "answer5": "This is my first attempt to play with p5.js, compared with other basic and partial project, this kind of full piece could make me feel more achievable.",
         "answer6": "Love this tutorial!!\nhttps://thecodingtrain.com/CodingChallenges/147-chrome-dinosaur",
         "social": "https://www.lillianlimd.com/",
-        "id":"project-7",
+        "id":"Cyber-Forest",
         "picid": "70.gif"
       },
 
@@ -372,7 +372,7 @@
         "answer5": "I'm borrowing a lot from Dan Shiffman's work on genetic algorithms. Admittedly, he's done all the hard work and I've just tweaked things to give them a fresh spin.",
         "answer6": "https://aprja.net/article/view/116062/164244",
         "social": "https://www.notion.so/raretodd/ITP-Shenanigans-53f7433348b641428d41d74b1089ab6d",
-        "id":"project-21",
+        "id":"say-their-names...",
         "picid": "saytheirnames2.png"
       },
 
@@ -396,7 +396,7 @@
         "answer5": "The challenge in this project was curating the different models of time, there's so many relevant ones to choose from.",
         "answer6": "https://www.alicemaz.com/writing/minecraft.html",
         "social": "http://salilparekh.work",
-        "id":"project-2",
+        "id":"The-Context-Clock",
         "picid": "66.png"
       },
 
@@ -419,7 +419,7 @@
         "answer5": "It was pretty straightforward, to be honest!",
         "answer6": "https://www.youtube.com/watch?v=2m8YACFJlMg",
         "social": "https://amirahanafi.com",
-        "id":"project-10",
+        "id":"Mexicans-in-Canada",
         "picid": "canada.jpeg"
       },
     
@@ -442,7 +442,7 @@
         "answer5": "We had an issue in selecting words, where they would stack on top of each other and be impossible to separate. We fixed this by putting the selected words in an array and offsetting them.",
         "answer6": "Tone.js. We've used it in another game to create generative music that the player builds by pressing keys",
         "social": "https://gamesforcrows.itch.io/",
-        "id":"project-12",
+        "id":"Games-For-Crows",
         "picid": "concretenest.png"
       },
       {
@@ -464,7 +464,7 @@
         "answer5": "Integrating socket.io was a bit of a challenge, but again, Shiffman covers it really well.",
         "answer6": "Digital Fabrications: Designer Stories for a Software-Based Planet is a book I wrote recently about the intersections of software and design practice/education.",
         "social": "https://galocanizares.com/\n@itsgalo (Instagram)",
-        "id":"project-13",
+        "id":"Our-Paper-Space",
         "picid": "ourpaper.png"
       },
     
@@ -487,7 +487,7 @@
         "answer5": "Yes. Implementing many features and make them work in all browsers and operative systems is hard! Dealing with sound in browsers is difficult. My way to address these issues was to search solutions online whenever a problem was occurring; test as many times as possible in different browsers and operative systems; ask help to professional programmers to help me find solutions. POLISphone is somewhat reliable but still is not solid rock in all browsers and operative systems (that's why I'm a enthusiast coder and not a professional ;) )",
         "answer6": "The many projects involving sound in the web, such as Locus Sonus (https://locusonus.org/soundmap/051/).",
         "social": "https://filipelopes.net",
-        "id":"project-17",
+        "id":"POLISPhone",
         "picid": "polis.png"
       },
       {
@@ -500,7 +500,7 @@
         "live": "https://deaxmachina.github.io/hatecrime_uk_p5/",
         "code": "https://github.com/deaxmachina/hatecrime_uk_p5",
         "type": "Data Visualization",
-        "tools": "d3.js in addition to p5",
+        "tools": "",
         "difficulty": "Intermediate",
         "answer1": "I am a data scientist turned data visualisation designer and developer, particularly interested in creative viz and data art. Currently based at the University of Tokyo, originally from Bulgaria.",
         "answer2": "Started about 3 months ago when I was learning canvas for data viz purposes and discovered p5. I binge-watched many videos on The Coding Train YouTube channel and got inspired to create some simple sketches, and enter this competition :)",
@@ -509,7 +509,7 @@
         "answer5": "Yes! I was a beginner when I started this project, and I felt that I learnt a lot from doing it. There are still some bits that I didn’t manage to iron out, mostly to do with responsiveness. I struggled with figuring out how to ‘escape’ the animation loop, where I wanted the ‘veil’ around the circles to keep expanding over time, while the circles updated with the timeline. I found a solution in creating a background behind just the shapes and updating that on each animation loop, essentially erasing the circles, while keeping the ‘veil’.",
         "answer6": "Hard question! There are so many cool things in creative coding, both p5 and other (as I discovered in the last few months). I will simply share one of my new favourite creative coders – I believe she codes in Unity, but a lot of the same can be produced in p5 (maybe?) - https://twitter.com/ojelibalon (Deniz Bicer)",
         "social": "https://deabankova.com/",
-        "id":"project-18",
+        "id":"i-don't-like-you...",
         "picid": "idontlikeyou.png"
       },
       
@@ -532,8 +532,8 @@
         "answer4": "My favorite feature is PoseNet, the machine learning model. It makes me think about the unlimited opportunities of the disabled’s interaction.",
         "answer5": "PoseNet has some limits for the camera size and position, so I did the scale modification to locate the barcode reader. If I have more time to develop this project, I will simplify my coding. For example, I should use the array to create the different fruit to be more efficient, and maybe they may appear randomly.",
         "answer6": "You may check out how fascinating our eyes could trigger the interaction in the refrigerator.",
-        "social": "www.linkedin.com/in/juihungt",
-        "id":"project-23",
+        "social": "https://www.linkedin.com/in/juihungt/",
+        "id":"Smart-Refrigerator",
         "picid": "smartfridge.gif"
       },
 
@@ -556,7 +556,7 @@
         "answer5": "I was still learning a lot when I created this project, and one of the big challenges I had was in generating text that could be any size but still fill the pre-determined square that I had created (calculating the width of each letter and figuring out how many letters could fit on a line, and then doing the same with its height). This can be done by generating html elements instead of graphical ones, but part of the \"invisible\" intention of this project was to better understand p5hs and javascript in general.",
         "answer6": "My book (Fieldnotes on Ordinary Love) was selected as a notable book by the New York Times! :)",
         "social": "https://keithswilson.com/",
-        "id":"project-29",
+        "id":"Re-Binary",
         "picid": "rebinary.png"
       },
 
@@ -579,7 +579,7 @@
         "answer5": "There was a couple of basic things I had to learn for this tool to work: how to make it so the user can save and download their image as a jpg  / how to make sure the 'ink' didn't disappear so learning about mousepressed function / aesthetically I enjoyed searching for a line colour that is the closest to terracotta, which is the kind of local clay that is most abundant in Barcelona, where this project started.",
         "answer6": "I hope this isn't too self-promotional, but I  have some processing inspired (not p5.js though....) poems in my first poetry collection :) \nhttps://blackspringpressgroup.com/products/valid-virtual-vegetable-reality-by-rebecca-close",
         "social": "http://criticaldias.net/about",
-        "id":"project-16",
+        "id":"Networks-of-Care=Critique",
         "picid": "close.jpg"
       },
 
@@ -602,7 +602,7 @@
         "answer5": "This was not only my first p5 project but also my first coding/frontend experience so I faced problems in html and css too; to be specific I was struggling with using visuals on top of each other then I got to know later that there's a z-index css property that could fix it.",
         "answer6": "city girl's music",
         "social": "https://www.vineetk.com/",
-        "id":"project-8",
+        "id":"Neon-Impasse",
         "picid": "neon.png"
       },
 
@@ -625,31 +625,8 @@
         "answer5": "I encountered a great many technical issues during the development process. However, I solve them all by myself, with help from online communities, like Stack Overflow.",
         "answer6": "Coding Train!",
         "social": "https://peilingjiang.com",
-        "id":"project-11",
+        "id":"b5",
         "picid": "72.png"
-      },
-
-      {
-        "author": "Ted Mburu",
-        "pronouns": "he/him",
-        "location": "New York, USA",
-        "title": "A Dynamic Electric Field Simulation",
-        "description": "The electric field simulation dynamically changes as the user moves point charges around. Test charges can also be placed anywhere in the field and will move accordingly.",
-        "extradesc": "My hopes with this project are to help high school or college students that are being exposed to electric field for the first time. There are a lot of misconceptions that can come up when first learning about them and I think this simulation can be used to clear some of those up.",
-        "live": "https://icphysweb.z13.web.core.windows.net/",
-        "code": "https://github.com/tedkmburu/E-FieldSim-v2",
-        "type": "Educational",
-        "tools": "createVector(),vertex(),curveVertex(),p5(),beginShape(),endShape()",
-        "difficulty": "Advanced",
-        "answer1": "I'm a Junior Physics and Engineering Double major currently doing physics education research. I developed this simulation as well as an electric field game that also uses the p5.js library. I've presented this project to my department and at 2 national physics conferences.",
-        "answer2": "I took a gap year and worked through nearly every video on The Coding Train's YouTube channel. I started out with more \"fun\" videos like building snake and flappy bird then I started to appreciate the more technical videos as well.",
-        "answer3": "The p5.js library is the only library I used for this project. I translated some physics equations like Coulomb's law into code that work by going through an array of charges to calculate things like net forces and E-fields. I then used other things like recursion and Object Oriented Programming to being the simulation to life. Euler's method was then used to move test charges around the screen in response to the forces exerted on them by the point charges. To create the voltage gradient, I used two canvases, one in the foreground and one in the background. The background canvas is where the gradients are created by first creating a very pixelated image to map out the voltage then applying a CSS blur to the whole canvas. Everything else in the simulation runs on the foreground canvas.",
-        "answer4": "Creating two canvas instances with instance mode was my favorite part of this project. I was stuck on how to get my voltage gradients to look good and not slow everything down and I can up with a solution that uses two canvases that worked nicely.",
-        "answer5": "While a lot of the smaller technical problems I ran into could be solved through google, the bigger more conceptual problems I ran into couldn't be googled. From what I've seen, no one has created an electric field simulation with all of the functionality that the one I created has so I didn't have a lot of resources that I could reference. I created a YouTube series to teach people how to build the simulation in hopes that people can learn from my mistakes and hopefully build upon the project.",
-        "answer6": "I created a game that revolves around electric fields here: https://icphysweb.z13.web.core.windows.net/site/game.html",
-        "social": "https://github.com/tedkmburu",
-        "id":"project-15",
-        "picid": "electronic.png"
       },
 
       {
@@ -671,7 +648,7 @@
         "answer5": "Got some problem over making the mathematical equation work in the real world but it was also fun making these cool projects, and I read some books about the concepts and some articles for that and finally solved the bugs, at the end I love p5.js very much.",
         "answer6": "https://virusinlinux.github.io/DysonSphere.github.io/",
         "social": "https://www.linkedin.com/in/priyanshu-kumar-8852bb1a0/",
-        "id":"project-6",
+        "id":"Heart-Animation",
         "picid": "71.png"
       }
   
