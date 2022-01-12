@@ -95,7 +95,7 @@ function Archive() {
         <div id= "archive2020">
           <h1>p5.js 2020 Showcase</h1>
           <h3><i>Curated by Connie Liu</i></h3>
-        <a href='https://connie-liu.me/p5.js-showcase/#/?' target="blank"><button className = "view">View</button></a>
+        <a href='https://connie-liu.me/p5.js-showcase/#/' target="blank"><button className = "view">View</button></a>
           <a href='https://medium.com/processing-foundation/increasing-the-organization-and-scope-of-the-p5-js-showcase-7193ef558c5a' target="blank"><button className = "readmore">Read More</button></a>
 
           </div>
