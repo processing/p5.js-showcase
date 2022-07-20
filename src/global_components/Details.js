@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/App.css';
-import toolslist from './data/tools.json';
+import '../styles/App.css';
+import toolslist from '../data/tools.json';
 import { useTranslation } from 'react-i18next';
 import { Link } from "react-router-dom";
 import ScrollToTop from './ScrollToTop.js';
@@ -19,7 +19,7 @@ return (
           <div className="details-image">
             <img
               src={
-                require(`../public/images/${image}`)
+                require(`../../public/images/${image}`)
               }
               alt={title}
             />

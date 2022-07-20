@@ -7,7 +7,7 @@ function TestCard (props){
       <div className="cardimage">
             <img
               src={
-                require(`../public/images/${props.image}`)
+                require(`../../public/images/${props.image}`)
               }
               alt={props.title}
               className="Card-image"
