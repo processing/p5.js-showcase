@@ -77,12 +77,17 @@ body{
 .navigation {
   background-color: #FFF2F2;
   padding: 40px 0 40px 0;
+  width: 100%;
+}
+
+.navigation .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
+
 .navigation .left{
   margin-left: 40px;
   display: flex;
@@ -104,6 +109,13 @@ body{
   cursor: pointer;
 }
 
+.navigation .nav-text {
+  margin-left: 40px;
+  color: #DB3B60;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 .Examples-Container {
   display: flex;
@@ -520,6 +532,13 @@ filter: none;
   text-shadow: 2px 2px 4px #AD1349;
 }
 
+#archive2021 h1 {
+  color: #ff577e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
 #archive2020 h1 {
   color: #ff577e;
   margin-top: 20px;
@@ -535,7 +554,7 @@ filter: none;
   font-size: 40px;
 }
 
-#archive2020 , #archive2019{
+#archive2021, #archive2020 , #archive2019{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   padding: 1em;
   width: 85%;
