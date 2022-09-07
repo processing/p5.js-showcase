@@ -25,7 +25,7 @@
 - src/showcase_2022/Visualizations_2022/map.json
 
 #### Global Components
-src/global_components/GraphButton.js
+- src/global_components/GraphButton.js
 
 
 ### Text
@@ -105,5 +105,5 @@ src/showcase_2022/TestCard2022.js
 - src/locales/(desired language)/translation_2022.json
 
 
-### ECSS
+### CSS
 - styles/App.css
