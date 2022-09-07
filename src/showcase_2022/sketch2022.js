@@ -1,4 +1,4 @@
-import wordcloud2022 from '../showcase_2021/wordcloud2022.csv';
+import wordcloud2022 from '../showcase_2022/wordcloud2022.csv';
 
 export default function sketch(p) {
   var updateColor=false;
