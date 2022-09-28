@@ -3,7 +3,7 @@ import { Map, Marker, Popup, TileLayer } from "react-leaflet";
 import * as showcaseData from "./Visualizations_2022/map.json";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import L from 'leaflet';
-import starMarker from '../showcase_2021/Visualizations_2022/asterisk-01.svg';
+import starMarker from '../showcase_2022/Visualizations_2022/asterisk-01.svg';
 import '../styles/App.css';
 import '../styles/Vis.css';
 

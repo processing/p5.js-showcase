@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Bar } from "react-chartjs-2";
 import P5Wrapper from "react-p5-wrapper";
-import sketch2021 from "../showcase_2021/sketch2021.js";
-import Simple from "../showcase_2021/simple2021";
+import sketch2022 from "../showcase_2022/sketch2022.js";
+import Simple from "../showcase_2022/simple2022";
 import GraphButton from "./GraphButton";
 import { HashLink } from "react-router-hash-link";
+
 import { Link } from "react-router-dom";
 
 export default function Gallery() {
@@ -150,8 +151,19 @@ export default function Gallery() {
               <em>{t("Directions2")}</em>
             </p>
           </div>
-          <div id="P5Wrapper" style={{ position: "relative" }}>
-            <P5Wrapper sketch={sketch2021} />
+          <div id="viz3" className="column">
+            <h1>{t("Viz3")}</h1>
+            <div className="flex">
+              <p>
+                <em>{t("Directions2")}</em>
+              </p>
+            </div>
+            <div id="P5Wrapper" style={{ position: "relative" }}>
+              <P5Wrapper sketch={sketch2022} />
+            </div>
+            <h1>
+              <Link to="/2022-All">{t("Viz4")}</Link>
+            </h1>
           </div>
           <h1>
             <Link to="/2022-All">{t("Viz4")}</Link>
