@@ -41,7 +41,7 @@ export default function Gallery() {
         borderWidth: 1,
         hoverBackgroundColor: "rgba(255,99,132,0.4)",
         hoverBorderColor: "rgba(255,99,132,1)",
-        data: [76.8, 23.2],
+        data: [77.3, 22.7],
       },
     ],
   };
@@ -55,7 +55,7 @@ export default function Gallery() {
         borderWidth: 1,
         hoverBackgroundColor: "rgba(255,99,132,0.4)",
         hoverBorderColor: "rgba(255,99,132,1)",
-        data: [41.3, 35.5, 28.8],
+        data: [44.8, 36.2, 19],
       },
     ],
   };
@@ -64,9 +64,25 @@ export default function Gallery() {
   return (
     <div className="body2022">
       <div className="cover2022">
-        <h1 id="h1-2022">{t("Connect2022")}</h1>
-        <h2 id="h2-2022">{t("Welcome2022")}</h2>
-        <p id="p-2022">{t("CreatedBy2022")}</p>
+        <div className="title-2022">
+          <img
+            id="connect-title"
+            src="/2022images/connect-title.png"
+            alt="Connect with asterik replacing the O."
+          />
+        </div>
+        <div className="cover-text-2022">
+          {/* <h1 id="h1-2022">{t("Connect2022")}</h1> */}
+          <h2 id="h2-2022">{t("Welcome2022")}</h2>
+          <p id="p-2022">
+            <i>{t("CreatedBy2022")}</i>
+          </p>
+        </div>
+        <img
+          id="landing-img"
+          src="/2022images/p5landingimg.png"
+          alt="two cartoon hearts holding onto a string"
+        />
       </div>
       {/* <div className="cover2020">
         <h1>{t("Welcome")}</h1>
@@ -103,71 +119,79 @@ export default function Gallery() {
           </div>
         </div>
       </div> */}
+      <div className="about-text-2022">
+        <h2>{t("2022-about-heading")}</h2>
+        <p>{t("2022_intro1")}</p>
+        <h2>{t("2022-about-heading")}</h2>
+        <p>{t("2022_intro1.5")}</p>
+        <h2>{t("2022_intro2")}</h2>
+      </div>
       <div className="twentyviz" id="twentyviz">
-        <div className="flex column">
-          <h1>{t("Viz1")}</h1>
+        <div className="map-viz-2022">
+          <h1 className="foreword-h1-2022">{t("Viz1")}</h1>
+          <Simple />
           <p>
             <em>{t("Directionsmap")}</em>
           </p>
         </div>
-        <Simple />
-        <h1 className="tenpx">{t("Viz2")}</h1>
-        <div className="flex">
-          <div className="column">
-            <p>
-              <em>{t("Directions")}</em>
-            </p>
-            <GraphButton
-              id="graph1"
-              className={graph2Displayed === false ? "active" : ""}
-              buttonname={t("viz2.1")}
-              showGraph={showGraph1}
-              otherGraph={showGraph2}
-            />
-            <h2>
-              <em>...{t("viz2.2")}</em>
-            </h2>
-            <GraphButton
-              id="graph2"
-              buttonname={t("viz2.3")}
-              className={graph1Displayed === false ? "active" : ""}
-              showGraph={showGraph2}
-              otherGraph={showGraph1}
-            />
+        <div className="map-viz-2022">
+          <h1 className="tenpx">{t("Viz2")}</h1>
+          <div className="flex">
+            <div className="column">
+              <p>
+                <em>{t("Directions")}</em>
+              </p>
+              <GraphButton
+                id="graph1"
+                className={graph2Displayed === false ? "active" : ""}
+                buttonname={t("viz2.1")}
+                showGraph={showGraph1}
+                otherGraph={showGraph2}
+              />
+              <h2>
+                <em>...{t("viz2.2")}</em>
+              </h2>
+              <GraphButton
+                id="graph2"
+                buttonname={t("viz2.3")}
+                className={graph1Displayed === false ? "active" : ""}
+                showGraph={showGraph2}
+                otherGraph={showGraph1}
+              />
+            </div>
+            <div className="column">
+              {graph1Displayed && (
+                <Bar data={data1} width={100} height={280} options={options} />
+              )}
+              {graph2Displayed && (
+                <Bar data={data2} width={100} height={280} options={options} />
+              )}
+            </div>
           </div>
-          <div className="column">
-            {graph1Displayed && (
-              <Bar data={data1} width={100} height={280} options={options} />
-            )}
-            {graph2Displayed && (
-              <Bar data={data2} width={100} height={280} options={options} />
-            )}
-          </div>
-        </div>
-        <div id="viz3" className="column">
-          <h1>{t("Viz3")}</h1>
+          <div id="viz3" className="column">
+            {/* <h1>{t("Viz3")}</h1>
           <div className="flex">
             <p>
               <em>{t("Directions2")}</em>
             </p>
-          </div>
-          <div id="viz3" className="column">
+          </div> */}
+            {/* <div id="viz3" className="column"> */}
             <h1>{t("Viz3")}</h1>
             <div className="flex">
-              <p>
-                <em>{t("Directions2")}</em>
-              </p>
+              <p></p>
             </div>
             <div id="P5Wrapper" style={{ position: "relative" }}>
               <P5Wrapper sketch={sketch2022} />
             </div>
+            <em>{t("Directions2")}</em>
             <h1>
               <Link to="/2022-All">{t("Viz4")}</Link>
             </h1>
-          </div>
-          <h1>
+            {/* </div> */}
+            {/* <h1>
             <Link to="/2022-All">{t("Viz4")}</Link>
-          </h1>
+          </h1> */}
+          </div>
         </div>
       </div>
     </div>

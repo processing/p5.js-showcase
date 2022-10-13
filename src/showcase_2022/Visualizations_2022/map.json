@@ -12,7 +12,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [19.075983, 72.877655]
+        "coordinates": [72.877655, 19.075983]
       }
     },
     {
@@ -26,7 +26,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [51.507351, -0.127758]
+        "coordinates": [-0.127758, 51.507351]
       }
     },
     {
@@ -40,7 +40,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.978931, 27.51524]
+        "coordinates": [27.51524, 40.978931]
       }
     },
     {
@@ -54,7 +54,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [41.878113, -87.629799]
+        "coordinates": [-87.629799, 41.878113]
       }
     },
     {
@@ -68,7 +68,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [39.9612, 82.9988]
+        "coordinates": [-82.9988, 39.9612]
       }
     },
     {
@@ -82,7 +82,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [47.5821, 53.2799]
+        "coordinates": [-53.2799, 47.5821]
       }
     },
     {
@@ -96,7 +96,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [50.0755, 14.4378]
+        "coordinates": [14.4378, 50.0755]
       }
     },
     {
@@ -110,7 +110,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.9838, 23.7275]
+        "coordinates": [23.7275, 37.9838]
       }
     },
     {
@@ -124,7 +124,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [35.5138, 24.018]
+        "coordinates": [24.018, 35.5138]
       }
     },
     {
@@ -138,7 +138,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.7128, 74.006]
+        "coordinates": [-74.006, 40.7128]
       }
     },
     {
@@ -152,7 +152,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [41.8781, 87.6298]
+        "coordinates": [-87.6298, 41.8781]
       }
     },
     {
@@ -166,7 +166,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [41.7001, 71.4162]
+        "coordinates": [-71.4162, 41.7001]
       }
     },
     {
@@ -180,7 +180,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [1.3521, 103.8198]
+        "coordinates": [103.8198, 1.3521]
       }
     },
     {
@@ -194,21 +194,21 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.4406, 79.9959]
+        "coordinates": [-79.9959, 40.4406]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "author": "Mariana Leal",
-        "location": "São Paulo, Brasil",
+        "location": "São Paulo, Brazil",
         "title": "Phantom Calligraphy or some rest for those who see.",
         "project_link": "https://editor.p5js.org/lightestHand/sketches/th556JnFl",
         "occupation": "Generative calligrapher"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [23.5558, 46.6396]
+        "coordinates": [-46.6396, -23.5558]
       }
     },
     {
@@ -222,7 +222,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [43.6532, 79.3832]
+        "coordinates": [-79.3832, 43.6532]
       }
     },
     {
@@ -236,7 +236,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [6.2088, 106.8456]
+        "coordinates": [106.827183, -6.175394]
       }
     },
     {
@@ -250,7 +250,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [30.2741, 120.1552]
+        "coordinates": [120.1552, 30.2741]
       }
     },
     {
@@ -264,7 +264,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [44.9537, 93.09]
+        "coordinates": [-93.09, 44.9537]
       }
     },
     {
@@ -278,7 +278,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [2.3522, 48.8566]
       }
     },
     {
@@ -292,7 +292,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [41.1335, 71.3103]
+        "coordinates": [-71.309843, -41.133442]
       }
     },
     {
@@ -306,7 +306,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [25.428, 50.7833]
+        "coordinates": [50.7833, 25.428]
       }
     },
     {
@@ -320,7 +320,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [36.2972, 59.6067]
+        "coordinates": [59.6067, 36.2972]
       }
     },
     {
@@ -334,7 +334,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.9643, 91.8318]
+        "coordinates": [-91.8318, 37.9643]
       }
     },
 
@@ -349,7 +349,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [32.1656, 82.9001]
+        "coordinates": [-82.9001, 32.1656]
       }
     },
     {
@@ -363,7 +363,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [39.9526, 75.1652]
+        "coordinates": [-75.1652, 39.9526]
       }
     },
     {
@@ -377,7 +377,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [8.9806, 38.7578]
+        "coordinates": [38.7578, 8.9806]
       }
     },
     {
@@ -391,7 +391,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [45.0061, 93.1566]
+        "coordinates": [-93.1566, 45.0061]
       }
     },
     {
@@ -405,7 +405,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.5665, 126.978]
+        "coordinates": [126.978, 37.5665]
       }
     },
     {
@@ -419,7 +419,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.5665, 126.978]
+        "coordinates": [126.978, 37.5665]
       }
     },
     {
@@ -433,7 +433,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [44.4949, 11.3426]
+        "coordinates": [11.3426, 44.4949]
       }
     },
     {
@@ -447,7 +447,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [12.9777, 38.5016]
+        "coordinates": [-38.5016, -12.9777]
       }
     },
     {
@@ -461,7 +461,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.5665, 126.978]
+        "coordinates": [126.978, 37.5665]
       }
     },
     {
@@ -475,21 +475,21 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.6782, 73.9442]
+        "coordinates": [-73.9442, 40.6782]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "author": "Rachel Ehrlich",
-        "location": "New York, USA",
+        "location": "New York City, USA",
         "title": "Heart Flags",
         "project_link": "https://r4chel.github.io/heart-flags/",
         "occupation": "Generative Artist"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.7128, 74.006]
+        "coordinates": [-74.006, 40.7128]
       }
     },
     {
@@ -503,7 +503,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [50.1692, 5.1071]
+        "coordinates": [-5.103406, 50.1692]
       }
     },
     {
@@ -517,7 +517,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [50.1109, 8.6821]
+        "coordinates": [8.6821, 50.1109]
       }
     },
     {
@@ -531,7 +531,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [48.8566, 2.3522]
+        "coordinates": [2.3522, 48.8566]
       }
     },
     {
@@ -545,7 +545,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [35.6528, 97.4781]
+        "coordinates": [-97.4781, 35.6528]
       }
     },
     {
@@ -559,7 +559,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [43.6532, 79.3832]
+        "coordinates": [-79.3832, 43.6532]
       }
     },
     {
@@ -573,7 +573,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [40.7128, 74.006]
+        "coordinates": [-74.006, 40.7128]
       }
     },
     {
@@ -587,7 +587,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [42.3318, 71.1212]
+        "coordinates": [-71.1212, 42.3318]
       }
     },
     {
@@ -601,7 +601,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [10.8231, 106.6297]
+        "coordinates": [106.6297, 10.8231]
       }
     },
     {
@@ -615,7 +615,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [22.5752, 144.0848]
+        "coordinates": [144.0848, -22.5752]
       }
     },
     {
@@ -629,7 +629,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.5485, 121.9886]
+        "coordinates": [-121.9886, 37.5485]
       }
     },
     {
@@ -643,7 +643,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [31.2304, 121.4737]
+        "coordinates": [121.4737, 31.2304]
       }
     },
     {
@@ -657,7 +657,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [51.5072, 0.1276]
+        "coordinates": [-0.1276, 51.5072]
       }
     },
     {
@@ -671,7 +671,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [34.0522, 118.2437]
+        "coordinates": [-118.2437, 34.0522]
       }
     },
     {
@@ -685,7 +685,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [35.2802, 149.131]
+        "coordinates": [149.101268, -35.297591]
       }
     },
     {
@@ -699,21 +699,21 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [31.2304, 121.4737]
+        "coordinates": [121.4737, 31.2304]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "author": "morais",
-        "location": "Campina Grande, Brasil",
+        "location": "Campina Grande, Brazil",
         "title": "a train ride",
         "project_link": "https://editor.p5js.org/reajmorais/full/8UxKOWank",
         "occupation": "Student, artist"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.2206, 35.8888]
+        "coordinates": [-35.8888, -7.2206]
       }
     },
     {
@@ -727,7 +727,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [22.5726, 88.3639]
+        "coordinates": [88.3639, 22.5726]
       }
     }
   ]
