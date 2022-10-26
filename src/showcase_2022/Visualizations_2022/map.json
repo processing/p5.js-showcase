@@ -253,20 +253,7 @@
         "coordinates": [120.1552, 30.2741]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "author": "Liam St. Ores",
-        "location": "Saint Paul, USA",
-        "title": "ThingOS",
-        "project_link": "https://saintdoggie.github.io/ThingOS-fake/v",
-        "occupation": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.09, 44.9537]
-      }
-    },
+
     {
       "type": "Feature",
       "properties": {
@@ -366,20 +353,7 @@
         "coordinates": [-75.1652, 39.9526]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "author": "YAB",
-        "location": "Addis Ababa, Ethiopia",
-        "title": "simple solar system",
-        "project_link": "https://youtu.be/CdQW3ry_m8c",
-        "occupation": "Student"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [38.7578, 8.9806]
-      }
-    },
+   
     {
       "type": "Feature",
       "properties": {
@@ -520,20 +494,7 @@
         "coordinates": [8.6821, 50.1109]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "author": "Pharoah Jardin",
-        "location": "Paris, France",
-        "title": "AJEN",
-        "project_link": "https://pharoahjardin.s3.eu-west-3.amazonaws.com/ajen/index.html",
-        "occupation": "Engineering student"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3522, 48.8566]
-      }
-    },
+  
     {
       "type": "Feature",
       "properties": {
