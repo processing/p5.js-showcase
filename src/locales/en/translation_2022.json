@@ -22,11 +22,12 @@
   "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)), previously curated by [Connie Liu](https://connieliu0.github.io), and currently maintained by [Katie Chan](https://katiechan.cargo.site/). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
   "Answer2": "Usually the p5.js will open up a call for submissions via [Twitter](https://twitter.com/p5xjs) or [Instagram](https://www.instagram.com/p5xjs/)! For the past three years, the Showcase has been run as a [GSoC project](https://summerofcode.withgoogle.com/). In addition, this year's showcase was organized and curated based off of a specific theme.",
   "Answer3": "Make some sketches of your own with the [p5.js editor](https://editor.p5js.org/), discover more with [OpenProcessing](https://www.openProcessing.org/), and learn more with the [Coding Train](https://www.youtube.com/user/shiffman), [sosunnyproject] (https://www.youtube.com/channel/UCKNXAqIvqc25JJ1CWdayqBA), and [Xinxin] (https://www.youtube.com/channel/UCufOCDs5G1A4AffwmeV0XBw)!",
-  "Question1": "What are you up to? How did you get started with p5.js?",
-  "Question2": "How did you use p5.js in this project?",
-  "Question3": "What's your favorite p5.js feature?",
-  "Question4": "Did you face any challenges working on this project? If so, how did you overcome them?",
-  "Question5": "What's a cool thing we should check out?",
+  "Question1": "What are you up to?",
+  "Question2": "How did you get started with p5.js?",
+  "Question3": "How did you use p5.js in this project?",
+  "Question4": "What's your favorite p5.js feature?",
+  "Question5": "Did you face any challenges working on this project? If so, how did you overcome them?",
+  "Question6": "What's a cool thing we should check out?",
   "Archiveabout": "The p5.js Showcase was started by Ashley Kang in the summer of 2019 and has continued on each summer since. View or read more about each project below!",
   "2019about": "Curated by [Ashley Kang](https://ashleykang.dev/) in the summer of 2019, below is the first ever curated collection of the p5.js Showcase! Learn more about each one by clicking on the preview. [View the original implementation here!](https://p5js.org/showcase/)",
   "About": "About the p5.js Showcase",
@@ -96,7 +97,7 @@
       "answer5": "I faced many performance issues due to how resource-intensive it is to generate a large playable area and draw all the game objects in the scene. So much of my time went into optimization by ensuring that some visual effects, such as the rain or the water ripples, won't get drawn outside the viewing area. In addition, I struggled a lot with how to create real-time shadows for my moving game objects. But I was lucky to come across the CanvasRenderingContext2D from the Canvas API, which allows me to render 2D shadows and maintain a higher framerate. I also didn't know how to code graphic shaders, so I had to work with a few basic functions to draw the scene. The key lesson I got from this project is organization. If you ever feel that your task is overwhelming, separate your goal into smaller chunks and work on it one step at a time. This way, the work will be more enjoyable, and you will also have a coherent structure of codes.",
       "answer6": "A project by Yuri Suzuki: https://soundoftheearth.org/",
       "social": "https://www.jasongong.design/",
-      "id": "Heart-Animation",
+      "id": "the-healing-forest",
       "picid": "71.png"
     },
 
@@ -118,7 +119,7 @@
       "answer5": "It was incredibly challenging.",
       "answer6": "An explainer video of the project: https://youtu.be/Wc06UFbB8D8 Trailer for the game: https://youtu.be/HrHS1g1aeno",
       "social": "www.arjunyadav.info | Instagram: @arjunsarchive",
-      "id": "life-death",
+      "id": "in-between-life-and-death",
       "picid": "62.png"
     },
 
@@ -147,7 +148,7 @@
 
     {
       "author": "Ünver Çiftçi",
-      "pronouns": "",
+      "pronouns": "he/him",
       "location": "Tekirdağ, Turkey",
       "title": "High School Mathematics Animated",
       "description": "I believe that a high school student can illustrate every topic in high school mathematics. Due to minimalist design of p5.js, it is possible for high schoolers to compute, animate and simulate. Most of the time they are not using manipulatives in mathematics education. But programming is experiencing, so that they can grasp the subject. They will also start lerning first principles of engineering by programming their scenerios. The work is still in early stage. There are eight videos in Turkish. If there will be demand it would be nice to create more materials in several languages.",
@@ -158,9 +159,9 @@
       "difficulty": "Beginner",
       "answer1": "I am an appied maths professor in Tekirdağ Namık Kemal University. I used to be a be a middle school mathematics teacher and like teaching a lot.",
       "answer2": "By the Coding Train. It is inpiring! My first project is the present one actually.",
-      "answer3": "Feel free to go into detail about your process of creating this project, including any other technologies you used. Even better, please share links to resources that helped you! I programmed mathematical consepts and tried to encourage people that it is possible and useful. My first example is a speed problem where two vehicles move towards each other with varying speeds, and simulated their arrivals. In onether example, I coded finding squareroots using rectangles. The other one is on finding limits. There are other on triangles, multiplication, work problems, graphics of functions and computing Pi.",
+      "answer3": "I programmed mathematical consepts and tried to encourage people that it is possible and useful. My first example is a speed problem where two vehicles move towards each other with varying speeds, and simulated their arrivals. In onether example, I coded finding squareroots using rectangles. The other one is on finding limits. There are other on triangles, multiplication, work problems, graphics of functions and computing Pi.",
       "social": "https://www.linkedin.com/in/unverciftci",
-      "id": "hs-math",
+      "id": "high-school-math-animated",
       "picid": "61.png"
     },
 
@@ -182,7 +183,7 @@
       "answer5": "For this project, It can get a bit tedious with the measurements I have to calculate for more symmetrical works. It takes a lot of time to get the details. However, I use music to keep me in a state of flow to remain productive.",
       "answer6": "In general, check out numerology and the meaning of numbers. Numbers can create patterns, and this is important because with the editor feature, the canvas is like a grid.",
       "social": "Facebook - Venus Ki Portfolio- https://kalenafox808.wixsite.com/website Instagram - lyght_3r_flu1d",
-      "id": "organic-machine",
+      "id": "portrait-of-an-organic-machine",
       "picid": "64.png"
     },
 
@@ -333,7 +334,7 @@
       "answer5": "When users click through all the images on the web page, it won't restart to the first image. So I have to add this line of code: if (pos >= allimages.length) {pos = 0;}",
       "answer6": "https://swiftui.design/",
       "social": "https://notwinter.notion.site/notwinter/This-is-not-winter-4e3f503cee444e4c830a5fd812672b36",
-      "id": "Illogical-Act",
+      "id": "marvels-flow-field",
       "picid": "illogical.png"
     },
 
@@ -355,7 +356,7 @@
       "answer5": "The problems I faced when doing this project would have to be the unique rendering as it was kind of hard to figure out to properly draw each point to the screen.",
       "answer6": "You guys should check out The Rehearsal by Nathan Fielder its pretty funny.",
       "social": "Instagram: @noahbreedy",
-      "id": "Cyber-Forest",
+      "id": "rope-simulation",
       "picid": "70.gif"
     },
 
@@ -376,7 +377,7 @@
       "answer4": "One of my favourite functions is for(). Although being a simple loop available in many languages, the for loop is very versatile and can be used to make many wonderful things.",
       "answer5": "The biggest challenge that I faced was calculating the x,y coordinates given the angle and distance. As the drawing functions in p5.js only accept coordinates as perimeters, it took me a while to get the trigonometery right.",
       "answer6": "I feel that if inputted the correct numbers/formulas things on loop are really fun.",
-      "id": "say-their-names...",
+      "id": "pattern-creator",
       "picid": "saytheirnames2.png"
     },
 
@@ -397,7 +398,7 @@
       "answer4": "graphics buffers and blend modes! Also pixels. I like doing cool things with graphics.",
       "answer5": "HTML can be tedious. In the end I just had to push through it to get back to the fun parts. Also lots and lots of googling.",
       "answer6": "my absolute favorite thing on the internet: https://www.reddit.com/r/pics/comments/ai8h3s/chairexe_has_stopped_working/. There are just so many layers to that post, and I feel like it sums up a generation.",
-      "id": "The-Context-Clock",
+      "id": "quilter",
       "picid": "66.png"
     },
 
@@ -419,7 +420,7 @@
       "answer5": "To work with the loadStrings() function was a challenge because it doesn't work like the version in processing java mode. The callback part is still confusing to me.",
       "answer6": "the processing community day held in Brasil: https://pcd.encontrosdigitais.com.br/2021/",
       "social": "social media: instagram.com/lightesthand || portfolio: https://marileal.github.io/",
-      "id": "Mexicans-in-Canada",
+      "id": "phantom-calligraphy",
       "picid": "canada.jpeg"
     },
 
@@ -441,7 +442,7 @@
       "answer5": "I wanted the text justification but that didn't exist natively in P5.js so had to write my custom text justification functions which took a bit of time.",
       "answer6": "https://watabou.itch.io/",
       "social": "https://twitter.com/arkimedz",
-      "id": "Games-For-Crows",
+      "id": "starmap-generator",
       "picid": "concretenest.png"
     },
     {
@@ -462,7 +463,7 @@
       "answer5": "I already have a solid idea in mind which is the Mandala, but frankly the challenge comes since the beginning when creating the Mandala. I'm still practising my computational thinking, so i had to find resources, thanks to Computational Mama and Steve's Makerspace for getting me started with the logic!",
       "answer6": "i think you should check out p5.xr and develop it more because we are entering metaverse, and I need p5js in building my own metaverse! :D",
       "social": "https://www.linkedin.com/in/aryaharditya/",
-      "id": "Our-Paper-Space",
+      "id": "mandala-shatters",
       "picid": "ourpaper.png"
     },
 
@@ -471,7 +472,7 @@
       "pronouns": "",
       "location": "Hangzhou, China",
       "title": "SAKURA BLOSSOM",
-      "description": "POLISphone is a software for music performance, in- spired on the popular idea of “soundmap”. Unlike most soundmaps, its main aim is to provide a way to easily create original soundmaps and perform with it.",
+      "description": "Because the course started in spring,so I was inspired by the blossoming cherry flowers----its janpanese name spelling is SAKURA.I want to realize its formation and capture the second when flower is blossoming.With its endless motion I hope people can feel the dynamic beauty,the power of the nature life,and the strength of natural circulation.",
       "live": "https://editor.p5js.org/natalieyeye/sketches/ceBrnMFZr",
       "code": "https://editor.p5js.org/natalieyeye/sketches/ceBrnMFZr",
       "type": "Visual",
@@ -483,7 +484,7 @@
       "answer4": "map()",
       "answer5": "Sometimes you have to go to other website to find method to visualize and realize your ideas.",
       "social": "instagram: buzztequila",
-      "id": "POLISPhone",
+      "id": "sakura-blossom",
       "picid": "polis.png"
     },
 
@@ -505,7 +506,7 @@
       "answer5": "The sketches. I had to accumulate during a long-time to have enough materials.",
       "answer6": "Tone.js",
       "social": "https://skyl.fr",
-      "id": "Smart-Refrigerator",
+      "id": "cave",
       "picid": "smartfridge.gif"
     },
 
