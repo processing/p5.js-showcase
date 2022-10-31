@@ -263,11 +263,15 @@ h3 a:hover {
   position: relative;
   border-color: #ff2457;
   margin-bottom: 0px;
+  height: 500px;
 }
 
 .bigcard:hover {
-  border-color: #ffb6c1;
-  color: #ffb6c1;
+  border-color: #a8314d;
+  color: #a8314d;
+  transition: 0.4s;
+  transform: translate(-5px, -10px);
+  box-shadow: 5px 10px 25px #888888;
 }
 .bigcard img:hover {
   filter: none;
@@ -316,7 +320,8 @@ h3 a:hover {
   border-radius: 12px 12px 0px 0px;
   opacity: 0.9;
   width: 500px;
-  filter: blur(3px);
+  height: 300px;
+  /* filter: blur(3px); */
 }
 .cardimage:hover {
   filter: none;
@@ -359,6 +364,7 @@ h3 a:hover {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
+
 .gradient-border {
   --borderWidth: 4px;
   background: #fff2f2;
@@ -545,6 +551,11 @@ h3 a:hover {
   margin-top: 10px;
 }
 
+.img-description {
+  border: 5px;
+  border-color: #ff577e;
+}
+
 /* ARCHIVE PAGE */
 
 #intro2019 h1 {
@@ -687,8 +698,7 @@ img.downarrow {
 }
 
 /* 2020 visualization */
-.twentyviz{
-  
+.twentyviz {
 }
 .twentyviz h1 {
   font-family: "Montserrat ExtraBold";
@@ -823,13 +833,16 @@ h1.tenpx {
   padding: 5px 0px 0px 0px;
   height: 25px;
   border: #ff2457;
+  border-top-style: solid;
   border-bottom-style: solid;
   width: 180px;
 }
 .links a:first-child {
   border: #ff2457;
+
   border-right-style: solid;
 }
+
 .box:hover {
   color: white;
   background-color: #ffb6c1;
