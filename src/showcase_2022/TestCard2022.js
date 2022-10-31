@@ -16,7 +16,7 @@ function TestCard2022 (props){
       <Link
          key={props.id}
          to={{
-           pathname: `/2021-${props.filter}/${props.id}/`
+           pathname: `/2022-${props.filter}/${props.id}/`
          }}>
             <img
               src={

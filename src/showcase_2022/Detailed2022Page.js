@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 
 export default function Detailed2022Page() {
     let { id, filter } = useParams();
-    let entries = i18next.t('showcase2020', { returnObjects: true });
+    let entries = i18next.t('showcase2022', { returnObjects: true });
     let piece = entries.find(x => x.id === id);
   
     if (!piece) return <div>Image not found</div>;
