@@ -38,7 +38,7 @@ function TestCard2022(props) {
           </Link>
         </div>
         <div className="img-description">
-          <p>hi</p>
+          <p className="img-description-text">hi</p>
         </div>
         <div className="links">
           {props.code.length !== 0 ? (

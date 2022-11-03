@@ -553,7 +553,9 @@ h3 a:hover {
 
 .img-description {
   border: 5px;
-  border-color: #ff577e;
+  border-color: #ff2457;
+  background-color: #ff2457;
+  color: white;
 }
 
 /* ARCHIVE PAGE */
@@ -890,6 +892,28 @@ h1.tenpx {
 }
 
 /* About Page */
+.about-h2 {
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  transform: rotate(180deg);
+  /* transform: translate(20px); */
+}
+
+.about-body-text {
+  width: 50vw;
+}
+.about-text-2022 {
+  margin: 7vw;
+}
+.about-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-img {
+  width: 30vw;
+}
+
 .home p {
   width: 85%;
   margin-left: 70px;
@@ -1111,6 +1135,8 @@ h1.tenpx {
   background-color: #fff;
   padding: 40px 0 40px 0;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .navigation-2022 .menu {
@@ -1217,4 +1243,13 @@ h1.tenpx {
 .map-viz-2022 {
   margin: 7vw;
   text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-img {
+  width: 15vw;
 }

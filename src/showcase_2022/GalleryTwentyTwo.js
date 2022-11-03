@@ -155,6 +155,14 @@ function GalleryTwentyTwo(props) {
           )}
         </div>
       </div>
+      <div className="footer">
+        <img
+          className="footer-img"
+          src="/2022images/heart-end.png"
+          alt="two cartoon hearts hula hooping together with one hula hoop"
+        />
+        <p>You've reached the bottom!</p>
+      </div>
     </div>
   );
 }

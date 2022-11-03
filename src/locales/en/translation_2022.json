@@ -18,8 +18,8 @@
   "About2": "How is it organized?",
   "About3": "What else should I check out?",
   "Acknowledgements": "Acknowledgements",
-  "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this project through. I'd also like to thank my wonderful mentors Sam Vassor, KT Duffy, and Ashley Kang for all their (emotional and technical) support and words of wisdom. Finally I'd like to thank Lauren McCarthy, Saber Khan, Qianqian Ye, evelyn masso, Connie Liu, Jiwon Shin and the p5 maintainers and contributors for helping me with this project and being a part of the start of my open source journey 💗",
-  "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)), previously curated by [Connie Liu](https://connieliu0.github.io), and currently maintained by [Katie Chan](https://katiechan.cargo.site/). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
+  "Acknowledgements_Description": "I'd like to thank [GSoC](https://summerofcode.withgoogle.com/) and the [Processing Foundation](https://processingfoundation.org/) for allowing me to see this project through. I'd also like to thank my wonderful mentor Rachel Lim for all of her unwavering (emotional and technical) support through the whole process. I'd also like to shout-out Qianqian Ye, Katie Chan, and Connie Liu for all of their advice and input.  Lastly, I'd like to thank all the p5 maintainers and contributors for helping me with this project and for being a part of this whole journey 💗",
+  "Answer1": "The p5.js Showcase is an online gallery of work created with [p5.js](https://p5js.org/), an open source creative computing library. It was created by [Ashley Kang](https://ashleykang.dev) in 2019 ([view the 2019 Showcase here](https://p5js.org/showcase/)), previously curated by [Connie Liu](https://connieliu0.github.io) in 2020 and [Katie Chan](https://katiechan.cargo.site/) in 2021. It's currently maintained by [Annie Zheng](https://www.annieyuqizheng.com/). \n \n The purpose of the Showcase is to celebrate how people are using and learning p5.js to make creative work with the aim of conveying our core values of inclusivity.",
   "Answer2": "Usually the p5.js will open up a call for submissions via [Twitter](https://twitter.com/p5xjs) or [Instagram](https://www.instagram.com/p5xjs/)! For the past three years, the Showcase has been run as a [GSoC project](https://summerofcode.withgoogle.com/). In addition, this year's showcase was organized and curated based off of a specific theme.",
   "Answer3": "Make some sketches of your own with the [p5.js editor](https://editor.p5js.org/), discover more with [OpenProcessing](https://www.openProcessing.org/), and learn more with the [Coding Train](https://www.youtube.com/user/shiffman), [sosunnyproject] (https://www.youtube.com/channel/UCKNXAqIvqc25JJ1CWdayqBA), and [Xinxin] (https://www.youtube.com/channel/UCufOCDs5G1A4AffwmeV0XBw)!",
   "Question1": "What are you up to?",
@@ -254,7 +254,7 @@
 
     {
       "author": "EvS",
-      "pronouns": "",
+      "pronouns": "she/her",
       "location": "Athens, Greece",
       "title": "raInBoWWarM",
       "description": "An error can be fixed with a click. And a click can bring a rainbow in a summer day! A graphic design and typography mix art illustrating an error in a random color that disappear according to the sum of its RGB values and then cycles that follow the mouse and change colors from red to green to blue to red appears! if you click, unless you get a circle with the text click, to motivate you click. If you double click the canvas becomes a bit darker and it resets.",
@@ -447,7 +447,7 @@
     },
     {
       "author": "Arya Harditya",
-      "pronouns": "",
+      "pronouns": "he/him",
       "location": "Jakarta, Indonesia",
       "title": "Mandala Shatters",
       "description": "The concept of this project is to project the sketch into an immersive room where the camera recorded audience and have them shatters around the screen.",
