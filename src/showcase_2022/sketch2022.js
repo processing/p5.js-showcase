@@ -10,7 +10,7 @@ export default function sketch(p) {
   const size = 18;
   let g = 50;
   let b = 96;
-  let transform = "-15px 15px";
+  let transform = "1.5cm"; // if the number gets higher, the origin spacing becomes smaller
   let p5WrapperElement;
   let flowerRotatingStarter = 0;
   let flowers = []; // An array that holds all the flowers
@@ -26,26 +26,34 @@ export default function sketch(p) {
     var cnv = p.createCanvas((p.windowWidth-400), 200);
     p.drawFour();
   }
+
   p.draw = function () {
     flowerRotatingStarter += .75;
-    if (flowerRotatingStarter >= 360) flowerRotatingStarter = 0;
+    if (flowerRotatingStarter >= 360) {
+      flowerRotatingStarter = 0;
+    }
+  
     // Make flowers to rotate
     p.updateFlowers();
   }
+
   p.drawFour= () =>{
     // Draw 4 flowers
     for (let i = 0; i < 4; i++) {
       p.drawFlower(100 + i * 300, y_position, i);
     }
   }
+
   p.drawFlower = (x, y, index) => {
     let flower = p.createDiv("");
     flower.parent('#P5Wrapper');
     let flowerPetals = []; // An array that holds all 5 petals for a flower
+
     for (let i = 0; i < 5; i++) {
       rotDeg = (starter + (i % 5) * 72);
       let elem = p.createDiv("");
       const linesIndex = currentNumber + i + index * 5;
+
       // Make the first letter to be uppercase
       let span = p.createDiv(lines[linesIndex].charAt(0).toUpperCase() + lines[linesIndex].slice(1));
       elem.style("font-size", size + "px");
@@ -61,11 +69,12 @@ export default function sketch(p) {
       elem.child(span);
       elem.parent(flower);
       flowerPetals.push(elem);
-      if (i==4){
+      if (i===4){
         b=p.random(90,236);	
         g=p.random(50,200);
       }
     }
+
     // Push the flower and flowerPetels into flowers
     flowers.push({flower, flowerPetals});
   }
@@ -93,7 +102,7 @@ export default function sketch(p) {
   }
 
   p.keyPressed=()=>{
-    if (p.key==' ') {
+    if (p.key===' ') {
       updateColor=true;
       if (currentNumber<40){
         currentNumber+=20;

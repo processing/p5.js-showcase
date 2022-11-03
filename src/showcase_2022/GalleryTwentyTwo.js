@@ -35,7 +35,7 @@ function GalleryTwentyTwo(props) {
   // difficulty filter
   const difficultymap = t("difficulty", { returnObjects: true });
 
-  var showcase2020 =
+  var showcase2022 =
     filter === "All"
       ? t("showcase2022", { returnObjects: true })
       : t("showcase2022", { returnObjects: true }).filter((a) =>
@@ -54,7 +54,7 @@ function GalleryTwentyTwo(props) {
             : null
         );
 
-  console.log(showcase2020);
+  console.log(showcase2022);
 
   const filterList = filtermap.map(({ name }, index) => (
     <Link
@@ -116,13 +116,9 @@ function GalleryTwentyTwo(props) {
         {difficultyList}
       </div>
 
-      {/* <div className="difficultylist">
-      <h2>{t("level")}:{difficultyList}</h2>
-    </div> */}
-
       <div className="gallery">
         <div class="row">
-          {showcase2020.map(
+          {showcase2022.map(
             ({
               author,
               title,

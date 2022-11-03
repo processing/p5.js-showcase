@@ -76,6 +76,7 @@
       "description": "Curated by Ashley Kang"
     }
   ],
+  "2022ArtistsPage_Intro": "This is the introduction to the 2022 Artists page.",
 
   "showcase2022": [
     {
@@ -615,7 +616,7 @@
       "answer5": "My mac laptop isn't very fast or good at handling 3D code or WEBGL code, so often I lag frequently and can't preview my project while making it as often as I'd like, but I've gotten used to it over time and I've learned to deal with it and visualize what I'm looking for in my head and figure out what I believe will accomplish that best before I preview.",
       "answer6": "I think you should check out my friend Aishii's soundcloud because she's an amazing musician as well!",
       "social": "https://soundcloud.com/disbandedbrkn https://instagram.com/dxsbond",
-      "id": "Heart-Animation",
+      "id": "immersive-world",
       "picid": "71.png"
     },
 
@@ -637,7 +638,7 @@
       "answer5": "I had a TON to learn to make these projects everyday, and it took a lot of work. The tutorials and resources from the p5js community were essential to my overcoming these obstacles! Some of my favorite sketches in the project started from a remix of someone else's code or from following a tutorial.",
       "answer6": "p5.svg: https://github.com/zenozeng/p5.js-svg",
       "social": "https://www.jennybkowalski.com/, https://www.instagram.com/jennybkowalski/, https://jennybkowalski.medium.com/",
-      "id": "Heart-Animation",
+      "id": "creative-coding-everyday",
       "picid": "71.png"
     },
 
@@ -659,7 +660,7 @@
       "answer5": "I struggled to make the sketch behave the same on both mobile and PC. One fix was preventing zooming/panning on the webpage and centering the canvas in the webpage.",
       "answer6": "Some libraries and tutorials I have made for P5JS: https://ikebot108.weebly.com/tutorials--coding-libraries.html",
       "social": "https://ikebot108.weebly.com/",
-      "id": "Heart-Animation",
+      "id": "idata-in-colors",
       "picid": "71.png"
     },
 
@@ -681,7 +682,7 @@
       "answer5": "It was difficult to use textToPoints(). This is because there were not many examples that were actually used and the explanations were not accurate. By making various examples and manipulating the parameters one by one, I was able to become familiar with the function.",
       "answer6": "Each letter has its own shape. It depends not only on what symbol the symbol (glyph) is, but also on what font design it has. However, humans have a meta-image in their head, and I wanted to express these thoughts through this work. I wanted to make a 'CONNECT' between our language and the shape of letters as words disappear and reappear.",
       "social": "https://www.instagram.com/contact_yj/",
-      "id": "Heart-Animation",
+      "id": "bubble-words",
       "picid": "71.png"
     },
     {
@@ -702,7 +703,7 @@
       "answer5": "The difficulty was my lack of web development knowledge and I could solve this problem by watching YouTube's coding train online lecture!",
       "answer6": "The simplicity and friendly web editor of p5.js made it easy for anyone to get over the fear of programming!",
       "social": "https://designersejinoh.web.app",
-      "id": "Heart-Animation",
+      "id": "open-source-lab-webpage-interactive-motion",
       "picid": "71.png"
     },
     {
@@ -722,7 +723,7 @@
       "answer4": "I have not yet used many libraries of p5js, so my favorite feature is the online editor which allows everyone to learn p5js without installing anything!",
       "answer5": "Since online editor has not a breakpoint / step debug feature, the main difficulty has been to tune the project, but the console.log can support bugfix! I wish to move soon on p5 library in react to overcome this limit.",
       "social": "https://www.linkedin.com/in/attilio-erriquez-a7b7212/",
-      "id": "Heart-Animation",
+      "id": "tictactoe-learning-example",
       "picid": "71.png"
     },
     {
@@ -744,7 +745,7 @@
       "answer5": "Yes, this project is still a work in progress, the user interface and controls are still very raw and slow and should be optmized thru iterations design.",
       "answer6": "This work is a continuation of an older research about sound creation apps for android platform: www.musicamovelbahia.wordpress.com",
       "social": "www.cristianofigo.wordpress.com, https://www.instagram.com/musicamovelbahia/",
-      "id": "Heart-Animation",
+      "id": "música-móvel",
       "picid": "71.png"
     },
     {
@@ -765,7 +766,7 @@
       "answer4": "My favorite function is blendMode(), and I like p5.js support the mobile version.",
       "answer5": "Lack of basic knowledge of JavaScript made it difficult to access p5.js for the first time. And there were difficulties in solving p5.js errors alone because they did not appear much when I typed it on Google.",
       "social": "https://www.instagram.com/yeahwon__zip/, https://outrageous-brace-1db.notion.site/Yewon-Jang-49837189831b4d57b4ea7a5613c4cc4e",
-      "id": "Heart-Animation",
+      "id": "robeat-dance",
       "picid": "71.png"
     },
 
@@ -788,7 +789,7 @@
       "answer5": "The hardest part of this project was figuring out how to rotate the hearts! I defined the hearts in polar coordinates. There is a formula for the points of a heart in terms of radius and theta. If I rotated the shapes by adding a thetaOffset the hearts would overlap because they are not centered at their 'origin.' The solution was to relearn some linear algebra! But in simpler terms, to define the circle in terms of a bounding circle and rotate about the center of that bounding circle not the 'origin' of the heart. I then had to figure out the mapping between center of bounding circle and origin of heart. That I did not do with fancy math. That I did empirically by setting values and drawing both the heart and the bounding circle and just trying different x-offsets and y-offsets until I found values that were close enough. Update: Nothing I said above wasn't true. Buuuttt after writing that answer yesterday and continuing to work on the project I ended up refactoring and simplifying how a lot of that was done. But the journey was still painful and part of the process, just not quite as reflected in the final code. The change I made was to just translate once at the end rather than translating before rotating and scaling. But understanding how all of it worked and why was key to the moment of realizing I could make it simpler.",
       "answer6": "https://rachel.joyofrandomness.com/art/rust-art/ <--- That is the reason I am an artist. It is generative art written in Rust + wasm. I created that with the goal of learning rust. And then I liked what I was making so much I started looking into how to get my artwork printed. Initially for myself and then to sell. Over a year and half later I am a full time generative artist! Also it's super fun!  It's open source. Here is the code  https://github.com/R4chel/art",
       "social": "https://www.instagram.com/joyofrandomness/, rachel.joyofrandomness.com, joyofrandomness.com, https://twitter.com/joyofrandom",
-      "id": "Heart-Animation",
+      "id": "heart-flags",
       "picid": "71.png"
     },
 
@@ -811,7 +812,7 @@
       "answer5": "It was challenging to get the copy() function to paste in a Fibonacci sequence. I overcame this by watching tutorials by The Coding Train.",
       "answer6": "https://flowandecho.com/digital-botany/",
       "social": "https://www.jesspemberton.com",
-      "id": "Heart-Animation",
+      "id": "we-are-trees",
       "picid": "71.png"
     },
 
@@ -834,7 +835,7 @@
       "answer5": "Yes. I had a trouble with the performance of my sketch since there were multiple operation kept within the draw function in the beginning. The p5.js function, changed() helped me to overcome this challenge.",
       "answer6": "https://youtu.be/AvUz_set4Rc",
       "social": "https://www.instagram.com/patternseeing/",
-      "id": "Heart-Animation",
+      "id": "w-o-v-e",
       "picid": "71.png"
     },
 
@@ -857,7 +858,7 @@
       "answer5": "Debugging was what got me the most. I was constantly asking myself “But why are we doing this?!”. My friends “enjoyed” my rants and I ended up stepping back for a day then coming back to it to find the problem was simple.",
       "answer6": "MIT App Inventor is a really cool place to check out. It deals in blocks and simplifies things. It is where I started.",
       "social": "",
-      "id": "Heart-Animation",
+      "id": "the-heart-of-music",
       "picid": "71.png"
     },
 
@@ -880,7 +881,7 @@
       "answer5": "Figuring out how to rotate objects using trigonometry. Many past examples from other creative coders who were generous enough to share their code was extremely valuable. Still trying to figure out how to tone down the amount of entropy in this sketch.",
       "answer6": "ElliQ",
       "social": "https://www.instagram.com/joopark.io/",
-      "id": "Heart-Animation",
+      "id": "me-and-you-then-us",
       "picid": "71.png"
     },
 
@@ -903,7 +904,7 @@
       "answer5": "It was hard to make some of the interactions intuitive because I'm not familiar with how the touchpad or mobile touching functions could be used to control p5. I'm not sure I've solved this problem but I will continue to work on it.",
       "answer6": "https://mechanic.design/",
       "social": "https://munusshih.com/",
-      "id": "Heart-Animation",
+      "id": "DT-soulmate-matcher",
       "picid": "71.png"
     },
 
@@ -926,7 +927,7 @@
       "answer5": "Using mathematics to correctly line up the lines with the proper stroke width.",
       "answer6": "Coding Train.",
       "social": "https://github.com/psb-david-petty",
-      "id": "Heart-Animation",
+      "id": "centered-green",
       "picid": "71.png"
     },
 
@@ -949,7 +950,7 @@
       "answer5": "I had tried using p5 Vector, however there are some error that the Vector operation was not correct, thus I used mathjs matrix instead.",
       "answer6": "You guy should check out my PSO simulation here: https://editor.p5js.org/quanglochuynh/sketches/tXp5Y5-8O and the continuous version of GWO by changing the sketch.js file to sketch2.js",
       "social": "https://www.researchgate.net/profile/Loc-Huynh-14, https://www.facebook.com/locqhuynh",
-      "id": "Heart-Animation",
+      "id": "grey-wolf-optimizer-simulation",
       "picid": "71.png"
     },
 
@@ -971,7 +972,7 @@
       "answer4": "keyIsDown( ), I use this for everything.",
       "answer5": "A few errors, and bugs with the music.",
       "social": "https://lawtro37.github.io/LawtroWeb/LawtroWeb/index.html",
-      "id": "Heart-Animation",
+      "id": "blue-boy-and-red-guy",
       "picid": "71.png"
     },
 
@@ -994,7 +995,7 @@
       "answer5": "Being able to dynamically load a p5js sketch. I was able to do this by reading a URL query parameter to load a sketch by setting the URL of the script tag to it, so that way p5js would be reloaded every time I load another sketch.",
       "answer6": "https://www.youtube.com/watch?v=LdDEhW-ROfU",
       "social": "https://benjaminman.com/",
-      "id": "Heart-Animation",
+      "id": "personal-website",
       "picid": "71.png"
     },
 
@@ -1016,7 +1017,7 @@
       "answer4": "map().",
       "answer6": "my home page on behance! https://www.behance.net/fantasticjun",
       "social": "https://www.behance.net/fantasticjun",
-      "id": "Heart-Animation",
+      "id": "the-love-story",
       "picid": "71.png"
     },
 
@@ -1039,7 +1040,7 @@
       "answer5": "It was my first project using sine waves, I think as long as you have patience and are  experimental you can make some cool looking stuff just by changing some values.",
       "answer6": "I'm not sure if this is cool, might be a bit embarrassing, but I like writing poems and making chaotic art https://www.instagram.com/scarlettchalice/?hl=es",
       "social": "https://www.instagram.com/lauradowell/?hl=es",
-      "id": "Heart-Animation",
+      "id": "sine",
       "picid": "71.png"
     },
 
@@ -1062,7 +1063,7 @@
       "answer5": "I made this project with the guidance of my Professor in the class I was taking. My Professor offered a lot of guidance and I used a lot of YouTube vids from Daniel Shiffman.",
       "answer6": "The Creative Code Collective! https://creativecodecollective.github.io/",
       "social": "https://katieliu.art/",
-      "id": "Heart-Animation",
+      "id": "sing-together",
       "picid": "71.png"
     },
 
@@ -1085,7 +1086,7 @@
       "answer5": "I was extremely puzzled about how to rotate shapes in p5.js because p5.js rotates a shape across the canvas axis and not the shape's axis. It took me a lot of reading through code tutorials to finally figure how to get rotation to work (Essentially, you use rotate() and translate()).",
       "answer6": "Cristina Tarqini's fantastic artwork: Medusae, https://artsexperiments.withgoogle.com/medusae/",
       "social": "https://www.behance.net/anneyshas",
-      "id": "Heart-Animation",
+      "id": "turtle-monster",
       "picid": "71.png"
     },
 
@@ -1108,7 +1109,7 @@
       "answer5": "Music doesn't start automatically in fullscreen mode :( Then I found it is impossible to make it happen since it is the browser's fault. So I just add a click function to let the BGM start after a single click.",
       "answer6": "Clouds in the sky",
       "social": "www.yueqingdai.com",
-      "id": "Heart-Animation",
+      "id": "dive-in-time",
       "picid": "71.png"
     },
 
@@ -1131,7 +1132,7 @@
       "answer5": "Yes. The infinite parallax was a really hard thing to figure out. I tried for a few hours to create a code structure that could give me a smooth parallax.",
       "answer6": "I really liked the song by Engelwood. The link to the artist's profile on Slip.stream is on the README file!",
       "social": "https://www.linkedin.com/in/renato-morais-a24558217/, instagram.com/reajmrs",
-      "id": "Heart-Animation",
+      "id": "a-train-ride",
       "picid": "71.png"
     },
 
@@ -1153,7 +1154,7 @@
       "answer4": "One of the favourite features of mine is be able to work with vectors both in two and three dimensions in the html canvas with p5. I mean this is awesome. We can actually implement interesting things with the help of these vectors instead of just drawing colorful squares and circles. But agin this is only one of my favourite features because this entire Library is my favourite one.",
       "answer5": "Yes there is one issue I faced with the p5 touch gui library and I am not fully able to overcome it. I was using bootstrap modals to provide some information about my project and I wanted to activate the modal by clicking on a button on canvas i.e. a p5 touch gui library button and that modal closes normally by clicking on a normal DOM button. This thing works 100% fine with a mouse. But when it comes to touch screen devices, any DOM button is unclickable the moment p5 touch gui library is initialised. I have cross checked this fact that if I invoke createGui() method of the p5 touch gui, any other DOM button is unclickable in touch screen. I don't kno why this is happening and I think to fix it I might have to use some other buttons library but for now, reloading the game works as a brute force way.",
       "social": "Facebook - https://www.facebook.com/biswayan.nandi.7, GitHub - https://github.com/Biswayan375",
-      "id": "Heart-Animation",
+      "id": "asteroids-with-quadtree",
       "picid": "71.png"
     }
   ]

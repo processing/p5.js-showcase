@@ -61,6 +61,7 @@ export default function Gallery() {
   };
   const [graph1Displayed, showGraph1] = useState(true);
   const [graph2Displayed, showGraph2] = useState(false);
+
   return (
     <div className="body2022">
       <div className="cover2022">
@@ -71,6 +72,7 @@ export default function Gallery() {
             alt="Connect with asterik replacing the O."
           />
         </div>
+
         <div className="cover-text-2022">
           {/* <h1 id="h1-2022">{t("Connect2022")}</h1> */}
           <h2 id="h2-2022">{t("Welcome2022")}</h2>
@@ -78,47 +80,14 @@ export default function Gallery() {
             <i>{t("CreatedBy2022")}</i>
           </p>
         </div>
+
         <img
           id="landing-img"
           src="/2022images/p5landingimg.png"
           alt="two cartoon hearts holding onto a string"
         />
       </div>
-      {/* <div className="cover2020">
-        <h1>{t("Welcome")}</h1>
-        <h2>
-          <em>{t("Created By")} Annie Zheng</em>
-        </h2>
-        <div className="flex">
-          <div className="column">
-            <h3>
-              <Markdown source={t("2022_intro1")} />
-            </h3>
-            <h2>{t('Jump to')} <HashLink smooth to="#twentyviz">{t('Visualizations')}</HashLink> | <Link to="/2020-All">{t('Projects')}</Link></h2>
-              <HashLink smooth to="#twentyviz"><img className="downarrow" src={process.env.PUBLIC_URL + '/down.svg'} alt="p5.js down arrow" /></HashLink>
-          </div>
-          <div className="column">
-            <div class="gradient-border" id="box">
-            <h3>
-              <Markdown source={t("2020_intro1.5")} />
-            </h3>
-            <h3><Markdown source={t('2020_intro1.5')} /></h3>
-            <h2>
-              <HashLink smooth to="#twentyviz">
-                <Markdown source={t("2020_intro2")} />
-              </HashLink>
-            </h2>
-            <HashLink smooth to="#twentyviz">
-              <img
-                className="downarrow"
-                src={process.env.PUBLIC_URL + "/down.svg"}
-                alt="p5.js down arrow"
-              />
-            </HashLink>
-            </div>
-          </div>
-        </div>
-      </div> */}
+
       <div className="about-text-2022">
         <div className="about-row">
           <h2 className="about-h2">{t("2022-about-heading")}</h2>
@@ -141,6 +110,7 @@ export default function Gallery() {
 
         <h2>{t("2022_intro2")}</h2>
       </div>
+
       <div className="twentyviz" id="twentyviz">
         <div className="map-viz-2022">
           <h1 className="foreword-h1-2022">{t("Viz1")}</h1>
@@ -149,6 +119,7 @@ export default function Gallery() {
             <em>{t("Directionsmap")}</em>
           </p>
         </div>
+
         <div className="map-viz-2022">
           <h1 className="tenpx">{t("Viz2")}</h1>
           <div className="flex">
@@ -156,6 +127,7 @@ export default function Gallery() {
               <p>
                 <em>{t("Directions")}</em>
               </p>
+
               <GraphButton
                 id="graph1"
                 className={graph2Displayed === false ? "active" : ""}
@@ -163,9 +135,11 @@ export default function Gallery() {
                 showGraph={showGraph1}
                 otherGraph={showGraph2}
               />
+
               <h2>
                 <em>...{t("viz2.2")}</em>
               </h2>
+
               <GraphButton
                 id="graph2"
                 buttonname={t("viz2.3")}
@@ -174,6 +148,7 @@ export default function Gallery() {
                 otherGraph={showGraph1}
               />
             </div>
+
             <div className="column">
               {graph1Displayed && (
                 <Bar data={data1} width={100} height={280} options={options} />
@@ -183,29 +158,19 @@ export default function Gallery() {
               )}
             </div>
           </div>
+
           <div id="viz3" className="column">
-            {/* <h1>{t("Viz3")}</h1>
-          <div className="flex">
-            <p>
-              <em>{t("Directions2")}</em>
-            </p>
-          </div> */}
-            {/* <div id="viz3" className="column"> */}
             <h1>{t("Viz3")}</h1>
-            <div className="flex">
-              <p></p>
-            </div>
+
             <div id="P5Wrapper" style={{ position: "relative" }}>
               <P5Wrapper sketch={sketch2022} />
             </div>
+
             <em>{t("Directions2")}</em>
+
             <h1>
               <Link to="/2022-All">{t("Viz4")}</Link>
             </h1>
-            {/* </div> */}
-            {/* <h1>
-            <Link to="/2022-All">{t("Viz4")}</Link>
-          </h1> */}
           </div>
         </div>
       </div>
