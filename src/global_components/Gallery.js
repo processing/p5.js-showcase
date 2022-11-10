@@ -159,8 +159,8 @@ export default function Gallery() {
             </div>
           </div>
 
-          <div id="viz3" className="column">
-            <h1>{t("Viz3")}</h1>
+          <div id="viz3" className="column to-them">
+            <h1 className="viz3">{t("Viz3")}</h1>
 
             <div id="P5Wrapper" style={{ position: "relative" }}>
               <P5Wrapper sketch={sketch2022} />
@@ -168,7 +168,7 @@ export default function Gallery() {
 
             <em>{t("Directions2")}</em>
 
-            <h1>
+            <h1 className="link-showcase">
               <Link to="/2022-All">{t("Viz4")}</Link>
             </h1>
           </div>

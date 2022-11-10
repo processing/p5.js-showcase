@@ -43,6 +43,11 @@ const Details2022 = ({ piece, filter }) => {
   const filterid = "/2022-" + filter + "/";
   return (
     <div>
+      <div className="details-title">
+        <h1>{title}</h1>
+        <p>{<Markdown source={description} />}</p>
+        <p>{<Markdown source={extradesc} />}</p>
+      </div>
       <div className="details-header">
         <ScrollToTop />
         <div className="row">
@@ -52,9 +57,45 @@ const Details2022 = ({ piece, filter }) => {
               alt={title}
               className="Card-image"
             />
+            {/* 
+            <div class="mySlides">
+              <div class="numbertext">1 / 6</div>
+              <img src={require(`../../public/2021images/${picid}`)} />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 6</div>
+              <img src={require(`../../public/2021images/${picid}`)} />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 6</div>
+              <img src={require(`../../public/2021images/${picid}`)} />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 6</div>
+              <img src={require(`../../public/2021images/${picid}`)} />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 6</div>
+              <img src={require(`../../public/2021images/${picid}`)} />
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">
+              &#10094;
+            </a>
+            <a class="next" onclick="plusSlides(1)">
+              &#10095;
+            </a>
+
+            <div class="caption-container">
+              <p id="caption">{title}</p>
+            </div> */}
           </div>
           <div className="col">
-            <h1>{title}</h1>
+            {/* <h1>{title}</h1> */}
             <h2 className="short">{t("Created By")}</h2>
             <h3>
               {author}{" "}
@@ -68,7 +109,7 @@ const Details2022 = ({ piece, filter }) => {
                   sociallinks.map((so, index) => {
                     if (so.includes("instagram"))
                       return (
-                        <a aria-label="Instagram" href={so}>
+                        <a aria-label="Instagram" href={so} target="_blank">
                           {t("")}
                           <FontAwesomeIcon icon={faInstagram} size="2x" />
                         </a>
@@ -76,7 +117,7 @@ const Details2022 = ({ piece, filter }) => {
 
                     if (so.includes("twitter"))
                       return (
-                        <a aria-label="Twitter" href={so}>
+                        <a aria-label="Twitter" href={so} target="_blank">
                           {t("")}
                           <FontAwesomeIcon icon={faTwitter} size="2x" />
                         </a>
@@ -84,7 +125,7 @@ const Details2022 = ({ piece, filter }) => {
 
                     if (so.includes("github"))
                       return (
-                        <a aria-label="Github" href={so}>
+                        <a aria-label="Github" href={so} target="_blank">
                           {t("")}
                           <FontAwesomeIcon icon={faGithub} size="2x" />
                         </a>
@@ -92,13 +133,17 @@ const Details2022 = ({ piece, filter }) => {
 
                     if (so.includes("linkedin"))
                       return (
-                        <a aria-label="Github" href={so}>
+                        <a aria-label="Github" href={so} target="_blank">
                           {t("")}
                           <FontAwesomeIcon icon={faLinkedin} size="2x" />
                         </a>
                       );
 
-                    return <a href={so}>{t("Portfolio")}</a>;
+                    return (
+                      <a href={so} target="_blank">
+                        {t("Portfolio")}{" "}
+                      </a>
+                    );
                   })}
               </div>
             </div>
@@ -129,8 +174,8 @@ const Details2022 = ({ piece, filter }) => {
         </div>
       </div>
       <div className="detailsbody">
-        <p>{<Markdown source={description} />}</p>
-        <p>{<Markdown source={extradesc} />}</p>
+        {/* <p>{<Markdown source={description} />}</p>
+        <p>{<Markdown source={extradesc} />}</p> */}
 
         <div className="QnA">
           <h1>Q and A</h1>

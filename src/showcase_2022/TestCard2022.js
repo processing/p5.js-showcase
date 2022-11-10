@@ -14,7 +14,7 @@ function TestCard2022(props) {
           <Link
             key={props.id}
             to={{
-              pathname: `/2021-${props.filter}/${props.id}/`,
+              pathname: `/2022-${props.filter}/${props.id}/`,
             }}
           >
             <img
@@ -30,15 +30,15 @@ function TestCard2022(props) {
             to={{
               pathname: `/2022-${props.filter}/${props.id}/`,
             }}
-          >
-            <h2>{props.title}</h2>
-            <h2>
-              <em>{props.author}</em>
-            </h2>
-          </Link>
+          ></Link>
         </div>
         <div className="img-description">
-          <p className="img-description-text">hi</p>
+          <p className="img-description-text">
+            Image description: Image of the player's character in the middle of
+            a forest at night, and it is raining. The character is a black
+            circle with two big eyes looking towards the front. White light
+            glows around the character with a spotlight shines the nearby area.
+          </p>
         </div>
         <div className="links">
           {props.code.length !== 0 ? (
@@ -57,6 +57,10 @@ function TestCard2022(props) {
           )}
         </div>
         <div className="Description2020">
+          <h2 className="card-title">{props.title}</h2>
+          <h2 className="card-author">
+            <em>{props.author}</em>
+          </h2>
           <ClampLines
             text={props.description}
             id="custom"

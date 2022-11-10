@@ -21,7 +21,7 @@
 
 body {
   font-family: "Montserrat";
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   width: 100%;
 }
 
@@ -241,7 +241,7 @@ h3 a:hover {
 
 .body {
   margin: 0;
-  padding: 40px 120px 120px 120px;
+  padding: 40px 120px 0px 120px;
 }
 /* TestCard 2019 Page */
 .card2019 .Description {
@@ -263,7 +263,7 @@ h3 a:hover {
   position: relative;
   border-color: #ff2457;
   margin-bottom: 0px;
-  height: 500px;
+  height: 55vh;
 }
 
 .bigcard:hover {
@@ -293,11 +293,29 @@ h3 a:hover {
   font-size: 16px;
   width: 350px;
 }
+
+.card-title {
+  font-size: 1.1vw;
+  margin: 0;
+  padding-left: 1.5vw;
+  font-family: "Montserrat Bold";
+}
+
+.card-author {
+  font-size: 0.9vw;
+  margin: 0;
+  padding-top: 0.5vh;
+  padding-left: 1.5vw;
+  font-family: "Montserrat Bold";
+}
 /* clamp styles */
 .clamp-lines {
   border-radius: 0.25em;
   font-family: sans-serif;
-  margin: 1em;
+  /* margin: 1em; */
+  padding-left: 1.5vw;
+  padding-top: 1vh;
+  font-size: 0.8vw;
 }
 
 .clamp-lines > span {
@@ -319,8 +337,8 @@ h3 a:hover {
 .cardimage img {
   border-radius: 12px 12px 0px 0px;
   opacity: 0.9;
-  width: 500px;
-  height: 300px;
+  width: 20vw;
+  height: 20vh;
   /* filter: blur(3px); */
 }
 .cardimage:hover {
@@ -329,11 +347,11 @@ h3 a:hover {
 .cardimage {
   background: #db3b60;
   border-radius: 12px 12px 0px 0px;
-  height: 250px;
+  height: 20vh;
   overflow: hidden;
 }
 .bigcard {
-  width: 360px;
+  width: 20vw;
   margin-bottom: 25px;
   margin-right: 8px;
   margin-left: 8px;
@@ -400,6 +418,18 @@ h3 a:hover {
   font-family: "Montserrat ExtraBold";
   margin-bottom: 20px;
   letter-spacing: 1.5px;
+}
+
+.filterlist img {
+  height: 100%;
+  max-height: 30px;
+  width: 100%;
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.filterlist h2 {
+  text-decoration: underline dotted #ffd3de;
 }
 .filterlist button {
   letter-spacing: 1.5px;
@@ -558,6 +588,13 @@ h3 a:hover {
   color: white;
 }
 
+.img-description-text {
+  margin: 0;
+  padding: 1vh;
+  font-size: 0.6vw;
+  text-align: center;
+  height: 6vh;
+}
 /* ARCHIVE PAGE */
 
 #intro2019 h1 {
@@ -697,11 +734,11 @@ img.downarrow {
 .flex {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 1vh;
 }
 
 /* 2020 visualization */
-.twentyviz {
-}
+
 .twentyviz h1 {
   font-family: "Montserrat ExtraBold";
   font-size: 2vw;
@@ -833,13 +870,20 @@ h1.tenpx {
 }
 .box {
   padding: 5px 0px 0px 0px;
-  height: 25px;
+  height: 2.5vh;
   border: #ff2457;
   border-top-style: solid;
   border-bottom-style: solid;
-  width: 180px;
+  width: 10vw;
+  font-size: 1vw;
 }
 .links a:first-child {
+  border: #ff2457;
+
+  border-right-style: solid;
+}
+
+.links a:first-child:hover {
   border: #ff2457;
 
   border-right-style: solid;
@@ -855,7 +899,7 @@ h1.tenpx {
   padding: 0px;
   overflow: auto;
   white-space: nowrap;
-  width: 350px;
+  width: 20vw;
 }
 .tags ul {
   list-style: none;
@@ -882,7 +926,7 @@ h1.tenpx {
   color: white;
 }
 .tags a {
-  font-size: 14px;
+  font-size: 0.8vw;
   padding: 6px 14px;
   overflow: wrap;
   background-color: #ffe8e8;
@@ -940,6 +984,16 @@ h1.tenpx {
   margin-right: 10px;
 }
 /* Details Page */
+.details-title h1 {
+  text-align: center;
+  font-size: 3vw;
+}
+
+.details-title p {
+  text-align: center;
+  font-size: 1vw;
+}
+
 .details-header {
   width: 1000px;
   margin: auto;
@@ -1056,6 +1110,18 @@ h1.tenpx {
   .home p {
     margin-left: 0px;
   }
+}
+
+.to-them {
+  margin-top: 7vh;
+}
+.to-them h1 {
+  margin-bottom: 5vh;
+}
+
+.link-showcase {
+  margin-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 @media (max-width: 768px) {
@@ -1246,8 +1312,14 @@ h1.tenpx {
 }
 
 .footer {
-  position: fixed;
+  margin-top: 40px;
+  position: relative;
   bottom: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17%;
+  text-align: center;
 }
 
 .footer-img {
