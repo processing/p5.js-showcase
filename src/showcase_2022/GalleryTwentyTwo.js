@@ -125,6 +125,7 @@ function GalleryTwentyTwo(props) {
               author,
               title,
               description,
+              alt,
               live,
               code,
               type,
@@ -139,6 +140,7 @@ function GalleryTwentyTwo(props) {
                 title={title}
                 author={author}
                 description={description}
+                alt={alt}
                 live={live}
                 code={code}
                 type={type}

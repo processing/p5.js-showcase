@@ -7,6 +7,7 @@ function TestCard2022(props) {
   const { t, i18n } = useTranslation();
   const toolslisted = toolslist;
   const toolslinks = props.tools.split(",");
+  console.log(props);
   return (
     <div className="card2020">
       <div className="bigcard">
@@ -18,7 +19,7 @@ function TestCard2022(props) {
             }}
           >
             <img
-              src={require(`../../public/2021images/${props.picid}`)}
+              src={require(`../../public/2022images/${props.picid}`)}
               alt={props.title}
               className="Card-image"
             />
@@ -34,10 +35,11 @@ function TestCard2022(props) {
         </div>
         <div className="img-description">
           <p className="img-description-text">
-            Image description: Image of the player's character in the middle of
+            {/* Image description: Image of the player's character in the middle of
             a forest at night, and it is raining. The character is a black
             circle with two big eyes looking towards the front. White light
-            glows around the character with a spotlight shines the nearby area.
+            glows around the character with a spotlight shines the nearby area. */}
+            Image Description: {props.alt}
           </p>
         </div>
         <div className="links">

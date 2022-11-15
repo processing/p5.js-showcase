@@ -41,6 +41,7 @@ const Details2022 = ({ piece, filter }) => {
   const { t } = useTranslation();
   const toolslisted = toolslist;
   const filterid = "/2022-" + filter + "/";
+
   return (
     <div>
       <div className="details-title">
@@ -53,46 +54,10 @@ const Details2022 = ({ piece, filter }) => {
         <div className="row">
           <div className="details-image">
             <img
-              src={require(`../../public/2021images/${picid}`)}
+              src={require(`../../public/2022images/${picid}`)}
               alt={title}
               className="Card-image"
             />
-            {/* 
-            <div class="mySlides">
-              <div class="numbertext">1 / 6</div>
-              <img src={require(`../../public/2021images/${picid}`)} />
-            </div>
-
-            <div class="mySlides">
-              <div class="numbertext">2 / 6</div>
-              <img src={require(`../../public/2021images/${picid}`)} />
-            </div>
-
-            <div class="mySlides">
-              <div class="numbertext">3 / 6</div>
-              <img src={require(`../../public/2021images/${picid}`)} />
-            </div>
-
-            <div class="mySlides">
-              <div class="numbertext">4 / 6</div>
-              <img src={require(`../../public/2021images/${picid}`)} />
-            </div>
-
-            <div class="mySlides">
-              <div class="numbertext">5 / 6</div>
-              <img src={require(`../../public/2021images/${picid}`)} />
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">
-              &#10094;
-            </a>
-            <a class="next" onclick="plusSlides(1)">
-              &#10095;
-            </a>
-
-            <div class="caption-container">
-              <p id="caption">{title}</p>
-            </div> */}
           </div>
           <div className="col">
             {/* <h1>{title}</h1> */}

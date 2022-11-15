@@ -936,12 +936,12 @@ h1.tenpx {
 }
 
 /* About Page */
-.about-h2 {
+/* .about-h2 {
   writing-mode: vertical-rl;
   text-orientation: sideways-right;
   transform: rotate(180deg);
-  /* transform: translate(20px); */
-}
+
+} */
 
 .about-body-text {
   width: 50vw;
@@ -956,6 +956,7 @@ h1.tenpx {
 
 .about-img {
   width: 30vw;
+  margin: 0;
 }
 
 .home p {
@@ -984,6 +985,18 @@ h1.tenpx {
   margin-right: 10px;
 }
 /* Details Page */
+.img-gallery{
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.gallery {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
 .details-title h1 {
   text-align: center;
   font-size: 3vw;

@@ -89,8 +89,9 @@ export default function Gallery() {
       </div>
 
       <div className="about-text-2022">
+      <h2 className="about-h2">{t("2022-about-heading")}</h2>
         <div className="about-row">
-          <h2 className="about-h2">{t("2022-about-heading")}</h2>
+          {/* <h2 className="about-h2">{t("2022-about-heading")}</h2> */}
           <p className="about-body-text">{t("2022_intro1")}</p>
           <img
             className="about-img"
@@ -99,16 +100,17 @@ export default function Gallery() {
           />
         </div>
 
-        <div>
+        <div className="about-row">
           <img
             src="/2022images/cartoon-fistbump.png"
             alt="two cartoon hearts fist bumping"
+            className="about-img"
           />
-          <h2>{t("2022-about-heading")}</h2>
-          <p>{t("2022_intro1.5")}</p>
+          {/* <h2>{t("2022-about-heading")}</h2> */}
+          <p className="about-body-text">{t("2022_intro1.5")}</p>
         </div>
 
-        <h2>{t("2022_intro2")}</h2>
+        {/* <h2>{t("2022_intro2")}</h2> */}
       </div>
 
       <div className="twentyviz" id="twentyviz">
