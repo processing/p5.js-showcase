@@ -943,8 +943,17 @@ h1.tenpx {
 
 } */
 
+.abt-col1 {
+  width: 100vw;
+}
+
+.abt-col2 {
+  width: 30vw;
+}
+
 .about-body-text {
-  width: 50vw;
+  width: 70vw;
+  padding-right: 2vw;
 }
 .about-text-2022 {
   margin: 7vw;
@@ -955,7 +964,7 @@ h1.tenpx {
 }
 
 .about-img {
-  width: 30vw;
+  width: 10vw;
   margin: 0;
 }
 
@@ -985,7 +994,7 @@ h1.tenpx {
   margin-right: 10px;
 }
 /* Details Page */
-.img-gallery{
+.img-gallery {
   float: left;
   height: 510px;
   width: 728px;
@@ -993,8 +1002,11 @@ h1.tenpx {
 
 .gallery {
   overflow: hidden;
-  height: 510px;
-  width: 728px;
+
+  margin: 0 auto;
+}
+.archive {
+  overflow: hidden;
   margin: 0 auto;
 }
 .details-title h1 {

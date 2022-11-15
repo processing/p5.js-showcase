@@ -20,7 +20,6 @@ import Archive2021 from "./showcase_2021/Archive2021.js";
 
 import Archive2022 from "./showcase_2022/Archive2022.js";
 import GalleryTwentyTwo from "./showcase_2022/GalleryTwentyTwo.js";
-import Artists2022 from "./showcase_2022/Artists2022.js";
 import Detailed2022Page from "./showcase_2022/Detailed2022Page.js";
 
 export default function App() {
@@ -140,9 +139,6 @@ export default function App() {
             <Link to="/archive" className="item">
               Archive
             </Link>
-            <Link to="/artists" className="item">
-              Artists
-            </Link>
             <Link to="/about" className="item">
               About
             </Link>
@@ -216,7 +212,6 @@ export default function App() {
             path="/2022-:filter/:id"
             children={<Detailed2022Page />}
           />
-          <Route exact path="/artists" children={<Artists2022 />} />
           <Route exact path="/about" children={<About />} />
         </Analytics>
       </Switch>{" "}

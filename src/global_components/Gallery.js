@@ -89,15 +89,18 @@ export default function Gallery() {
       </div>
 
       <div className="about-text-2022">
-      <h2 className="about-h2">{t("2022-about-heading")}</h2>
+        <h2 className="about-h2">{t("2022-about-heading")}</h2>
         <div className="about-row">
-          {/* <h2 className="about-h2">{t("2022-about-heading")}</h2> */}
-          <p className="about-body-text">{t("2022_intro1")}</p>
-          <img
-            className="about-img"
-            src="/2022images/cartoon-flower.png"
-            alt="a cartoon heart watering a cartoon flower"
-          />
+          <div className="abt-col1">
+            <p className="about-body-text">{t("2022_intro1")}</p>
+          </div>
+          <div className="abt-col2">
+            <img
+              className="about-img"
+              src="/2022images/cartoon-flower.png"
+              alt="a cartoon heart watering a cartoon flower"
+            />
+          </div>
         </div>
 
         <div className="about-row">
