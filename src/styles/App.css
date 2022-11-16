@@ -1288,6 +1288,14 @@ h1.tenpx {
   color: #db3b60;
 }
 
+.navigation2022 .left .item:hover {
+  color: #ff8ba6;
+}
+
+.navigation2022 .right button:hover {
+  color: #ff8ba6;
+}
+
 .navigation2022 .right {
   margin-right: 40px;
 }
