@@ -127,7 +127,7 @@ export default function App() {
     //2022 showcase
   } else {
     navigation = (
-      <div className="navigation-2022">
+      <div className="navigation2022" id="myNav">
         <div className="menu">
           <div className="left">
             <Link to="/" className="item">

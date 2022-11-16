@@ -127,10 +127,9 @@ const Details2022 = ({ piece, filter }) => {
               <div className="col">
                 <div>{tools.length !== 0 && <h2>{t("Tools")}</h2>}</div>
                 {toolslinks.map((tool, index) => {
-                  console.log();
-                  var stringOfTool = tool.toString();
+                  let newTool = tool.replace(/\s+/g, "");
                   return (
-                    <a href={toolslisted[stringOfTool]} target="_blank">
+                    <a href={toolslisted[newTool]} target="_blank">
                       {tool}
                     </a>
                   );

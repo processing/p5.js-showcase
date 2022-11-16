@@ -98,7 +98,7 @@
       "answer6": "A project by Yuri Suzuki: https://soundoftheearth.org/",
       "social": "https://www.jasongong.design/",
       "id": "the-healing-forest",
-      "picid": "THF.gif"
+      "picid": "healing-forest.jpeg"
     },
 
     {
@@ -106,8 +106,8 @@
       "pronouns": "he/him",
       "location": "Mumbai, India",
       "title": "In Between Life & Death",
-      "description": "In Between Life & Death tries to answer why humans are motivated to do what they do. You wake up as a particle in space animated by consciousness. As you progress through life, you're compelled by different needs. All to reach a grand ending. But is there one at all? This unifying, underwhelming nature of life is what I wanted to highlight in the game. Isn't this what connects us all?",
-      "alt": "",
+      "description": "In Between Life & Death tries to answer why humans are motivated to do what they do. You wake up as a particle in space animated by consciousness. As you progress through life, you're compelled by different needs. All to reach a grand ending. But is there one at all? \n\nThis unifying, underwhelming nature of life is what I wanted to highlight in the game. Isn't this what connects us all?",
+      "alt": "A digital banner for the game. Features two blobs, i.e: the Hero and its partner being attacked by hostile particles with the text 'In Between Life & Death' written in a serif font.",
       "live": "https://arjuncreates.github.io/InBetweenLifeAndDeath/",
       "code": "https://github.com/arjuncreates/InBetweenLifeAndDeath",
       "type": "Educational",
@@ -118,7 +118,7 @@
       "answer3": "Made the entire game on p5.js. I also have a repository of 59 sketches that were used to conceptualise the game, that can be found here: https://editor.p5js.org/arjuncodes/collections/DN8GBte3W",
       "answer4": "So tough to choose a favourite. I guess any that add interactivity, such as mousePressed(), mouseReleased(), mouseX, mouseY, Camera input etc.",
       "answer5": "It was incredibly challenging.",
-      "answer6": "An explainer video of the project: https://youtu.be/Wc06UFbB8D8 Trailer for the game: https://youtu.be/HrHS1g1aeno",
+      "answer6": "An explainer video of the project: https://youtu.be/Wc06UFbB8D8 \n\nTrailer for the game: https://youtu.be/HrHS1g1aeno",
       "social": "www.arjunyadav.info | Instagram: @arjunsarchive",
       "id": "in-between-life-and-death",
       "picid": "IBLD-1.jpeg"
@@ -130,7 +130,7 @@
       "location": "London, United Kingdom",
       "title": "Flock",
       "description": "Flock is a multiplayer online experience where you can create clouds of bubbles and interact with them. Simultaneous visitors are paired up to play together in real time - an opportunity for a distanced interaction with a stranger. There is more information here - https://www.youtube.com/watch?v=fZ25GQU-o0w",
-      "alt": "",
+      "alt": "Two sets of coloured dots fly around the screen.",
       "live": "https://in.bimble.space/flock",
       "code": "https://in.bimble.space/flock",
       "type": "Educational",
@@ -153,13 +153,13 @@
       "location": "Tekirdağ, Turkey",
       "title": "High School Mathematics Animated",
       "description": "I believe that a high school student can illustrate every topic in high school mathematics. Due to minimalist design of p5.js, it is possible for high schoolers to compute, animate and simulate. Most of the time they are not using manipulatives in mathematics education. But programming is experiencing, so that they can grasp the subject. They will also start lerning first principles of engineering by programming their scenerios. The work is still in early stage. There are eight videos in Turkish. If there will be demand it would be nice to create more materials in several languages.",
-      "alt": "",
+      "alt": "GIF of a speed problem. Two dark gray rectangles approaching each other on top of a pink background.",
       "live": "https://youtube.com/playlist?list=PLU8l6n1Iz_GFRey6DKQNsd7iDSr27qlfR",
       "code": "https://editor.p5js.org/Matematik/sketches/uyS1VBBik",
       "type": "Text",
       "tools": "",
       "difficulty": "Beginner",
-      "answer1": "I am an appied maths professor in Tekirdağ Namık Kemal University. I used to be a be a middle school mathematics teacher and like teaching a lot.",
+      "answer1": "I am an appied maths professor in Tekirdağ Namik Kemal University. I used to be a be a middle school mathematics teacher and like teaching a lot.",
       "answer2": "By the Coding Train. It is inpiring! My first project is the present one actually.",
       "answer3": "I programmed mathematical consepts and tried to encourage people that it is possible and useful. My first example is a speed problem where two vehicles move towards each other with varying speeds, and simulated their arrivals. In onether example, I coded finding squareroots using rectangles. The other one is on finding limits. There are other on triangles, multiplication, work problems, graphics of functions and computing Pi.",
       "social": "https://www.linkedin.com/in/unverciftci",
@@ -173,14 +173,14 @@
       "location": "Chicago, IL",
       "title": "portrait of an organic machine",
       "description": "I have a small business where I see handmade spiritual tools, home decor, up cycled apparel and more. I am currently a student majoring in math and computer science with a minor in Chinese. I am also a math tutor that currently specializes in Algebra , geometry, and trigonometry; however, I am planning to master higher levels in mathematics to teach to others. I am also studying numerology to understand the intuitive side of numbers, since that also bridges the concepts together. I am and will continue to be an artist, teacher, and student.",
-      "alt": "",
+      "alt": "This image displays a Goddess who sports royal gold jewelry. She wears bold stripes on her cheek to highlight her strength; however she drapes her hair and body in the finest silk scarves.",
       "live": "https://www.canva.com/design/DAFHKA7LFlI/yNrDQuxNxbo-FEt2JgF4cw/view?utm_content=DAFHKA7LFlI&utm_campaign=designshare&utm_medium=link&utm_source=viewer",
       "code": "https://editor.p5js.org/kfox20/sketches/1c6YyZMv0",
       "type": "Text",
       "tools": "",
       "difficulty": "Intermediate",
       "answer1": "I have a small business where I see handmade spiritual tools, home decor, up cycled apparel and more. I am currently a student majoring in math and computer science with a minor in Chinese. I am also a math tutor that currently specializes in Algebra , geometry, and trigonometry; however, I am planning to master higher levels in mathematics to teach to others. I am also studying numerology to understand the intuitive side of numbers, since that also bridges the concepts together. I am and will continue to be an artist, teacher, and student.",
-      "answer2": "I was introduced to P5.js when I was struggling to find my major. I was studying math and computer science, but I was lacking the art in my life, so I found out my campus offered a creative coding class. With that course, I was introduced to Twine, and interactive story teller site, and P5.js. I knew that I would use P5.js more just for fun. I used the site for years and learned new functions.",
+      "answer2": "I was introduced to p5.js when I was struggling to find my major. I was studying math and computer science, but I was lacking the art in my life, so I found out my campus offered a creative coding class. With that course, I was introduced to Twine, and interactive story teller site, and P5.js. I knew that I would use P5.js more just for fun. I used the site for years and learned new functions.",
       "answer3": "With this project, this project just requires the P5.js library. We will mainly work with the shape and color functions in this library.",
       "answer4": "I just love the editor because I can create anything!",
       "answer5": "For this project, It can get a bit tedious with the measurements I have to calculate for more symmetrical works. It takes a lot of time to get the details. However, I use music to keep me in a state of flow to remain productive.",
@@ -196,7 +196,7 @@
       "location": "Columbus, Ohio",
       "title": "Project Mercury",
       "description": "Popular culture celebrates Katherine Johnson who was a black mathematician who worked for NASA, as depicted in the movie Hidden Figures, but students often never get to see some of the calculations she did. In this STEMcoding activity we explore some of the mathematics she would have worked on to understand how John Glenn's Mercury capsule would behave in orbit. Activity designed by Chris Orban. Video features Jahmour Givans.",
-      "alt": "",
+      "alt": "Visualization of how the Mercury capsule reentered Earth on top of a white background.",
       "live": "https://youtube.com/playlist?list=PLISRe8GegO8S-188B7veZ6dYLSqZoXFkG",
       "code": "https://editor.p5js.org/ChrisOrban/sketches/pQt5nIvDa",
       "type": "Camera",
@@ -219,7 +219,7 @@
       "location": "Bay Roberts, Newfoundland, Canada",
       "title": "Visual Synonyms",
       "description": "Takes a user input word and generates levels of synonyms from that word.",
-      "alt": "",
+      "alt": "A gif showing the growth of a web of synonyms centered around the word 'happy.'",
       "live": "https://editor.p5js.org/shawnpeters/full/F7KwxeMGt",
       "code": "https://editor.p5js.org/shawnpeters/sketches/F7KwxeMGt",
       "type": ["Camera", "Educational", "Tool"],
@@ -242,7 +242,7 @@
       "location": "Prague, Czech Republic",
       "title": "footnote 23",
       "description": "Excerpt from Human Manual.",
-      "alt": "",
+      "alt": "An example of a perfect connection. White rectangles on top of a black background with the word 'perfect' underneath.",
       "live": "https://martin.kopta.eu/footnote23/",
       "code": "https://gitlab.com/mkopta/footnote23",
       "type": "Text",
@@ -264,7 +264,7 @@
       "location": "Athens, Greece",
       "title": "raInBoWWarM",
       "description": "An error can be fixed with a click. And a click can bring a rainbow in a summer day! A graphic design and typography mix art illustrating an error in a random color that disappear according to the sum of its RGB values and then cycles that follow the mouse and change colors from red to green to blue to red appears! if you click, unless you get a circle with the text click, to motivate you click. If you double click the canvas becomes a bit darker and it resets.",
-      "alt": "",
+      "alt": "blue text that says 'error' mixed with white circles and white text that says 'click' on top of a gray background.",
       "live": "https://editor.p5js.org/evitasima/sketches/S92eP2WYQ",
       "code": "https://editor.p5js.org/evitasima/sketches/S92eP2WYQ",
       "type": "Data Visualization",
@@ -286,7 +286,7 @@
       "pronouns": "they/them",
       "location": "Chania, Greece",
       "title": "grasshopper to human",
-      "alt": "",
+      "alt": "Green and blue lines on a black background in the shape of a grasshopper transforming into a human.",
       "description": "An abstract illustration of a man who turns to grasshopper and vice versa with mouse maping.I wanted to represent the intrinsic connection man has to nature.",
       "live": "https://editor.p5js.org/papadosifouele/full/TXdncUN2f",
       "code": "https://editor.p5js.org/papadosifouele/sketches/TXdncUN2f",
@@ -308,7 +308,7 @@
       "pronouns": "she/her",
       "location": "New York City, USA",
       "title": "Connect Girls",
-      "alt": "",
+      "alt": "Program starting to populate screen with heads of girls with randomly generated hair and skin colors, in randomly generated locations, text appears that says 'Connect Every Girl to Coding'",
       "description": "My project represents my desire for all girls everywhere to be exposed to computer programming.",
       "code": "https://editor.p5js.org/Debi16/sketches/_Y2vIon2M",
       "type": "Visual",
@@ -331,7 +331,7 @@
       "location": "Chicago, USA.",
       "title": "Marvel's Flow Field",
       "description": "A grid of vector twists and turns into different images of Marvel superhero. Each point in the grid connects with one another over space and time",
-      "alt": "",
+      "alt": "A distribution of vector points consist of an image of Iron Man",
       "live": "https://sssummerchao.github.io/Marvel-s-flow-field/",
       "code": "https://github.com/sssummerchao/Marvel-s-flow-field",
       "type": "Visual",
@@ -341,7 +341,7 @@
       "answer2": "College course.",
       "answer3": "I started by creating a very simple grid and flow field. Eventually I has the idea of transferring image pixels onto a grid of vectors. Here's my first draft: https://editor.p5js.org/summerchao/sketches/ztGPg8FM9 Then I attempted to make each pixel moves and here's my attempt: https://editor.p5js.org/summerchao/sketches/vOZRlHrfP. Then I just adjusted the noise level and direction of the pixel for my final result.",
       "answer4": "Love the camera and loop feature. I also often use p5 sound library to play with different audio inputs",
-      "answer5": "When users click through all the images on the web page, it won't restart to the first image. So I have to add this line of code: if (pos >= allimages.length) {pos = 0;}",
+      "answer5": "When users click through all the images on the web page, it won't restart to the first image. So I have to add this line of code: \nif (pos >= allimages.length) {\npos = 0;\n}",
       "answer6": "https://swiftui.design/",
       "social": "https://notwinter.notion.site/notwinter/This-is-not-winter-4e3f503cee444e4c830a5fd812672b36",
       "id": "marvels-flow-field",
@@ -354,7 +354,7 @@
       "location": "Warwick, USA",
       "title": "Rope Simulation",
       "description": "A simple rope simulation using vertlet integration.",
-      "alt": "",
+      "alt": "White lines and circles assembled in the shape of a hanging, waving cloth, on top of a blue background.",
       "live": "https://editor.p5js.org/Blungus23/full/AhwUOIm9O",
       "code": "https://editor.p5js.org/Blungus23/sketches/AhwUOIm9O",
       "type": "Educational",
@@ -368,7 +368,7 @@
       "answer6": "You guys should check out The Rehearsal by Nathan Fielder its pretty funny.",
       "social": "Instagram: @noahbreedy",
       "id": "rope-simulation",
-      "picid": "rainbow.jpeg"
+      "picid": "rope-simulation.png"
     },
 
     {
@@ -377,7 +377,7 @@
       "location": "Singapore, Singapore",
       "title": "Pattern Creater",
       "description": "This is a an example of how some simple code can be used to create wonderful patterns. This program uses a random number as the angle of rotation and, using a loop, creates wonderful patterns. (Colour is a HSL hue loop)",
-      "alt": "",
+      "alt": " An image of a colourful multi-pointed spiral that converges in the middle.",
       "live": "https://editor.p5js.org/ICantRemember/full/QqjpuLphA",
       "code": "https://editor.p5js.org/ICantRemember/sketches/QqjpuLphA",
       "type": "Visual",
@@ -390,7 +390,7 @@
       "answer5": "The biggest challenge that I faced was calculating the x,y coordinates given the angle and distance. As the drawing functions in p5.js only accept coordinates as perimeters, it took me a while to get the trigonometery right.",
       "answer6": "I feel that if inputted the correct numbers/formulas things on loop are really fun.",
       "id": "pattern-creator",
-      "picid": "rainbow.jpeg"
+      "picid": "pattern-creator.png"
     },
 
     {
@@ -399,7 +399,7 @@
       "location": "Pittsburgh, USA",
       "title": "Quilter",
       "description": "A tool to help with laying out repeating geometric quilt designs. It can be hard to visualize how a quilt block will look when it is repeated, so this tool makes playing around with that intuitive.",
-      "alt": "",
+      "alt": "A web application has a central display and a series of buttons around it. The display shows a repeating geometric pattern made up of triangles, squares, and diamonds in blue green and orange. The pattern forms a series of X's and overlapping shapes.",
       "live": "https://editor.p5js.org/ilovit/full/M7vOG2aoQ",
       "code": "https://editor.p5js.org/ilovit/sketches/M7vOG2aoQ",
       "type": "Code",
@@ -410,9 +410,9 @@
       "answer3": "I'm using p5.js for the core of the app, but there's lots of HTML, CSS stuff in the user interface. Basically, the current state of the quilt block get's printed to an offscreen buffer every frame, and then that buffer is printed onto the p5 canvas in a grid with transformations applied, any interactions with the quilt are changing the underlying quilt pattern stored in a js object.",
       "answer4": "graphics buffers and blend modes! Also pixels. I like doing cool things with graphics.",
       "answer5": "HTML can be tedious. In the end I just had to push through it to get back to the fun parts. Also lots and lots of googling.",
-      "answer6": "my absolute favorite thing on the internet: https://www.reddit.com/r/pics/comments/ai8h3s/chairexe_has_stopped_working/. There are just so many layers to that post, and I feel like it sums up a generation.",
+      "answer6": "My absolute favorite thing on the internet: https://www.reddit.com/r/pics/comments/ai8h3s/chairexe_has_stopped_working/. There are just so many layers to that post, and I feel like it sums up a generation.",
       "id": "quilter",
-      "picid": "rainbow.jpeg"
+      "picid": "quilter.png"
     },
 
     {
@@ -420,8 +420,8 @@
       "pronouns": "she/her",
       "location": "São Paulo, Brazil",
       "title": "Phantom Calligraphy or some rest for those who see.",
-      "description": "This work is made of hybrid calligraphy: half code, half human gestures, all connected. On a physical level, it doesn't require the calligrapher's presence to be executed. The gestures are recorded on a series of .txt files and can be played as long as the one running the code wishes it to be. This work is generative art: there isn't a pre-determined order for the reproduction of the gestures. The program has a certain degree of autonomy to choose the gestures to be redrawn. And it never chooses all the gestures in one play. The composition can never be viewed all at once.",
-      "alt": "",
+      "description": "This work is made of hybrid calligraphy: half code, half human gestures, all connected. On a physical level, it doesn't require the calligrapher's presence to be executed. The gestures are recorded on a series of .txt files and can be played as long as the one running the code wishes it to be. \n\nThis work is generative art: there isn't a pre-determined order for the reproduction of the gestures. The program has a certain degree of autonomy to choose the gestures to be redrawn. And it never chooses all the gestures in one play. The composition can never be viewed all at once.",
+      "alt": "Image of calligraphic traces that follow the style of the rect pen being drawn on the screen in the colors black, orange, yellow, pink, and green.",
       "live": "https://editor.p5js.org/lightestHand/sketches/th556JnFl",
       "code": "https://editor.p5js.org/lightestHand/sketches/th556JnFl",
       "type": "Visual",
@@ -435,7 +435,7 @@
       "answer6": "the processing community day held in Brasil: https://pcd.encontrosdigitais.com.br/2021/",
       "social": "social media: instagram.com/lightesthand || portfolio: https://marileal.github.io/",
       "id": "phantom-calligraphy",
-      "picid": "rainbow.jpeg"
+      "picid": "phantom-calligraphy.png"
     },
 
     {
@@ -444,7 +444,7 @@
       "location": "Toronto, Canada",
       "title": "Starmap Generator",
       "description": "Vintage star system generator.",
-      "alt": "",
+      "alt": "A vintage star system map generator that generates a new map each time the user clicks on the generator.",
       "live": "https://arkimedz.itch.io/starmap",
       "code": "",
       "type": "Visual",
@@ -458,7 +458,7 @@
       "answer6": "https://watabou.itch.io/",
       "social": "https://twitter.com/arkimedz",
       "id": "starmap-generator",
-      "picid": "rainbow.jpeg"
+      "picid": "star-system.png"
     },
     {
       "author": "Arya Harditya",
@@ -466,7 +466,7 @@
       "location": "Jakarta, Indonesia",
       "title": "Mandala Shatters",
       "description": "The concept of this project is to project the sketch into an immersive room where the camera recorded audience and have them shatters around the screen.",
-      "alt": "",
+      "alt": "Mandala shatter created using Starbucks logo from the webcam feed. Shatters are on top of a black background.",
       "live": "https://openprocessing.org/sketch/1620353",
       "code": "https://openprocessing.org/sketch/1620353",
       "type": "Visual",
@@ -480,7 +480,7 @@
       "answer6": "i think you should check out p5.xr and develop it more because we are entering metaverse, and I need p5js in building my own metaverse! :D",
       "social": "https://www.linkedin.com/in/aryaharditya/",
       "id": "mandala-shatters",
-      "picid": "rainbow.jpeg"
+      "picid": "mandala.jpeg"
     },
 
     {
@@ -489,20 +489,20 @@
       "location": "Hangzhou, China",
       "title": "SAKURA BLOSSOM",
       "description": "Because the course started in spring,so I was inspired by the blossoming cherry flowers----its janpanese name spelling is SAKURA.I want to realize its formation and capture the second when flower is blossoming.With its endless motion I hope people can feel the dynamic beauty,the power of the nature life,and the strength of natural circulation.",
-      "alt": "",
+      "alt": "GIF of dark pink blob-like flower expanding and shrinking over a light pink background.",
       "live": "https://editor.p5js.org/natalieyeye/sketches/ceBrnMFZr",
       "code": "https://editor.p5js.org/natalieyeye/sketches/ceBrnMFZr",
       "type": "Visual",
       "tools": "",
       "difficulty": "Intermediate",
-      "answer1": "I'm a illstrator and student obsessed with coding and digital art and I was inspired by Lizzie Wilson(She's my tutor of the course in UAL and here's her page_https://lwlsn.github.io/). This summer I participate the Cambridge AI programming and I met Pam Burnard,she aroused my interest in music and AI and we are lauching project now(sth like workshop):)",
+      "answer1": "I'm a illstrator and student obsessed with coding and digital art and I was inspired by Lizzie Wilson (She's my tutor of the course in UAL and here's her page_https://lwlsn.github.io/). \n\nThis summer I participate the Cambridge AI programming and I met Pam Burnard,she aroused my interest in music and AI and we are lauching project now(sth like workshop):)",
       "answer2": "My tutor of the course in UAL, Lizzie Wilson,her art work is gorgeous and it really impressed me and aroused my motivation to learn!!",
       "answer3": "Simply by p5js coding.",
       "answer4": "map()",
       "answer5": "Sometimes you have to go to other website to find method to visualize and realize your ideas.",
       "social": "instagram: buzztequila",
       "id": "sakura-blossom",
-      "picid": "rainbow.jpeg"
+      "picid": "sakura.gif"
     },
 
     {
@@ -511,7 +511,7 @@
       "location": "Paris, France",
       "title": "Cave",
       "description": "Cave is an audio-visual experience, the images are created by the artiste in advance  and are transformed in realtime, reacting to the frequencies of the music.",
-      "alt": "",
+      "alt": "GIF of black lines with gray fill drifting towards the top of the screen, on top of a black background.",
       "live": "https://skyl.fr/play/cave",
       "code": "https://github.com/sikaili",
       "type": "Visual",
@@ -525,7 +525,7 @@
       "answer6": "Tone.js",
       "social": "https://skyl.fr",
       "id": "cave",
-      "picid": "rainbow.jpeg"
+      "picid": "cave.gif"
     },
 
     {
@@ -533,22 +533,22 @@
       "pronouns": "he/him",
       "location": "Bariloche, Argentina",
       "title": "Trazos Club",
-      "description": "Trazos.club is a web platform for collective drawing. Through collaborative practice and the animated drawing, Trazos looks to foster new artistic, recreative and educational experiences for everyone and anyone, incorporating expressive languages into the everyday. Trazos.club is a free software project. The platform responds to the need to generate a technological solution that uses collaborative systems in real time, applying the new standards for web 2.0.",
-      "alt": "",
+      "description": "Trazos.club is a web platform for collective drawing. Through collaborative practice and the animated drawing, Trazos looks to foster new artistic, recreative and educational experiences for everyone and anyone, incorporating expressive languages into the everyday. \n\nTrazos.club is a free software project. The platform responds to the need to generate a technological solution that uses collaborative systems in real time, applying the new standards for web 2.0.",
+      "alt": "Image of two people using Trazos Club on their laptops and projected onto the wall in front of them. They are drawing neon colored line and swirls.",
       "live": "http://trazos.club/",
       "code": "https://github.com/andiamo/fideos",
       "type": "Drawing Focused",
       "tools": "",
       "difficulty": "Intermediate",
       "answer1": "I'm a creative dev and agile manager based in Argentina. Currently Product Manager at my own startup, Grow with Jane.",
-      "answer2": "I discovered p5 through Processing! These tools gave me a way to express myself artistically through the language I've chosen my whole life, programming :) One of my first dives into this world was through The Nature of Code, being from Argentina I had to internationally order the book and it's still one of my most cherished books",
+      "answer2": "I discovered p5 through Processing! These tools gave me a way to express myself artistically through the language I've chosen my whole life, programming :) \n\nOne of my first dives into this world was through The Nature of Code, being from Argentina I had to internationally order the book and it's still one of my most cherished books",
       "answer3": "Trazos has been in the works for many many years and it was first created by Processing collaborator Andres Colubri and plastic artist Marcela Rapallo. P5 is embedded at the heart of it, being the motor for the canvas, I would say the second most important piece of tech is sockets.io which we use for communication of the lines and the chat. Users can also generate GIFs from the drawings they create and upload to Giphy.",
       "answer4": "My favorite p5 feature is accessibility! As a trained developer I've worked along many artists with less experience in coding and p5 is just a breeze for them to get jump started into drawing things.",
       "answer5": "Community is always the best and most challenging aspect of big and open source projects like Trazos. We're always looking for new devs that want to join the adventure and do some coding :)",
       "answer6": "Check one of our gatherings! https://www.youtube.com/watch?v=x8kYC3bnp0E",
       "social": "https://gastonlozano.com, https://www.instagram.com/gaz.town",
-      "id": "Re-Binary",
-      "picid": "rainbow.jpeg"
+      "id": "trazos-club",
+      "picid": "trazos.jpeg"
     },
 
     {
@@ -557,7 +557,7 @@
       "location": "Dukhan, Qatar",
       "title": "Clock",
       "description": "A Simple Clock that tell the time via a virtual clock, it displays the time wit ha digital format and also tells the date and can speak the time when a button is pressed",
-      "alt": "",
+      "alt": "A date, analog format time, a clock, a buttom with the word 'Time' on it",
       "live": "https://editor.p5js.org/suhaasmavuri4679/full/sFSPbnjkR",
       "code": "https://editor.p5js.org/suhaasmavuri4679/sketches/sFSPbnjkR",
       "type": "Visual",
@@ -569,8 +569,8 @@
       "answer4": "My favourite feature on p5.js is the p5.speech.js because you can use it to do many audio related things.",
       "answer6": "I faced problems like not knowing how to solve certain issues so i watched videos and scrolled through the website to find out how to solve them and also did a lot of trial and error.",
       "social": "https://www.youtube.com/channel/UCcPr222K0GE-nVbFmUcvn0A",
-      "id": "Networks-of-Care=Critique",
-      "picid": "rainbow.jpeg"
+      "id": "clock",
+      "picid": "clock.png"
     },
 
     {
@@ -579,7 +579,7 @@
       "location": "Mashhad, Iran",
       "title": "G Loop",
       "description": "Our universe looks pretty chaotic, I give you that. For me, cosmology has always been filled with topics that make me fascinated. With my major being physics, I learned that gravity, as one of the four fundamental forces of nature, is the most absorbing one, despite being the most undiscovered force in the world. In this visualization, I intend to emulate a simple system based on Newton’s law of universal gravity. I considered the first 3000 numbers of Recamán's sequence in Cartesian coordinates as gravitational points and released 210 free particles in seven separate groups with initial locations and different colors in space to move in the gravitational field resulting from my gravity particles. The outcome, which you can see, is the recording of the particle paths.",
-      "alt": "",
+      "alt": "A dark background and seven group of particles with different colors moving in the space and forming an image like a galaxy formed with different particles.",
       "live": "https://editor.p5js.org/saeidafc/full/_ZctC6P81",
       "code": "https://editor.p5js.org/saeidafc/sketches/_ZctC6P81",
       "type": "Educational",
@@ -592,8 +592,8 @@
       "answer5": "Main challenge for me was the question that how should I tune the code and change the parameters to get kind of an artistic result. I guess I coded over 10 different ideas of choosing parameters to get an acceptable output.",
       "answer6": "I guess my another experience with visualizing the Collatz conjecture and the logical error I faced to and the final result would be cool too.",
       "social": "@4looop on Instagram and Twitter",
-      "id": "Neon-Impasse",
-      "picid": "rainbow.jpeg"
+      "id": "g-loop",
+      "picid": "g-loop.png"
     },
 
     {
@@ -602,7 +602,7 @@
       "location": "Missouri, USA",
       "title": "Nuguri Math",
       "description": "Learn arithmetic with games",
-      "alt": "",
+      "alt": "When playing game, there would be some obstacles to avoid. Screenshot of Nuguri Math in play.",
       "live": "https://editor.p5js.org/bychan/full/loyq-8fKl",
       "code": "https://editor.p5js.org/bychan/sketches/loyq-8fKl",
       "type": "Game",
@@ -615,8 +615,8 @@
       "answer5": "I mixed graphics and html in this project and after all, it was not a good idea because sometimes it was confusing when to use p5.js' function and native html. Moreover, p5.js doesn't support detailed functionality when it comes to html control(For example, I cannot put 'line break' between radio buttons)",
       "answer6": "Kids should solve some arithmetic questions to play a game and it surely increase their basic ability of arithmetic skills.",
       "social": "https://github.com/kbckbc/portfolio",
-      "id": "b5",
-      "picid": "rainbow.jpeg"
+      "id": "nuguri-math",
+      "picid": "nuguri-math.png"
     },
 
     {
@@ -625,7 +625,7 @@
       "location": "Georgia, USA",
       "title": "Immersive World",
       "description": "As a musician, artist, and coder, I really love being able to merge all three of my creative mediums together to create art.",
-      "alt": "",
+      "alt": "Image of black lines, black spheres, and cubes made only from black outlines floating on a white background.",
       "live": "https://virusinlinux.github.io/heartAnimation/",
       "code": "https://openprocessing.org/sketch/1285661",
       "type": "Visual",
@@ -639,7 +639,7 @@
       "answer6": "I think you should check out my friend Aishii's soundcloud because she's an amazing musician as well!",
       "social": "https://soundcloud.com/disbandedbrkn https://instagram.com/dxsbond",
       "id": "immersive-world",
-      "picid": "rainbow.jpeg"
+      "picid": "immersive-world.png"
     },
 
     {
@@ -648,7 +648,7 @@
       "location": "Philadelphia, USA",
       "title": "Creative Coding Every Day: Genuary 2022",
       "description": "An article about my experience participating in 'Genuary 2022' and making something using creative code everyday in the month of January. The article includes embedded sketches and links to the code for the projects I made, primarily in p5.js.",
-      "alt": "",
+      "alt": "Image of dense overlapping lines that make squares that rotate in 3D space.",
       "live": "https://jennybkowalski.medium.com/creative-coding-every-day-genuary-2022-25b7e7c11bf5?sk=b8a1cab9b48a7ceba9ebef02b3583c58",
       "code": "https://jennybkowalski.medium.com/creative-coding-every-day-genuary-2022-25b7e7c11bf5?sk=b8a1cab9b48a7ceba9ebef02b3583c58",
       "type": "Tutorial",
@@ -662,16 +662,16 @@
       "answer6": "p5.svg: https://github.com/zenozeng/p5.js-svg",
       "social": "https://www.jennybkowalski.com/, https://www.instagram.com/jennybkowalski/, https://jennybkowalski.medium.com/",
       "id": "creative-coding-everyday",
-      "picid": "rainbow.jpeg"
+      "picid": "creative-coding-everyday.jpeg"
     },
 
     {
       "author": "Ike Bischof",
       "pronouns": "he/him",
       "location": "Roseville, USA",
-      "title": "IData In Colors",
+      "title": "Data In Colors",
       "description": "This sketch allows users to create images that have secret data hidden inside by changing the colors of the pixels. It turns file data into something you can actually see. What better way to connect art and computer science?",
-      "alt": "",
+      "alt": "Image of a picture of a playground inside a vinyl. Text saying 'The Sounds of Roseville' is on the top. Noise grain is over the entire image.",
       "live": "https://ikeb108.github.io/SOR-Explain-1/",
       "code": "https://github.com/IkeB108/Data-In-Colors-SOR-1",
       "type": "Visual",
@@ -684,8 +684,8 @@
       "answer5": "I struggled to make the sketch behave the same on both mobile and PC. One fix was preventing zooming/panning on the webpage and centering the canvas in the webpage.",
       "answer6": "Some libraries and tutorials I have made for P5JS: https://ikebot108.weebly.com/tutorials--coding-libraries.html",
       "social": "https://ikebot108.weebly.com/",
-      "id": "idata-in-colors",
-      "picid": "rainbow.jpeg"
+      "id": "data-in-colors",
+      "picid": "data-in-colors.png"
     },
 
     {
@@ -694,7 +694,7 @@
       "location": "Seoul, Korea",
       "title": "BUBBLE WORDS",
       "description": "Words that disappear like bubbles. Control this new type of variable font by moving your mouse.",
-      "alt": "",
+      "alt": "In the center of the white screen, circles come together to form words. Words change every 2 seconds to 'sleep, science, dialogue, logic, table, island, heart' and it is expressed in Korean, English or symbols. As the cross-shaped cursor moves, the size of the bubble and the distance between the circles change.",
       "live": "https://editor.p5js.org/design.teo.ryu/full/I1PRivFtl",
       "code": "https://editor.p5js.org/design.teo.ryu/sketches/I1PRivFtl",
       "type": "Visual",
@@ -708,15 +708,15 @@
       "answer6": "Each letter has its own shape. It depends not only on what symbol the symbol (glyph) is, but also on what font design it has. However, humans have a meta-image in their head, and I wanted to express these thoughts through this work. I wanted to make a 'CONNECT' between our language and the shape of letters as words disappear and reappear.",
       "social": "https://www.instagram.com/contact_yj/",
       "id": "bubble-words",
-      "picid": "rainbow.jpeg"
+      "picid": "bubble-words.gif"
     },
     {
       "author": "SEJIN OH",
       "pronouns": "he/him",
       "location": "Seoul, Korea",
       "title": "Open Source Lab Webpage's Interactive Motion",
-      "description": "열기/닫기 아이콘 | I designed and developed the Open Source Lab web page of Hongik University's Interactive Media Art Crew! It was designed with a simple but bouncy mood of open source lab, and the interaction was made with cute logo figures of open source lab on the main page's background. | Developed by html + css + p5.js | 🖥 Link : hi-oslab.github.io",
-      "alt": "",
+      "description": "열기/닫기 아이콘 \n\nI designed and developed the Open Source Lab web page of Hongik University's Interactive Media Art Crew! It was designed with a simple but bouncy mood of open source lab, and the interaction was made with cute logo figures of open source lab on the main page's background. \n\nDeveloped by html + css + p5.js \n\n🖥 Link : hi-oslab.github.io",
+      "alt": "GIF of a circle, triangle, and three stacked rectangles moving around a browser window.",
       "live": "https://hi-oslab.github.io/",
       "code": "https://github.com/hi-oslab/hi-oslab.github.io/blob/main/js/canvas.js",
       "type": "Visual",
@@ -730,7 +730,7 @@
       "answer6": "The simplicity and friendly web editor of p5.js made it easy for anyone to get over the fear of programming!",
       "social": "https://designersejinoh.web.app",
       "id": "open-source-lab-webpage-interactive-motion",
-      "picid": "rainbow.jpeg"
+      "picid": "osl.gif"
     },
     {
       "author": "Attilio Erriquez",
@@ -738,7 +738,7 @@
       "location": "Bologna, Italy",
       "title": "TicTacToe: learning example",
       "description": "This example show capability of p5js to realize a simple game, it is part of a training I am preparing to allow kids or newbies to learn coding.",
-      "alt": "",
+      "alt": "Two green X's and three red O's in a tic-tac-toe game. The grid is made of the white lines over a dark gray background.",
       "live": "https://editor.p5js.org/attilioerriquez/full/wkTREEk-3",
       "code": "https://editor.p5js.org/attilioerriquez/sketches/wkTREEk-3",
       "type": "Game",
@@ -751,7 +751,7 @@
       "answer5": "Since online editor has not a breakpoint / step debug feature, the main difficulty has been to tune the project, but the console.log can support bugfix! I wish to move soon on p5 library in react to overcome this limit.",
       "social": "https://www.linkedin.com/in/attilio-erriquez-a7b7212/",
       "id": "tictactoe-learning-example",
-      "picid": "rainbow.jpeg"
+      "picid": "ttt.png"
     },
     {
       "author": "Cristiano Figueiró",
@@ -759,7 +759,7 @@
       "location": "Salvador, Brazil",
       "title": "Música Móvel",
       "description": "This is a research project for experimentation and development of an online audio sample remix platform. In this version we used P5.js to create the visual interface and Tone.js for the audio engine. In this version it is possible to automate audio slicing and loop sections while manipulating the live interface.",
-      "alt": "",
+      "alt": "Shows the waveform of 2 audio files with control buttons on the left side of each audio. At the top there are buttons to switch between project tabs and the 'Play' and 'BPM' controls.",
       "live": "http://cristianofigo.github.io/musica_movel_web/",
       "code": "https://github.com/cristianofigo/musica_movel_web",
       "type": "Audio",
@@ -772,8 +772,8 @@
       "answer5": "Yes, this project is still a work in progress, the user interface and controls are still very raw and slow and should be optmized thru iterations design.",
       "answer6": "This work is a continuation of an older research about sound creation apps for android platform: www.musicamovelbahia.wordpress.com",
       "social": "www.cristianofigo.wordpress.com, https://www.instagram.com/musicamovelbahia/",
-      "id": "música-móvel",
-      "picid": "rainbow.jpeg"
+      "id": "musica-movel",
+      "picid": "musica-movel.gif"
     },
     {
       "author": "Yewon Jang",
@@ -781,7 +781,7 @@
       "location": "Seoul, Korea",
       "title": "RoBeat Dance",
       "description": "While thinking about how to solve robot dance, I thought that dance is a genre that is related to music. So I wanted to relate the beat and robot animation among the components of music. I try to visualize the beat through the robot's movement. Also, I want to make educational material for young children when they learn about the music. Program is consist of two features. One is beat maker and one is robot dance. The components of the drum beat were connected to the robot's body. You can drag-drop the beat block to beat score. I divided robot for three components. (Head, Arm, and Leg). Each component takes an action to match the call of the beat.",
-      "alt": "",
+      "alt": "Purple cartoon robot moving its head while the user's mouse clicks square buttons titled 'leg,' 'arm,' and 'head.'",
       "live": "https://editor.p5js.org/yewon1135/full/PgNQYzxMB",
       "code": "https://editor.p5js.org/yewon1135/sketches/PgNQYzxMB",
       "type": "Audio",
@@ -794,7 +794,7 @@
       "answer5": "Lack of basic knowledge of JavaScript made it difficult to access p5.js for the first time. And there were difficulties in solving p5.js errors alone because they did not appear much when I typed it on Google.",
       "social": "https://www.instagram.com/yeahwon__zip/, https://outrageous-brace-1db.notion.site/Yewon-Jang-49837189831b4d57b4ea7a5613c4cc4e",
       "id": "robeat-dance",
-      "picid": "rainbow.jpeg"
+      "picid": "robeat.gif"
     },
 
     {
@@ -803,21 +803,21 @@
       "location": "New York City, USA",
       "title": "Heart Flags",
       "description": "Make flags out hearts to communicate love and support! And because it's fun!",
-      "alt": "",
+      "alt": "Brightly colored overlapping hearts arranged to look like a Paxsexual pride flag. Hearts are sorted by color into approximate stripes. From top to bottom there are pink hearts, yellow hearts, and blue hearts.",
       "live": "https://r4chel.github.io/heart-flags/",
       "code": "https://github.com/R4chel/heart-flags",
       "type": "Visual",
       "tools": "dist(), random(), curveVertex()",
       "difficulty": "Advanced",
       "answer1": "I am a generative artist. I have a background in computer science and I am using that to make beautiful artwork.  My artwork is a celebration of bright colors and mathematics. I spend my days between playing making art and standing in Union Square where I talk to strangers about my art and teach people of all ages about Brownian motion and how math can be used to make beautiful art.",
-      "answer2": "I started using p5.js as part of Genuary 2022. I had previously made art in rust and wanted to play with something else. I quickly got hooked on how playful p5 was and how playful I could be with it. I hit a rhythm where I was being inspired to make art and the process of creating and interacting with the art led to more inspiration to create more art. Here is the link to my very first p5 sketch in response to the genuary prompt: 'destroy a square' https://editor.p5js.org/R4chel/full/mFX7ms8Ms. And here is what it looked like after 3 hours of playing and exploring what I could in p5: https://editor.p5js.org/R4chel/sketches/1dkGIC84o. My very first time playing with p5.js was the day before in the context of some pair programming at the recurse center and I was really inspired and decided to play by myself the next day. ",
-      "answer3": "This project is fully implemented in p5.js. Here is the source for the formula I used for what I call in my code 'fancy hearts' https://pavpanchekha.com/blog/heart-polar-coordinates.html. Sources for hex codes for pride hearts: https://www.kapwing.com/resources/official-pride-colors-2021-exact-color-codes-for-15-pride-flags/, https://www.flagcolorcodes.com/flags/pride. I used the genuary prompts as a way of growing as an artist and as inspiration for p5 projects. It worked really well together. Here is a collection of pieces I made for genuary, most of which were written in p5.js although some of the pieces were made my existing rust art tool: https://www.symbiocene.gallery/genuary2022-joy-of-randomness",
-      "answer4": "I love the editor so much. I love how quickly you can ramp up. I warn people if they spend too much time around me they might accidentally end up writing some p5. I have had the absolute delight of getting so many people to open up the editor and create a circle. Set it's color and have it change size / color / position. I love empowering programmers who have never made generative art to make generative art! I've mostly worked with self described non-artist programmers, but also have had the delight of introducing a few kids to programming through the context of let's make something on the screen. I love how quickly I can ramp someone up. But also as some one who has been using it for a few months, I love how quickly I can prototype an idea and just have something do something. Related to the editor being my favorite thing I love the auto-refresh checkmark. I am now writing large p5 projects I want version controlled and to deploy myself so I don't use the editor nearly as much but that spirit of quick prototyping is still there.",
-      "answer5": "The hardest part of this project was figuring out how to rotate the hearts! I defined the hearts in polar coordinates. There is a formula for the points of a heart in terms of radius and theta. If I rotated the shapes by adding a thetaOffset the hearts would overlap because they are not centered at their 'origin.' The solution was to relearn some linear algebra! But in simpler terms, to define the circle in terms of a bounding circle and rotate about the center of that bounding circle not the 'origin' of the heart. I then had to figure out the mapping between center of bounding circle and origin of heart. That I did not do with fancy math. That I did empirically by setting values and drawing both the heart and the bounding circle and just trying different x-offsets and y-offsets until I found values that were close enough. Update: Nothing I said above wasn't true. Buuuttt after writing that answer yesterday and continuing to work on the project I ended up refactoring and simplifying how a lot of that was done. But the journey was still painful and part of the process, just not quite as reflected in the final code. The change I made was to just translate once at the end rather than translating before rotating and scaling. But understanding how all of it worked and why was key to the moment of realizing I could make it simpler.",
-      "answer6": "https://rachel.joyofrandomness.com/art/rust-art/ <--- That is the reason I am an artist. It is generative art written in Rust + wasm. I created that with the goal of learning rust. And then I liked what I was making so much I started looking into how to get my artwork printed. Initially for myself and then to sell. Over a year and half later I am a full time generative artist! Also it's super fun!  It's open source. Here is the code  https://github.com/R4chel/art",
+      "answer2": "I started using p5.js as part of Genuary 2022. I had previously made art in rust and wanted to play with something else. I quickly got hooked on how playful p5 was and how playful I could be with it. I hit a rhythm where I was being inspired to make art and the process of creating and interacting with the art led to more inspiration to create more art. \n\nHere is the link to my very first p5 sketch in response to the genuary prompt: 'destroy a square' https://editor.p5js.org/R4chel/full/mFX7ms8Ms. \n\nAnd here is what it looked like after 3 hours of playing and exploring what I could in p5: https://editor.p5js.org/R4chel/sketches/1dkGIC84o. \n\nMy very first time playing with p5.js was the day before in the context of some pair programming at the recurse center and I was really inspired and decided to play by myself the next day. ",
+      "answer3": "This project is fully implemented in p5.js. Here is the source for the formula I used for what I call in my code 'fancy hearts': https://pavpanchekha.com/blog/heart-polar-coordinates.html. \n\nSources for hex codes for pride hearts: https://www.kapwing.com/resources/official-pride-colors-2021-exact-color-codes-for-15-pride-flags/, https://www.flagcolorcodes.com/flags/pride. \n\nI used the genuary prompts as a way of growing as an artist and as inspiration for p5 projects. It worked really well together. Here is a collection of pieces I made for genuary, most of which were written in p5.js although some of the pieces were made my existing rust art tool: https://www.symbiocene.gallery/genuary2022-joy-of-randomness",
+      "answer4": "I love the editor so much. I love how quickly you can ramp up. I warn people if they spend too much time around me they might accidentally end up writing some p5. I have had the absolute delight of getting so many people to open up the editor and create a circle. Set it's color and have it change size / color / position. I love empowering programmers who have never made generative art to make generative art! I've mostly worked with self described non-artist programmers, but also have had the delight of introducing a few kids to programming through the context of let's make something on the screen. \n\nI love how quickly I can ramp someone up. But also as some one who has been using it for a few months, I love how quickly I can prototype an idea and just have something do something. Related to the editor being my favorite thing I love the auto-refresh checkmark. \n\nI am now writing large p5 projects I want version controlled and to deploy myself so I don't use the editor nearly as much but that spirit of quick prototyping is still there.",
+      "answer5": "The hardest part of this project was figuring out how to rotate the hearts! I defined the hearts in polar coordinates. There is a formula for the points of a heart in terms of radius and theta. If I rotated the shapes by adding a thetaOffset the hearts would overlap because they are not centered at their 'origin.' \n\nThe solution was to relearn some linear algebra! But in simpler terms, to define the circle in terms of a bounding circle and rotate about the center of that bounding circle not the 'origin' of the heart. I then had to figure out the mapping between center of bounding circle and origin of heart. That I did not do with fancy math. That I did empirically by setting values and drawing both the heart and the bounding circle and just trying different x-offsets and y-offsets until I found values that were close enough. \n\nUpdate: Nothing I said above wasn't true. Buuuttt after writing that answer yesterday and continuing to work on the project I ended up refactoring and simplifying how a lot of that was done. But the journey was still painful and part of the process, just not quite as reflected in the final code. The change I made was to just translate once at the end rather than translating before rotating and scaling. But understanding how all of it worked and why was key to the moment of realizing I could make it simpler.",
+      "answer6": "https://rachel.joyofrandomness.com/art/rust-art/ <--- That is the reason I am an artist. It is generative art written in Rust + wasm. I created that with the goal of learning rust. And then I liked what I was making so much I started looking into how to get my artwork printed. Initially for myself and then to sell. Over a year and half later I am a full time generative artist! Also it's super fun!  It's open source. Here is the code https://github.com/R4chel/art",
       "social": "https://www.instagram.com/joyofrandomness/, rachel.joyofrandomness.com, joyofrandomness.com, https://twitter.com/joyofrandom",
       "id": "heart-flags",
-      "picid": "rainbow.jpeg"
+      "picid": "heart-flags.png"
     },
 
     {
@@ -826,7 +826,7 @@
       "location": "Penryn, United Kingdom",
       "title": "we are trees",
       "description": "We are trees is an interactive and generative collage. Wonder, explore and collage a connected world. The generative pattern is governed by Fibonacci and populates the space to be a Forest of the Web (FOTW). Read the FOTW manifesto: https://forestoftheweb.net/forests-of-the-web ",
-      "alt": "",
+      "alt": "Interactive, generative collage with analogue source material. Collage of plants, facial features like hair and eyes, and houses.",
       "live": "https://forestoftheweb.net/forests-of-the-web/interactive-collage/",
       "code": "https://github.com/ForestOfTheWeb/we-are-trees",
       "type": "Visual",
@@ -840,7 +840,7 @@
       "answer6": "https://flowandecho.com/digital-botany/",
       "social": "https://www.jesspemberton.com",
       "id": "we-are-trees",
-      "picid": "rainbow.jpeg"
+      "picid": "we-are-trees.png"
     },
 
     {
@@ -849,7 +849,7 @@
       "location": "Frankfurt am Main, Germany",
       "title": "W O V E",
       "description": "Heart shape created by using mathematical formulas and animating back and forth. So! cool to see. I'll eventually add more in this project.",
-      "alt": "",
+      "alt": "GIF of the WOVE app, displaying an abstract glyphs produced based on the user's input text forming (in order) the words 'Weave,' 'Hello World,' 'processing,' 'p5.js'.",
       "live": "https://wove.pages.dev/",
       "code": "https://github.com/patternseeing/WOVE-",
       "type": "Visual",
@@ -863,7 +863,7 @@
       "answer6": "https://youtu.be/AvUz_set4Rc",
       "social": "https://www.instagram.com/patternseeing/",
       "id": "w-o-v-e",
-      "picid": "rainbow.jpeg"
+      "picid": "wove.gif"
     },
 
     {
@@ -872,7 +872,7 @@
       "location": "Edmond, USA",
       "title": "The Heart of Music",
       "description": "Music is becoming a more relevant part of our lives and can connect us in special ways.",
-      "alt": "",
+      "alt": "Red heart on a turquoise background with 5 small instruments (guitar, violin, piano, microphone, electric guitar) floating around.",
       "live": "https://editor.p5js.org/Forehead/full/my-nqdlC0",
       "code": "https://docs.google.com/document/d/1TIhlFox5yxNho-dHM6vINH7Y9UD9w_kLLRHN3PB7KK8/edit?usp=sharing",
       "type": "Visual",
@@ -886,7 +886,7 @@
       "answer6": "MIT App Inventor is a really cool place to check out. It deals in blocks and simplifies things. It is where I started.",
       "social": "",
       "id": "the-heart-of-music",
-      "picid": "rainbow.jpeg"
+      "picid": "heart-of-music.png"
     },
 
     {
@@ -895,7 +895,7 @@
       "location": "Toronto, Canada",
       "title": "✿ me & you, then us ✿",
       "description": "an animated p5 sketch to visually communicate my feelings between 'me' and that special 'you,' and then 'us' together. This sketch is a marriage between type, shapes, color, & transformations. Contains rapidly moving visuals, therefore, may need possible disclaimer.",
-      "alt": "",
+      "alt": "An explosion of the text 'you' and soft pink flowers rotating around the text 'me' which is centred in the middle of a black canvas.",
       "live": "https://editor.p5js.org/jooprojects/full/Y6T0202my",
       "code": "https://editor.p5js.org/jooprojects/sketches/Y6T0202my",
       "type": "Visual",
@@ -909,7 +909,7 @@
       "answer6": "ElliQ",
       "social": "https://www.instagram.com/joopark.io/",
       "id": "me-and-you-then-us",
-      "picid": "rainbow.jpeg"
+      "picid": "me-and-you.jpg"
     },
 
     {
@@ -918,7 +918,7 @@
       "location": "New York, USA",
       "title": "DT Soulmate Matcher: Weaving Community Data",
       "description": "Have you ever felt lonely because the world of design is such a diverse community but there is no one like you? Are you an aspiring artist, UIUX person, or creative technology enthusiast looking for a similar cohort? Or you may be someone who simply wants to get out of the bubble and make new friends? DT soulmate is an algorithmic-driven data visualization project that utilizes generative design and custom soul-matching to experiment with a new way of facilitating community building.",
-      "alt": "",
+      "alt": "Shows all the participant's card in a similarity matrix, which means that the participants who are more similar to each other will be visualized closer on the canvas. This image, however shows all the cards in a circular arrangement, and there are arrows in between them to point them to their soulmate.",
       "live": "https://munusshih.github.io/dt-soulmate/",
       "code": "https://github.com/munusshih/dt-soulmate",
       "type": "Visual",
@@ -932,7 +932,7 @@
       "answer6": "https://mechanic.design/",
       "social": "https://munusshih.com/",
       "id": "DT-soulmate-matcher",
-      "picid": "rainbow.jpeg"
+      "picid": "soulmate-matcher.jpeg"
     },
 
     {
@@ -941,7 +941,7 @@
       "location": "Brookline, USA",
       "title": "centered-green",
       "description": "After Richard Anuszkiewicz Centered Green at the Santa Barbara Museum of Art.",
-      "alt": "",
+      "alt": "p5 sketch in the center of white webpage containing a green square in the center of black and brown lines. Text at the top of the page reads 'after Richard Anuszkiewicz Centered Green.' There are sliders at the bottom for number of lines and percentage.",
       "live": "https://psb-david-petty.github.io/p5js/centered-green/",
       "code": "https://editor.p5js.org/psb_david_petty/sketches/wsq-vu6Po",
       "type": "Visual",
@@ -955,7 +955,7 @@
       "answer6": "Coding Train.",
       "social": "https://github.com/psb-david-petty",
       "id": "centered-green",
-      "picid": "rainbow.jpeg"
+      "picid": "centered-green.png"
     },
 
     {
@@ -964,7 +964,7 @@
       "location": "Ho Chi Minh City, Vietnam",
       "title": "Grey Wolf Optimizer simulation",
       "description": "Simulate the motion of GWO particles through iterations to search for x and y values to minimize the z value of the Rastrigin function.",
-      "alt": "",
+      "alt": "GIF of white particles with translucent white trails growing closer together on top of a dark gray background.",
       "live": "https://editor.p5js.org/quanglochuynh/full/4bYAWYU_p",
       "code": "https://editor.p5js.org/quanglochuynh/sketches/4bYAWYU_p",
       "type": "Educational",
@@ -978,7 +978,7 @@
       "answer6": "You guy should check out my PSO simulation here: https://editor.p5js.org/quanglochuynh/sketches/tXp5Y5-8O and the continuous version of GWO by changing the sketch.js file to sketch2.js",
       "social": "https://www.researchgate.net/profile/Loc-Huynh-14, https://www.facebook.com/locqhuynh",
       "id": "grey-wolf-optimizer-simulation",
-      "picid": "rainbow.jpeg"
+      "picid": "grey-wolf.gif"
     },
 
     {
@@ -987,7 +987,7 @@
       "location": "Queensland, Australia",
       "title": "Blue Boy and Red Guy",
       "description": "Maneuver the 2 players to press the buttons and get to the exit. if one dies the over goes with it, thus they are connected.",
-      "alt": "",
+      "alt": "A game course level made of red and white line platforms with yellow and green blocks as obstacles. A blue circle with a smiley face is at the top right corner. A red square with a smiley face is at the middle right corner.",
       "live": "https://lawtro37.github.io/BB-RG/p5js_template-main/index.html",
       "code": "https://github.com/Lawtro37/BB-RG",
       "type": "Game",
@@ -1000,7 +1000,7 @@
       "answer5": "A few errors, and bugs with the music.",
       "social": "https://lawtro37.github.io/LawtroWeb/LawtroWeb/index.html",
       "id": "blue-boy-and-red-guy",
-      "picid": "rainbow.jpeg"
+      "picid": "blue-boy-red-guy.png"
     },
 
     {
@@ -1009,7 +1009,7 @@
       "location": "Fremont, California",
       "title": "Personal Website",
       "description": "A personal website with several simple generative/interactive background animations.",
-      "alt": "",
+      "alt": "Blue text box in the center with the name 'Benjamin Man' and links to socials. In the background, a grid of cubes that follow the mouse. The cubes are outlines that fill with black when the mouse hovers over.",
       "live": "https://benjaminman.com/",
       "code": "https://github.com/benman604/benman604.github.io",
       "type": "Code",
@@ -1023,7 +1023,7 @@
       "answer6": "https://www.youtube.com/watch?v=LdDEhW-ROfU",
       "social": "https://benjaminman.com/",
       "id": "personal-website",
-      "picid": "rainbow.jpeg"
+      "picid": "personal-website.gif"
     },
 
     {
@@ -1032,7 +1032,7 @@
       "location": "Shanghai, China",
       "title": "The Love Story",
       "description": "Love can make life colorful and bright, but sometimes it can make life black as well.",
-      "alt": "",
+      "alt": "Handdrawn red anatomical heart with blue outline in the center. Elongated pink and purple ellipses surround the heart.",
       "live": "https://vimeo.com/739001520",
       "code": "https://editor.p5js.org/FantasticJun/sketches/JNW0Rd6rf",
       "type": "Visual",
@@ -1045,7 +1045,7 @@
       "answer6": "my home page on behance! https://www.behance.net/fantasticjun",
       "social": "https://www.behance.net/fantasticjun",
       "id": "the-love-story",
-      "picid": "rainbow.jpeg"
+      "picid": "love-story.png"
     },
 
     {
@@ -1054,7 +1054,7 @@
       "location": "London, United Kingdom",
       "title": "Sine Fæ",
       "description": "Interactive visual art inspired by previous project made for Central Saint Martins.",
-      "alt": "",
+      "alt": "A square canvas is filled with small twinkling stars on a dark grey background. A helix shaped figure made out of pink hexagonal diamonds spins to music.",
       "live": "https://www.youtube.com/watch?v=dKEMoqiNeZQ",
       "code": "https://editor.p5js.org/laudowell/sketches/fJFb01oyB",
       "type": "Visual",
@@ -1068,7 +1068,7 @@
       "answer6": "I'm not sure if this is cool, might be a bit embarrassing, but I like writing poems and making chaotic art https://www.instagram.com/scarlettchalice/?hl=es",
       "social": "https://www.instagram.com/lauradowell/?hl=es",
       "id": "sine",
-      "picid": "rainbow.jpeg"
+      "picid": "sine.png"
     },
 
     {
@@ -1077,7 +1077,7 @@
       "location": "Los Angeles, USA",
       "title": "Sing Together",
       "description": "Sing with your friends and watch cool, colorful shapes appear! Your voice will appear as circles and your friends' as squares. The size of the shape depends on how loud you are singing. I also included some of my favorite karaoke songs to play as inspo! FYI sadly this website only runs on Chrome web.",
-      "alt": "",
+      "alt": "Black screen with colorful designs as the background. Randomly colored colorful circles and squares appear.",
       "live": "https://singtogether.glitch.me/",
       "code": "https://glitch.com/edit/#!/singtogether",
       "type": "Code",
@@ -1091,7 +1091,7 @@
       "answer6": "The Creative Code Collective! https://creativecodecollective.github.io/",
       "social": "https://katieliu.art/",
       "id": "sing-together",
-      "picid": "rainbow.jpeg"
+      "picid": "singtogether.png"
     },
 
     {
@@ -1100,7 +1100,7 @@
       "location": "Canberra, Australia",
       "title": "Turtle Monster",
       "description": "Turtle Monster is based on the Japanese folklore 'Urashima Taro'. It is a carrier that connects the human world and the Dragon Palace that is underwater.",
-      "alt": "",
+      "alt": "On a black background, there is a turtle with pink outer shell and olive green inner shell. Countless skin-coloured squares are attracted to a bluish-white shower of light from the sky.",
       "live": "https://editor.p5js.org/Anneysha7/full/feNfShb_U",
       "code": "https://editor.p5js.org/Anneysha7/sketches/feNfShb_U",
       "type": "Visual",
@@ -1111,10 +1111,10 @@
       "answer3": "I used shapes to create all of my elements from scratch. I created my tortoise using a combination of circles, arcs and rectangles. Elements like the starry night, humans getting sucked into the white light and the white light (which I call Blessing) use random() in order to add randomness and variation to my artwork. In the process, I used the p5.js reference a lot.",
       "answer4": "Interaction functions like mouseX and mouseY because I can let my audience get involved with my artwork!",
       "answer5": "I was extremely puzzled about how to rotate shapes in p5.js because p5.js rotates a shape across the canvas axis and not the shape's axis. It took me a lot of reading through code tutorials to finally figure how to get rotation to work (Essentially, you use rotate() and translate()).",
-      "answer6": "Cristina Tarqini's fantastic artwork: Medusae, https://artsexperiments.withgoogle.com/medusae/",
+      "answer6": "Cristina Tarqini's fantastic artwork: Medusae \nhttps://artsexperiments.withgoogle.com/medusae/",
       "social": "https://www.behance.net/anneyshas",
       "id": "turtle-monster",
-      "picid": "rainbow.jpeg"
+      "picid": "monster.png"
     },
 
     {
@@ -1124,7 +1124,7 @@
       "title": "Dive in Time",
       "description": "Dive in Time is an interactive project which turns Time into a Rive and allows the audience to start his/her/its own journey in Time.",
       "extradesc": "- Single click to start the BGM; - Press Any key to Dive in Time; - ↑ and ↓ to mive up and down; - A summery woule be generated and auto-downloaded at the end - It should be a 'txt' file named Dive in Time, - the file is SAFE. Enjoy your journey! and Cherish the moment.",
-      "alt": "",
+      "alt": "Time In a default mode. Each circle represents an individual. They meet and make connections with each other. Different colors show different characteristics.",
       "live": "https://editor.p5js.org/yd2512/full/HvVMNqKC1",
       "code": "https://editor.p5js.org/yd2512/sketches/HvVMNqKC1",
       "type": "Visual",
@@ -1138,7 +1138,7 @@
       "answer6": "Clouds in the sky",
       "social": "www.yueqingdai.com",
       "id": "dive-in-time",
-      "picid": "rainbow.jpeg"
+      "picid": "dive-in-time.png"
     },
 
     {
@@ -1147,7 +1147,7 @@
       "location": "Campina Grande, Brazil",
       "title": "a train ride",
       "description": "seat back, relax and enjoy this chill train ride with the sea and the sunset as the background",
-      "alt": "",
+      "alt": "A white pixel-art train moving slowly on the trails while the sun sets behind the sea on the background.",
       "live": "https://editor.p5js.org/reajmorais/full/8UxKOWank",
       "code": "https://github.com/reajmorais/a-train-ride",
       "type": "Audio",
@@ -1161,7 +1161,7 @@
       "answer6": "I really liked the song by Engelwood. The link to the artist's profile on Slip.stream is on the README file!",
       "social": "https://www.linkedin.com/in/renato-morais-a24558217/, instagram.com/reajmrs",
       "id": "a-train-ride",
-      "picid": "rainbow.jpeg"
+      "picid": "train-ride.png"
     },
 
     {
@@ -1170,7 +1170,7 @@
       "location": "Kolkata, India",
       "title": "Asteroids With Quadtreee",
       "description": "This project is based on Mr. Daniel Shiffman's coding challenge of asteroids and quadtree both. I have tried to add both of them for an efficient version of asteroids. Using quadtree, I am storing the points of the asteroids but those point have information about their parent asteroid i.e. to which asteroid they belong. This is the basic idea. From this I can query the quadtree about the points of a specific region and from those point I can get the asteroid. So in case of bullets I don't have to check for collisions to each and every asteroid on screen rather I can check for only the nearest ones. I have used the p5 touch gui library to create the gui buttons but sadly for touch screen its not yet ready 100%. It needs some polishing.",
-      "alt": "",
+      "alt": "Purple triangle with yellow, red, and turquoise circle trail on black background. Rounded gray squares and rectangles for the game's controls (pause, restart, exit, right, left, up, fullscreen).",
       "live": "https://biswayan375.github.io/Asteroids-With-Quadtree//",
       "code": "https://github.com/Biswayan375/Asteroids-With-Quadtree",
       "type": "Game",
@@ -1178,12 +1178,12 @@
       "difficulty": "Beginner",
       "answer1": "I am a computer science graduate and currently I am willing to pursue the Masters of Computer Application (MCA) degree. Admissions are not done yet.",
       "answer2": "One of the favourite features of mine is be able to work with vectors both in two and three dimensions in the html canvas with p5. I mean this is awesome. We can actually implement interesting things with the help of these vectors instead of just drawing colorful squares and circles. But agin this is only one of my favourite features because this entire Library is my favourite one.",
-      "answer3": "As for resources I have used Daniel Shiffman sir's youtube videos - Asteroids -> https://youtu.be/VFnF87-JNtY, Quadtree -> https://youtu.be/z0YFFg_nBjw. I learnt from both the videos and combined their logic with some of my own addons like particle effect for thrust, asteroid sizes based upon screen size i.e. the size of the greatest rand asteroid is bigger on a computer screen than on a smartphone screen, touch controls(not yet fully polished). Earlier when I was building asteroids without using the quadtree I found it to be a little choppy while firing multiple bullets at once as it was using brute force method for collision detection. Then I learnt how to optimally detect collisions among points using quadtree data structure. Although at this time I was not sure how I am supposed to store an entire polygon of multiple points in the quadtree. So, I thought of the following idea - I can store the points of the polygons in the quadtree and those points will have information about to which asteroid/polygon they belong to. This thing also comes with a drawback, that is suppose if a polygon is entirely inside a region of the quadtree, then querying for that region will return some points for the same polygon, meaning I am checking for collision for the same polygon again and again which is not efficient at all. So, what I have done is I have created a set in which I am storing the polygons to which those nearby points I got by querying the quadtree belongs. Therefore in that set I have unique values/asteroids only without any duplicates. This is the main basic idea. I am not sure if I should store polygons inside a quadtree like this or not but this is the only idea came to my mind.",
+      "answer3": "As for resources I have used Daniel Shiffman sir's youtube videos - \nAsteroids -> https://youtu.be/VFnF87-JNtY \nQuadtree -> https://youtu.be/z0YFFg_nBjw.\n\nI learnt from both the videos and combined their logic with some of my own addons like particle effect for thrust, asteroid sizes based upon screen size i.e. the size of the greatest rand asteroid is bigger on a computer screen than on a smartphone screen, touch controls(not yet fully polished). \n\nEarlier when I was building asteroids without using the quadtree I found it to be a little choppy while firing multiple bullets at once as it was using brute force method for collision detection. Then I learnt how to optimally detect collisions among points using quadtree data structure. Although at this time I was not sure how I am supposed to store an entire polygon of multiple points in the quadtree. So, I thought of the following idea - I can store the points of the polygons in the quadtree and those points will have information about to which asteroid/polygon they belong to. This thing also comes with a drawback, that is suppose if a polygon is entirely inside a region of the quadtree, then querying for that region will return some points for the same polygon, meaning I am checking for collision for the same polygon again and again which is not efficient at all. So, what I have done is I have created a set in which I am storing the polygons to which those nearby points I got by querying the quadtree belongs. Therefore in that set I have unique values/asteroids only without any duplicates. This is the main basic idea. I am not sure if I should store polygons inside a quadtree like this or not but this is the only idea came to my mind.",
       "answer4": "One of the favourite features of mine is be able to work with vectors both in two and three dimensions in the html canvas with p5. I mean this is awesome. We can actually implement interesting things with the help of these vectors instead of just drawing colorful squares and circles. But agin this is only one of my favourite features because this entire Library is my favourite one.",
       "answer5": "Yes there is one issue I faced with the p5 touch gui library and I am not fully able to overcome it. I was using bootstrap modals to provide some information about my project and I wanted to activate the modal by clicking on a button on canvas i.e. a p5 touch gui library button and that modal closes normally by clicking on a normal DOM button. This thing works 100% fine with a mouse. But when it comes to touch screen devices, any DOM button is unclickable the moment p5 touch gui library is initialised. I have cross checked this fact that if I invoke createGui() method of the p5 touch gui, any other DOM button is unclickable in touch screen. I don't kno why this is happening and I think to fix it I might have to use some other buttons library but for now, reloading the game works as a brute force way.",
       "social": "Facebook - https://www.facebook.com/biswayan.nandi.7, GitHub - https://github.com/Biswayan375",
       "id": "asteroids-with-quadtree",
-      "picid": "rainbow.jpeg"
+      "picid": "asteroids.jpeg"
     }
   ]
 }

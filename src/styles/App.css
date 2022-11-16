@@ -88,6 +88,12 @@ h3 {
   width: 100%;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navigation .left {
   margin-left: 40px;
   display: flex;
@@ -263,7 +269,8 @@ h3 a:hover {
   position: relative;
   border-color: #ff2457;
   margin-bottom: 0px;
-  height: 55vh;
+  height: 60vh;
+  transition: 0.4s;
 }
 
 .bigcard:hover {
@@ -273,11 +280,11 @@ h3 a:hover {
   transform: translate(-5px, -10px);
   box-shadow: 5px 10px 25px #888888;
 }
-.bigcard img:hover {
+/* .bigcard img:hover {
   filter: none;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-}
+} */
 
 .Description {
   margin-top: 20px;
@@ -338,7 +345,7 @@ h3 a:hover {
   border-radius: 12px 12px 0px 0px;
   opacity: 0.9;
   width: 20vw;
-  height: 20vh;
+  height: 22vh;
   /* filter: blur(3px); */
 }
 .cardimage:hover {
@@ -347,7 +354,7 @@ h3 a:hover {
 .cardimage {
   background: #db3b60;
   border-radius: 12px 12px 0px 0px;
-  height: 20vh;
+  height: 22vh;
   overflow: hidden;
 }
 .bigcard {
@@ -591,7 +598,7 @@ h3 a:hover {
 .img-description-text {
   margin: 0;
   padding: 1vh;
-  font-size: 0.6vw;
+  font-size: 0.55vw;
   text-align: center;
   height: 6vh;
 }
@@ -943,6 +950,13 @@ h1.tenpx {
 
 } */
 
+.about-h2 {
+  font-size: 2vw;
+  font-family: "Montserrat ExtraBold";
+  color: #db3b60;
+  text-align: center;
+}
+
 .abt-col1 {
   width: 100vw;
 }
@@ -952,12 +966,29 @@ h1.tenpx {
 }
 
 .about-body-text {
-  width: 70vw;
-  padding-right: 2vw;
+  /* width: 60vw; */
+  /* padding-right: 2vw; */
+  font-size: 1.1vw;
+  text-align: center;
+}
+
+.about-learn-more {
+  text-align: center;
+  font-size: 1.1vw;
+  font-family: "Montserrat Bold";
+  color: #db3b60;
+  padding-top: 7vh;
+}
+
+.about-body-text p {
+  padding-bottom: 2vh;
 }
 .about-text-2022 {
-  margin: 7vw;
+  margin: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
+
 .about-row {
   display: flex;
   flex-direction: row;
@@ -966,6 +997,13 @@ h1.tenpx {
 .about-img {
   width: 10vw;
   margin: 0;
+}
+
+.about-img2 {
+  width: 10vw;
+  margin: 0;
+  padding-left: 5vw;
+  padding-top: 5vh;
 }
 
 .home p {
@@ -1002,7 +1040,7 @@ h1.tenpx {
 
 .gallery {
   overflow: hidden;
-
+  padding-top: 3vh;
   margin: 0 auto;
 }
 .archive {
@@ -1138,7 +1176,7 @@ h1.tenpx {
 }
 
 .to-them {
-  margin-top: 7vh;
+  margin-top: 10vh;
 }
 .to-them h1 {
   margin-bottom: 5vh;
@@ -1222,7 +1260,7 @@ h1.tenpx {
 
 /* 2022 */
 
-.navigation-2022 {
+.navigation2022 {
   background-color: #fff;
   padding: 40px 0 40px 0;
   width: 100%;
@@ -1230,7 +1268,7 @@ h1.tenpx {
   top: 0;
 }
 
-.navigation-2022 .menu {
+.navigation2022 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1238,30 +1276,30 @@ h1.tenpx {
   width: 100%;
 }
 
-.navigation-2022 .left {
+.navigation2022 .left {
   margin-left: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.navigation-2022 .left .item {
+.navigation2022 .left .item {
   margin-right: 20px;
   color: #db3b60;
 }
 
-.navigation-2022 .right {
+.navigation2022 .right {
   margin-right: 40px;
 }
 
-.navigation-2022 .right button {
+.navigation2022 .right button {
   padding: 8px 0;
   margin: 0 0 0 37px;
   cursor: pointer;
   color: #db3b60;
 }
 
-.navigation-2022 .nav-text {
+.navigation2022 .nav-text {
   margin-left: 40px;
   color: #db3b60;
   font-weight: bold;
@@ -1332,7 +1370,7 @@ h1.tenpx {
 }
 
 .map-viz-2022 {
-  margin: 7vw;
+  margin: 10vw;
   text-align: center;
 }
 

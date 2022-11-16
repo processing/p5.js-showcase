@@ -76,11 +76,12 @@ function TestCard2022(props) {
         {toolslinks.length !== 0 && (
           <div className="tags">
             {toolslinks.map((tool, index) => {
+              let newTool = tool.replace(/\s+/g, "");
               return (
                 <ul>
                   {tool.length !== 0 && (
                     <li>
-                      <a href={toolslisted[tool]} target="_blank">
+                      <a href={toolslisted[newTool]} target="_blank">
                         {tool}
                       </a>
                     </li>
