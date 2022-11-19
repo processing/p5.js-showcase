@@ -656,6 +656,19 @@ h3 a:hover {
   background-color: #f5f5f5;
 }
 
+.translation-banner {
+  text-align: center;
+  background-color: #db3b60;
+  color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.disclaimer-link {
+  color: white;
+  text-decoration: underline;
+}
+
 .intro2020 h1 {
   text-align: center;
   font-family: "Montserrat ExtraBold";
@@ -943,12 +956,6 @@ h1.tenpx {
 }
 
 /* About Page */
-/* .about-h2 {
-  writing-mode: vertical-rl;
-  text-orientation: sideways-right;
-  transform: rotate(180deg);
-
-} */
 
 .about-h2 {
   font-size: 2vw;
@@ -977,7 +984,7 @@ h1.tenpx {
   font-size: 1.1vw;
   font-family: "Montserrat Bold";
   color: #db3b60;
-  padding-top: 7vh;
+  padding-top: 2vh;
 }
 
 .about-body-text p {
@@ -985,8 +992,8 @@ h1.tenpx {
 }
 .about-text-2022 {
   margin: 10vw;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .about-row {
@@ -1176,7 +1183,7 @@ h1.tenpx {
 }
 
 .to-them {
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
 .to-them h1 {
   margin-bottom: 5vh;
@@ -1379,6 +1386,7 @@ h1.tenpx {
 
 .map-viz-2022 {
   margin: 10vw;
+  padding-bottom: 2vh;
   text-align: center;
 }
 

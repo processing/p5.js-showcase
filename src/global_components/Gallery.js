@@ -64,6 +64,19 @@ export default function Gallery() {
 
   return (
     <div className="body2022">
+      <div className="translation-banner">
+        The translation are currently a work in progress. If you would like to
+        help translate, feel free to edit them in the{" "}
+        <a
+          href="https://github.com/processing/p5.js-showcase"
+          className="disclaimer-link"
+          target="_blank"
+        >
+          {" "}
+          Processing repo
+        </a>
+        . We would really appreciate your help!
+      </div>
       <div className="cover2022">
         <div className="title-2022">
           <img

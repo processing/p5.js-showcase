@@ -112,8 +112,9 @@ function GalleryTwentyTwo(props) {
       </div>
       <div className="filterlist">
         <h2>
-          <img src="/images/asterisk-01-01.png"/>
-          {t("filter by")}:</h2>
+          <img src="/images/asterisk-01-01.png" />
+          {t("filter by")}:
+        </h2>
         {filterList} <h2>/</h2>
         {difficultyList}
       </div>
