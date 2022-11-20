@@ -112,7 +112,7 @@ function GalleryTwentyTwo(props) {
       </div>
       <div className="filterlist">
         <h2>
-          <img src="/images/asterisk-01-01.png" />
+          <img src={require(`./site_images/asterisk-01-01_2022.png`)} />
           {t("filter by")}:
         </h2>
         {filterList} <h2>/</h2>
@@ -159,7 +159,7 @@ function GalleryTwentyTwo(props) {
       <div className="footer">
         <img
           className="footer-img"
-          src="/2022images/heart-end.png"
+          src={require(`./site_images/heart-end.png`)}
           alt="two cartoon hearts hula hooping together with one hula hoop"
         />
         <p>You've reached the bottom!</p>

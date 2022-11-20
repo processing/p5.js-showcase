@@ -81,8 +81,8 @@ export default function Gallery() {
         <div className="title-2022">
           <img
             id="connect-title"
-            src="/2022images/connect-title.png"
-            alt="Connect with asterik replacing the O."
+            src={require(`../showcase_2022/site_images/connect-title.png`)}
+            alt="Connect with asterik replacing the O.."
           />
         </div>
 
@@ -96,7 +96,7 @@ export default function Gallery() {
 
         <img
           id="landing-img"
-          src="/2022images/p5landingimg.png"
+          src={require(`../showcase_2022/site_images/p5landingimg.png`)}
           alt="two cartoon hearts holding onto a string"
         />
       </div>
@@ -111,7 +111,7 @@ export default function Gallery() {
           <h2>{t("2022_intro2")}</h2>
           <img
             className="about-img"
-            src="/2022images/cartoon-flower.png"
+            src={require(`../showcase_2022/site_images/cartoon-flower.png`)}
             alt="a cartoon heart watering a cartoon flower"
           />
         </div>
