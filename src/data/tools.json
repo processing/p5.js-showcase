@@ -1,6 +1,6 @@
 {
   "p5.play": "https://molleindustria.github.io/p5.play/",
-  "p5.gui": "https://github.com/bitcraftlab/p5.gui",
+  "p5.touchgui": "https://github.com/bitcraftlab/p5.gui",
   "p5.shader": "https://p5js.org/reference/#/p5.Shader",
   "PGraphics": "https://processing.org/reference/PGraphics.html",
   "p5.sound": "https://p5js.org/reference/#/libraries/p5.sound",
@@ -13,7 +13,7 @@
   "p5.Camera": "https://p5js.org/reference/#/p5.Camera",
   "WEBGL": "https://p5js.org/reference/#/p5/WEBGL",
   "p5js-screenPosition": "https://github.com/bohnacker/p5js-screenPosition",
-  "p5.collide2D": "https://github.com/bmoren/p5.collide2D",
+  "p5.collide2d": "https://github.com/bmoren/p5.collide2D",
   "MagicEye.js": "https://peeinears.github.io/MagicEye.js/",
   "clmtrackr.js": "https://www.auduno.com/clmtrackr/docs/reference.html",
   "p5.FFT": "https://p5js.org/reference/#/p5.FFT",

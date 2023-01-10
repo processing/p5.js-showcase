@@ -90,7 +90,8 @@ export default function Gallery() {
           {/* <h1 id="h1-2022">{t("Connect2022")}</h1> */}
           <h2 id="h2-2022">{t("Welcome2022")}</h2>
           <p id="p-2022">
-            <i>{t("CreatedBy2022")}</i>
+            <i>{t("CreatedBy2022")}</i> 
+            <i>{t("TemplateBy2022")}</i>
           </p>
         </div>
 
