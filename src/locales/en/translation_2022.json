@@ -769,7 +769,7 @@
       "author": "Josiah M",
       "pronouns": "he/him",
       "location": "Singapore, Singapore",
-      "title": "Pattern Creater",
+      "title": "Pattern Creator",
       "description": "This is a an example of how some simple code can be used to create wonderful patterns. This program uses a random number as the angle of rotation and, using a loop, creates wonderful patterns. (Colour is a HSL hue loop)",
       "alt": " An image of a colourful multi-pointed spiral that converges in the middle.",
       "live": "https://editor.p5js.org/ICantRemember/full/QqjpuLphA",
@@ -783,8 +783,9 @@
       "answer4": "One of my favourite functions is for(). Although being a simple loop available in many languages, the for loop is very versatile and can be used to make many wonderful things.",
       "answer5": "The biggest challenge that I faced was calculating the x,y coordinates given the angle and distance. As the drawing functions in p5.js only accept coordinates as perimeters, it took me a while to get the trigonometery right.",
       "answer6": "I feel that if inputted the correct numbers/formulas things on loop are really fun.",
-      "id": "pattern-creater",
-      "picid": "pattern-creater.png"
+      "id": "pattern-creator",
+      "social": "",
+      "picid": "pattern-creator.png"
     },
 
     {
@@ -850,6 +851,7 @@
       "answer4": "graphics buffers and blend modes! Also pixels. I like doing cool things with graphics.",
       "answer5": "HTML can be tedious. In the end I just had to push through it to get back to the fun parts. Also lots and lots of googling.",
       "answer6": "My absolute favorite thing on the internet: https://www.reddit.com/r/pics/comments/ai8h3s/chairexe_has_stopped_working/. There are just so many layers to that post, and I feel like it sums up a generation.",
+      "social": "",
       "id": "quilter",
       "picid": "quilter.png"
     },
