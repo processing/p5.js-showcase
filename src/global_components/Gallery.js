@@ -89,8 +89,11 @@ export default function Gallery() {
         <div className="cover-text-2022">
           {/* <h1 id="h1-2022">{t("Connect2022")}</h1> */}
           <h2 id="h2-2022">{t("Welcome2022")}</h2>
-          <p id="p-2022">
+          <p class="p-2022">
             <i>{t("CreatedBy2022")}</i>
+          </p>
+          <p class="p-2022">
+            <i>{t("TemplateBy2022")}</i>
           </p>
         </div>
 

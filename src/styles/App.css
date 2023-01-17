@@ -321,6 +321,7 @@ h3 a:hover {
   font-family: sans-serif;
   /* margin: 1em; */
   padding-left: 1.5vw;
+  padding-right: 1.5vw;
   padding-top: 1vh;
   font-size: 0.8vw;
 }
@@ -424,7 +425,7 @@ h3 a:hover {
 .filterlist {
   font-family: "Montserrat ExtraBold";
   margin-bottom: 20px;
-  letter-spacing: 1.5px;
+  /* letter-spacing: 1.5px; */
 }
 
 .filterlist img {
@@ -435,7 +436,7 @@ h3 a:hover {
   margin-right: 10px;
 }
 
-.filterlist h2 {
+.filterlist #filter-by {
   text-decoration: underline dotted #ffd3de;
 }
 .filterlist button {
@@ -517,11 +518,11 @@ h3 a:hover {
 }
 
 .filterlist h2 {
-  -webkit-text-fill-color: #fff2f2;
+  -webkit-text-fill-color: #db3b60;
   font-size: 30px;
-  -webkit-text-stroke-width: 1px;
+  /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #ff2457;
-  text-shadow: 2px 2px #ff1f8f;
+  text-shadow: 2px 2px #ff1f8f; */
   display: inline-block;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -674,12 +675,12 @@ h3 a:hover {
   font-family: "Montserrat ExtraBold";
   font-weight: bolder;
   font-size: 3.5em;
-  letter-spacing: 0.1em;
-  -webkit-text-fill-color: #fff2f2;
+  /* letter-spacing: 0.1em; */
+  /* -webkit-text-fill-color: #fff2f2;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #ff2457;
-  color: white;
-  text-shadow: 2px 2px #fec3e0, 4px 4px #ff77b9, 6px 6px #ff1f8f;
+  -webkit-text-stroke-color: #ff2457; */
+  /* color: white;
+  text-shadow: 2px 2px #fec3e0, 4px 4px #ff77b9, 6px 6px #ff1f8f; */
   margin-bottom: 20px;
   margin-right: 0px;
   margin-top: 20px;
@@ -816,6 +817,10 @@ img.downarrow {
 
 #portfolio {
   vertical-align: 50%;
+}
+
+#portfolio svg {
+  width: 0.75em;
 }
 
 canvas {
@@ -1051,7 +1056,6 @@ h1.tenpx {
   margin: 0 auto;
 }
 .archive {
-  overflow: hidden;
   margin: 0 auto;
 }
 .details-title h1 {
@@ -1062,6 +1066,8 @@ h1.tenpx {
 .details-title p {
   text-align: center;
   font-size: 1vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
 }
 
 .details-header {

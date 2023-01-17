@@ -111,7 +111,7 @@ function GalleryTwentyTwo(props) {
         </h3>
       </div>
       <div className="filterlist">
-        <h2>
+        <h2 id="filter-by">
           <img src={require(`./site_images/asterisk-01-01_2022.png`)} />
           {t("filter by")}:
         </h2>
