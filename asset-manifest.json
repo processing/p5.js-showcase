@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.ced475df.chunk.css",
-    "main.js": "/static/js/main.5dbd5701.chunk.js",
-    "main.js.map": "/static/js/main.5dbd5701.chunk.js.map",
+    "main.css": "/static/css/main.fc1ba3e0.chunk.css",
+    "main.js": "/static/js/main.9f981098.chunk.js",
+    "main.js.map": "/static/js/main.9f981098.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
     "static/js/2.8acf868d.chunk.js": "/static/js/2.8acf868d.chunk.js",
     "static/js/2.8acf868d.chunk.js.map": "/static/js/2.8acf868d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3e8f5d78d4b3044701cd2614e2a8277b.js": "/precache-manifest.3e8f5d78d4b3044701cd2614e2a8277b.js",
+    "precache-manifest.dde47cb8008a557a2a1e2b205548ba90.js": "/precache-manifest.dde47cb8008a557a2a1e2b205548ba90.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ced475df.chunk.css.map": "/static/css/main.ced475df.chunk.css.map",
+    "static/css/main.fc1ba3e0.chunk.css.map": "/static/css/main.fc1ba3e0.chunk.css.map",
     "static/js/2.8acf868d.chunk.js.LICENSE.txt": "/static/js/2.8acf868d.chunk.js.LICENSE.txt",
     "static/media/02 - Mecanica Sci.png": "/static/media/02 - Mecanica Sci.00312a88.png",
     "static/media/1.png": "/static/media/1.1b8d21d8.png",
@@ -171,7 +171,7 @@
   "entrypoints": [
     "static/js/runtime-main.83c3e0c4.js",
     "static/js/2.8acf868d.chunk.js",
-    "static/css/main.ced475df.chunk.css",
-    "static/js/main.5dbd5701.chunk.js"
+    "static/css/main.fc1ba3e0.chunk.css",
+    "static/js/main.9f981098.chunk.js"
   ]
 }
