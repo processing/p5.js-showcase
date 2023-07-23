@@ -7,7 +7,7 @@ function TestCard2022(props) {
   const { t, i18n } = useTranslation();
   const toolslisted = toolslist;
   const toolslinks = props.tools.split(",");
-  console.log(props);
+  // console.log(props);
   return (
     <div className="card2020">
       <div className="bigcard">

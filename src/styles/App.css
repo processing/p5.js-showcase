@@ -422,6 +422,31 @@ h3 a:hover {
 .Description2020 {
   margin-top: 20px;
 }
+
+.searchbar {
+  font-family: "Montserrat ExtraBold";
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  color: #db3b60;
+  letter-spacing: 1.5px;
+  text-decoration: underline dotted #ffd3de;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.search-input input{
+  text-align: center;
+  padding:12px 200px 12px 200px;
+  margin-bottom: 10px;
+}
+
 .filterlist {
   font-family: "Montserrat ExtraBold";
   margin-bottom: 20px;
@@ -1225,6 +1250,12 @@ h1.tenpx {
   .navigation .right button {
     margin: 10px 37px 0 0;
   }
+}
+
+.search-input input{
+  text-align: center;
+  padding:12px 80px 12px 80px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 426px) {
