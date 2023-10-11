@@ -1,5 +1,5 @@
 import TestCard2022 from "./TestCard2022.js";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import "../styles/App.css";
 import FilterButton from "../global_components/FilterButton.js";
@@ -34,6 +34,10 @@ function GalleryTwentyTwo(props) {
   const filtermap = t("filters", { returnObjects: true });
   // difficulty filter
   const difficultymap = t("difficulty", { returnObjects: true });
+  //Search Filter
+  const [searched, setSearched] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const inputEl = useRef();
 
   var showcase2022 =
     filter === "All"
@@ -54,7 +58,26 @@ function GalleryTwentyTwo(props) {
             : null
         );
 
-  console.log(showcase2022);
+  // console.log(showcase2022);
+
+  const searchHandler = (searched) => {
+    setSearched(searched);
+    if (searched !== "") {
+      const newFilteredList = showcase2022.filter((showcase) => {
+        return Object.values(showcase)
+          .join(" ")
+          .toLowerCase()
+          .includes(searched.toLowerCase());
+      });
+      setSearchResults(newFilteredList);
+    } else {
+      setSearchResults(showcase2022);
+    }
+  };
+
+  const getSearch = () => {
+    searchHandler(inputEl.current.value);
+  };
 
   const filterList = filtermap.map(({ name }, index) => (
     <Link
@@ -110,6 +133,22 @@ function GalleryTwentyTwo(props) {
           <em>{<Markdown source={t("2020Gallery_Intro")} />}</em>
         </h3>
       </div>
+
+      <div className="searchbar">
+        <h2 id="search">Search Project</h2>
+        <form action="#" onSubmit={(e) => e.preventDefault()}>
+          <div className="search-input">
+            <input
+              ref={inputEl}
+              type="text"
+              placeholder="Search Here"
+              value={searched}
+              onChange={getSearch}
+            />
+          </div>
+        </form>
+      </div>
+
       <div className="filterlist">
         <h2 id="filter-by">
           <img src={require(`./site_images/asterisk-01-01_2022.png`)} />
@@ -120,8 +159,8 @@ function GalleryTwentyTwo(props) {
       </div>
 
       <div className="gallery">
-        <div class="row">
-          {showcase2022.map(
+        <div className="row">
+          {(searchResults.length > 0 ? searchResults : showcase2022).map(
             ({
               author,
               title,
@@ -151,6 +190,8 @@ function GalleryTwentyTwo(props) {
                 id={id}
                 picid={picid}
                 filter={filtered}
+                search={searched}
+                searchKeyword={searchHandler}
               />
             )
           )}
