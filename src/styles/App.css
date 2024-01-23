@@ -857,6 +857,12 @@ canvas {
   color: #db3b60;
 }
 /* card 2020 */
+@media screen and (max-width: 600px) {
+  .card2020 {
+    width: 100%;
+  }
+}
+
 h1.tenpx {
   margin-bottom: 0px;
 }
