@@ -307,6 +307,11 @@ h3 a:hover {
   padding-left: 1.5vw;
   font-family: "Montserrat Bold";
 }
+@media (max-width: 768px) {
+  .card-title{
+    font-size: 2.5vh;
+  }
+}
 
 .card-author {
   font-size: 0.9vw;
@@ -314,6 +319,11 @@ h3 a:hover {
   padding-top: 0.5vh;
   padding-left: 1.5vw;
   font-family: "Montserrat Bold";
+}
+@media (max-width: 768px) {
+  .card-author{
+    font-size: 1.7vh;
+  }
 }
 /* clamp styles */
 .clamp-lines {
@@ -324,6 +334,11 @@ h3 a:hover {
   padding-right: 1.5vw;
   padding-top: 1vh;
   font-size: 0.8vw;
+}
+@media (max-width: 768px) {
+  .clamp-lines{
+    width: 1.1vw;
+  }
 }
 
 .clamp-lines > span {
@@ -349,6 +364,11 @@ h3 a:hover {
   height: 22vh;
   /* filter: blur(3px); */
 }
+@media (max-width: 768px) {
+  .cardimage img{
+    width: 35vh;
+  }
+}
 .cardimage:hover {
   filter: none;
 }
@@ -358,11 +378,17 @@ h3 a:hover {
   height: 22vh;
   overflow: hidden;
 }
+
 .bigcard {
   width: 20vw;
   margin-bottom: 25px;
   margin-right: 8px;
   margin-left: 8px;
+}
+@media (max-width: 768px) {
+  .bigcard{
+    width: 35vh;
+  }
 }
 .row {
   width: 100%;
@@ -602,6 +628,11 @@ h3 a:hover {
   font-size: 0.55vw;
   text-align: center;
   height: 6vh;
+}
+@media (max-width: 768px) {
+  .img-description-text{
+    width: 1vh;
+  }
 }
 /* ARCHIVE PAGE */
 
@@ -857,12 +888,6 @@ canvas {
   color: #db3b60;
 }
 /* card 2020 */
-@media screen and (max-width: 600px) {
-  .card2020 {
-    width: 100%;
-  }
-}
-
 h1.tenpx {
   margin-bottom: 0px;
 }
@@ -908,6 +933,12 @@ h1.tenpx {
   width: 10vw;
   font-size: 1vw;
 }
+@media (max-width: 768px) {
+  .box{
+    width: 17.5vh;
+    font-size: 1.8vh;
+  }
+}
 .links a:first-child {
   border: #ff2457;
 
@@ -931,6 +962,11 @@ h1.tenpx {
   overflow: auto;
   white-space: nowrap;
   width: 20vw;
+}
+@media (max-width: 768px) {
+  .tags{
+    width: 35vh;
+  }
 }
 .tags ul {
   list-style: none;
