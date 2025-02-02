@@ -1,0 +1,55 @@
+/* Dark mode styles */
+:root[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --card-background: #1e1e1e;
+  --nav-background: #1a1a1a;
+  --link-color: #bb86fc;
+  --border-color: #333333;
+  --button-background: #333333;
+  --button-color: #ffffff;
+  --hover-color: #bb86fc;
+}
+
+/* Light mode styles */
+:root[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --card-background: #ffffff;
+  --nav-background: #f8f9fa;
+  --link-color: #0056b3;
+  --border-color: #dee2e6;
+  --button-background: #f8f9fa;
+  --button-color: #000000;
+  --hover-color: #0056b3;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.navigation, .navigation2022 {
+  background-color: var(--nav-background);
+}
+
+.card {
+  background-color: var(--card-background);
+  border-color: var(--border-color);
+}
+
+a {
+  color: var(--link-color);
+}
+
+/* Apply to specific elements */
+button {
+  background-color: var(--button-background);
+  color: var(--button-color);
+}
+
+button:hover {
+  color: var(--hover-color);
+} 

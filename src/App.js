@@ -7,6 +7,7 @@ import { Switch, Route, Link, HashRouter } from "react-router-dom";
 import Gallery from "./global_components/Gallery.js";
 import About from "./global_components/About.js";
 import FilterButton from "./global_components/FilterButton";
+import DarkModeToggle from './global_components/DarkModeToggle';
 
 import Showcase2020 from "./showcase_2020/Showcase2020";
 import GalleryNineteen from "./showcase_2020/GalleryNineteen.js";
@@ -70,6 +71,7 @@ export default function App() {
             <button onClick={() => changeLanguage("ko_showcase_2020")}>
               한국어
             </button>
+            <DarkModeToggle />
           </div>
         </div>
         <div className="nav-text">
@@ -116,6 +118,7 @@ export default function App() {
             <button onClick={() => changeLanguage("ko_showcase_2021")}>
               한국어
             </button>
+            <DarkModeToggle />
           </div>
         </div>
         <div className="nav-text">
@@ -151,6 +154,7 @@ export default function App() {
             <button onClick={() => changeLanguage("es")}>Español</button>
             <button onClick={() => changeLanguage("zh_Hans")}>简体中文</button>
             <button onClick={() => changeLanguage("ko")}>한국어</button>
+            <DarkModeToggle />
           </div>
         </div>
       </div>
